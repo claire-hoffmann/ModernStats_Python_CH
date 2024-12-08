@@ -1,7 +1,7 @@
 ---
 title: Data Transformation
-teaching: 40
-exercises: 20
+teaching: 60
+exercises: 60
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives

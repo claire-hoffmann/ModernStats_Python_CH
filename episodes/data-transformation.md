@@ -359,6 +359,84 @@ You can create new columns based on existing ones. For example:
 df['new_column'] = df['column1'] + df['column2']
 ```
 
+### Pivoting data
+
+Pivoting and melting are two important operations for reshaping data in pandas. They are used to transform a DataFrame from "long" format to "wide" format, and vice versa. These operations allow you to better organize your data depending on your analysis needs.
+
+#### Pivot
+
+The `pivot()` method reshapes the data by turning unique values from one column into new columns. It's useful when you want to convert a "long" format DataFrame (where each row represents a single observation) into a "wide" format (where each unique value becomes a column).
+
+```python
+DataFrame.pivot(index=None, columns=None, values=None)
+```
+
+- `index`: Column to use as the new index of the DataFrame.
+- `columns`: Column to use as the new columns.
+- `values`: Column to use for populating the new DataFrame. If not specified, all remaining columns are used.
+
+````python
+data = {
+    'Date': ['2021-01-01', '2021-01-01', '2021-01-02', '2021-01-02'],
+    'City': ['New York', 'Los Angeles', 'New York', 'Los Angeles'],
+    'Temperature': [30, 75, 32, 77],
+}
+
+df = pd.DataFrame(data)
+
+# Pivoting the data
+pivot_df = df.pivot(index='Date', columns='City', values='Temperature')
+print(pivot_df)
+```
+```output
+City            Los Angeles  New York
+Date
+2021-01-01            75        30
+2021-01-02            77        32
+
+
+- The `Date` column is used as the index.
+- The `City` column values are turned into new columns.
+- The `Temperature` column is used to populate the new DataFrame.
+
+#### Melt
+The `melt()` function is the opposite of `pivot()`. It transforms a DataFrame from wide format to long format.
+
+```python
+DataFrame.melt(id_vars=None, value_vars=None, var_name=None, value_name='value')
+```
+
+- `id_vars`: Columns that should remain in the "long" format (i.e., columns that will not be unpivoted).
+- `value_vars`: Columns to unpivot. If not specified, all columns not in id_vars will be unpivoted.
+- `var_name`: Name for the new column that will hold the variable names (the original column names).
+- `value_name`: Name for the new column that will hold the values.
+
+
+```python
+data = {
+    'Date': ['2021-01-01', '2021-01-02'],
+    'New York': [30, 32],
+    'Los Angeles': [75, 77],
+}
+
+df = pd.DataFrame(data)
+
+# Melting the data
+melted_df = df.melt(id_vars=['Date'], var_name='City', value_name='Temperature')
+print(melted_df)
+```
+
+```output
+         Date           City  Temperature
+0  2021-01-01       New York           30
+1  2021-01-02       New York           32
+2  2021-01-01  Los Angeles           75
+3  2021-01-02  Los Angeles           77
+```
+
+- The `Date` column remains fixed (as `id_vars`).
+- The `New York` and `Los Angeles` columns are melted into a single `City` column, with corresponding values in the `Temperature` column.
+
 ## Merging and joining data
 
 ### Merging dataFrames
@@ -704,3 +782,4 @@ with pd.ExcelWriter('output_data.xlsx') as writer:
 | **Pickle**  | `DataFrame.to_pickle()`  | `df.to_pickle('output')`                |
 
 Each of these export functions has additional parameters for customizing how the data is saved (e.g., file paths, indexes, column selections). You can refer to the pandas documentation for more advanced options for each method.
+````

@@ -472,27 +472,6 @@ Name: sales, dtype: int64
 
 In this example, we used a lambda function to compute the range of sales for each store.
 
-### Pivot tables
-
-A pivot table is a powerful tool for summarizing data in a tabular format, allowing you to transform long-form data into a more readable, structured summary.
-
-To create a pivot table in pandas, you use the `pivot_table()` function. Let's create a pivot table to summarize the total sales by store and product:
-
-```python
-pivot_table = df.pivot_table(values='sales', index='store', columns='product', aggfunc='sum')
-print(pivot_table)
-```
-
-Output:
-
-```css
-product  apple  banana
-store
-A          10      90
-B          30      40
-C          50      60
-```
-
 ### Handling missing values during aggregation
 
 When aggregating data, missing values (NaN) are typically ignored by default. However, if you need to change this behavior, you can control how pandas handles them using the `skipna` argument.

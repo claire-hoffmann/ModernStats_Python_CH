@@ -343,6 +343,63 @@ You can filter rows based on certain conditions. For example, to filter for rows
 df_filtered = df[df['age'] > 30]
 ```
 
+Another way to do this is to use `loc` (Label Based Indexing):
+
+```python
+df_filtered = df.loc[df['age'] > 30]
+```
+
+### Replacing values based on condition
+
+`loc` can also be used to replace values in a DataFrame based on conditions.
+Let's assume we have the following DataFrame, and we want to update certain values based on specific conditions.
+
+```python
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'Age': [25, 30, 35, 40],
+    'City': ['New York', 'Los Angeles', 'Chicago', 'San Francisco']
+}
+
+df = pd.DataFrame(data)
+print("Original DataFrame:")
+print(df)
+```
+
+```output
+Original DataFrame:
+      Name  Age             City
+0    Alice   25         New York
+1      Bob   30    Los Angeles
+2  Charlie   35          Chicago
+3    David   40  San Francisco
+```
+
+Suppose we want to replace the City for anyone over the age of 30 with Seattle.
+
+```python
+# Replace 'City' with 'Seattle' where 'Age' is greater than 30
+df.loc[df['Age'] > 30, 'City'] = 'Seattle'
+
+print("\nUpdated DataFrame:")
+print(df)
+```
+
+```output
+Updated DataFrame:
+      Name  Age      City
+0    Alice   25  New York
+1      Bob   30  Los Angeles
+2  Charlie   35   Seattle
+3    David   40   Seattle
+```
+
+- `df['Age'] > 30`: This is the condition used to filter rows where the Age is greater than 30.
+- `df.loc[df['Age'] > 30, 'City']`: This selects the City column for those rows where the condition is true.
+- `= 'Seattle'`: This replaces the value in the City column with 'Seattle' for those rows.
+
+In the above example, the cities for Charlie and David were changed to Seattle because their ages are greater than 30.
+
 ### Sorting data
 
 To sort your DataFrame by a specific column:

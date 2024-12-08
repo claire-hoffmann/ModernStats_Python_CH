@@ -30,35 +30,108 @@ that can be called upon when needed.
 
 ## Introduction
 
-Data wrangling is the process of cleaning and transforming raw data into a format that is more useful for analysis. In this lesson, we will focus on using the **pandas** library in Python to perform common data wrangling tasks.
+### What is a Package/Library in Python?
 
-By the end of this lesson, you should feel comfortable with the basic tools available in pandas for preparing your data for analysis.
+In Python, a [library](<(../learners/reference.md#library)>) (or package) is a collection of pre-written code that you can use to perform common tasks without needing to write the code from scratch. It's a toolbox that provides tools (functions, classes, and modules) to help you solve specific problems.
 
----
+Python packages save time and effort by providing solutions to common programming challenges. Instead of reinventing the wheel, you can `import` these tools into your scripts and use them to complete tasks more easily.
 
-## Prerequisites
+### A Python package for data manipulations: `pandas`
 
-Before starting this lesson, make sure you have the following prerequisites:
-
-- Basic understanding of Python
-- Python installed on your computer
-- **pandas** and **numpy** installed (`pip install pandas numpy`)
-
----
-
-## Introduction to `pandas`
-
-### What is `pandas`?
+In this lesson, we will focus on using the **pandas** library in Python to perform common data wrangling tasks.
 
 `pandas` is an open-source Python library for data manipulation and analysis. It provides data structures like **DataFrame** and **Series** that make it easy to handle and analyze data.
 
-### Importing `pandas`
+#### `Series`
 
-To start using pandas, you need to import it:
+A Series is a one-dimensional labeled array, similar to a list. It can hold any data type, such as integers, strings, or even more complex data types.
+
+Key Features:
+
+- It’s one-dimensional, so it holds data in a single column.
+- It has an index (labels) that you can use to access specific elements.
+- Each element in the Series has a label (index) and a value.
+
+Example of a Series:
 
 ```python
 import pandas as pd
+
+# Create a Series from a list
+
+data = [10, 20, 30, 40, 50]
+series = pd.Series(data)
+
+# Print the Series
+
+print(series)
 ```
+
+Output:
+
+```css
+0 10
+1 20
+2 30
+3 40
+4 50
+dtype: int64
+```
+
+The index is 0, 1, 2, 3, 4, and the values are 10, 20, 30, 40, 50.
+pandas automatically creates an index for you (starting from 0), but you can also specify a custom index.
+
+#### `DataFrame`
+
+A DataFrame is a two-dimensional, table-like structure (similar to a spreadsheet or SQL table) that can hold multiple Series. It is the most commonly used pandas object.
+
+A DataFrame consists of:
+
+- Rows (with an index, just like a Series),
+- Columns (which are each Series).
+
+You can think of a DataFrame as a collection of Series that share the same index.
+
+Key Features:
+
+- It’s two-dimensional (i.e., it has rows and columns).
+- Each column is a Series.
+- It has both row and column labels (indexes and column names).
+- It can hold multiple data types (integers, strings, floats, etc.).
+
+Example of a DataFrame:
+
+```python
+import pandas as pd
+
+# Create a DataFrame using a dictionary
+
+data = {
+'Name': ['Alice', 'Bob', 'Charlie'],
+'Age': [25, 30, 35],
+'City': ['New York', 'Paris', 'Seoul']
+}
+df = pd.DataFrame(data)
+
+# Print the DataFrame
+
+print(df)
+```
+
+Output:
+
+```css
+Name Age City
+0 Alice 25 New York
+1 Bob 30 Los Angeles
+2 Charlie 35 Chicago
+```
+
+Here:
+
+- The **rows** are indexed from 0, 1, 2 (default index).
+- The **columns** are `Name`, `Age`, and `City`.
+- Each column is a **Series**, so the `Name` column is a Series, the `Age` column is another Series, etc.
 
 ## Loading data
 
@@ -407,4 +480,8 @@ df.to_csv('cleaned_data.csv', index=False)
 
 ```python
 df.to_excel('cleaned_data.xlsx', index=False)
+```
+
+```
+
 ```

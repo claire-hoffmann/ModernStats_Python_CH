@@ -273,6 +273,26 @@ You may want to rename columns for clarity:
 df.rename(columns={'old_name': 'new_name'}, inplace=True)
 ```
 
+::::::::::::::::::::::::::::::::::::::::: callout
+
+The `inplace=True` parameter means that we are modifying the original DataFrame `df` directly.
+
+By default, `inplace=False`, which means the following line won´t rename the `old_name` column:
+
+```python
+df.rename(columns={'old_name': 'new_name'})
+```
+
+An alternative is to create a new DataFrame with the renamed columns and assign it back to `df`:
+
+```python
+df = df.rename(columns={'old_name': 'new_name'})
+```
+
+The `inplace` parameter is present in many other pandas methods.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Dropping columns
 
 If you no longer need a column, you can drop it:

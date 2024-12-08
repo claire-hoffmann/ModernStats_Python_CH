@@ -234,6 +234,8 @@ Both Seaborn and Matplotlib are popular Python libraries for data visualization,
 
 However, Seaborn is built on top of Matplotlib, meaning that it inherits Matplotlib's flexibility, allowing users to make more detailed customizations as needed.
 
+Seaborn includes several built-in datasets, such as `tips`, `iris`, and `flights`, that we will use throughout this lesson for our examples. These datasets are great for experimenting with Seaborn’s plotting functions without needing to import external data files.
+
 ### Creating Seaborn plots
 
 With Seaborn too, the `plt.subplots()` function is used to create a figure (`fig`) and one or more axes (`ax`) that can be used to draw plots.

@@ -35,3 +35,47 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 ```
+
+## Basic plots with `matplotlib`
+
+### Creating a figure and axes
+
+In `matplotlib`, the `plt.subplots()` function is a common way to create a figure (`fig`) and axes (`ax`) objects that you can work with to create and customize your plots.
+
+What are Figures and Axes?
+
+- Figure (`fig`):
+  - The figure is the entire container for your plot. It holds everything—axes, titles, labels, and any other elements of the plot.
+  - You can have multiple figures in a single Python session, and each figure can hold multiple subplots or axes.
+- Axes (`ax`):
+  - The axes is where your actual plot will appear. It’s a region of the figure that holds the graph. Each axes object has methods for plotting, adding titles, modifying labels, and other customizations.
+  - An axes can represent various types of charts, like line plots, bar charts, histograms, etc. Each plot you create will be associated with one axes.
+
+::::::::::::::::::::::::::::::::::::::::: callout
+
+In `matplotlib`, there are two main ways to create plots:
+
+- The state-based interface using `plt.plot()` and similar functions. This is simpler and often fine for quick plots.
+
+```python
+# Basic line plot
+plt.plot([1, 2, 3], [1, 4, 9])
+plt.show()
+```
+
+- The object-oriented approach using `fig, ax = plt.subplots()`, which is recommended for more control and flexibility.
+
+```python
+# Create a figure and axis
+fig, ax = plt.subplots()
+
+# Plot on the axis
+ax.plot([1, 2, 3], [1, 4, 9])
+
+# Show the plot
+plt.show()
+```
+
+When you use `plt.subplots()`, you get access to the figure and axes objects, allowing you to customize everything from the title, labels, grid, axis limits, and more, in a very controlled manner. This is the approach we will use in this episode.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::

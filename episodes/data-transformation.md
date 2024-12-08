@@ -476,12 +476,45 @@ Once you've wrangled your data, you may want to export it to a file.
 df.to_csv('cleaned_data.csv', index=False)
 ```
 
+> `index=False` prevents the row index from being saved in the file.
+
+You can also specify other options like separator (sep), columns to export, or if you want to handle missing values with the na_rep parameter.
+
+```python
+df.to_csv('output_data.tsv', sep='\t', index=False)
+```
+
 ### Exporting to Excel
 
 ```python
 df.to_excel('cleaned_data.xlsx', index=False)
 ```
 
+You can also specify which sheet name to use with the `sheet_name` parameter:
+
+```Python
+df.to_excel('output_data.xlsx', sheet_name='Sheet1', index=False)
 ```
 
+If you're dealing with multiple DataFrames and need to save them in different sheets of the same Excel file, you can use an ExcelWriter:
+
+```Python
+with pd.ExcelWriter('output_data.xlsx') as writer:
+    df.to_excel(writer, sheet_name='Sheet1', index=False)
+    df.to_excel(writer, sheet_name='Sheet2', index=False)
 ```
+
+### Other supported export formats
+
+| Format      | Method                   | Example Usage                           |
+| ----------- | ------------------------ | --------------------------------------- |
+| **CSV**     | `DataFrame.to_csv()`     | `df.to_csv('output_data.csv')`          |
+| **Excel**   | `DataFrame.to_excel()`   | `df.to_excel('output_data.xlsx')`       |
+| **JSON**    | `DataFrame.to_json()`    | `df.to_json('output_data.json')`        |
+| **SQL**     | `DataFrame.to_sql()`     | `df.to_sql('my_table', conn)`           |
+| **HDF5**    | `DataFrame.to_hdf()`     | `df.to_hdf('output_data.h5', key='df')` |
+| **Parquet** | `DataFrame.to_parquet()` | `df.to_parquet('output_data.parquet')`  |
+| **Feather** | `DataFrame.to_feather()` | `df.to_feather('output_data.feather')`  |
+| **Pickle**  | `DataFrame.to_pickle()`  | `df.to_pickle('output')`                |
+
+Each of these export functions has additional parameters for customizing how the data is saved (e.g., file paths, indexes, column selections). You can refer to the pandas documentation for more advanced options for each method.

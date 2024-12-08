@@ -196,6 +196,49 @@ Once you've loaded your data, it's important to understand its structure and con
 print(df.head())  # Shows the first 5 rows
 ```
 
+If you want to see more (or fewer) rows, you can pass a number to `head()`, such as `df.head(10)` to view the first 10 rows.
+
+Similarly, you can use the `tail()` method to view the last few rows of the DataFrame.
+
+### Viewing the columns
+
+```python
+print(df.columns)  # Shows the first 5 rows
+```
+
+### Unique values in columns
+
+To get a sense of the distinct values in a column, the `unique()` and `value_counts()` methods are useful.
+
+```python
+df['column_name'].unique()
+```
+
+The `unique()` method shows all the unique values in a column.
+
+```python
+df['column_name'].value_counts()
+```
+
+The `value_counts()` method returns the count of unique values in the column, sorted in descending order. This is particularly useful for categorical data.
+
+### Checking for Missing Values
+
+The `isnull()` method returns a DataFrame of the same shape as `df`, where each element is a boolean (`True` for missing values and `False` for non-missing values).
+
+```python
+print(df.isnull())
+df.isnull().sum()
+```
+
+To get the total number of missing values in each column, you can chain `sum()` to `isnull()`.
+
+```python
+print(df.isnull().sum())
+```
+
+This gives you a count of how many missing values are present in each column.
+
 ### Summary statistics
 
 To get a quick overview of the numerical data, you can use:
@@ -203,6 +246,14 @@ To get a quick overview of the numerical data, you can use:
 ```python
 print(df.describe())
 ```
+
+The `describe()` method provides summary statistics for all numeric columns, including:
+
+- `count`: the number of non-null entries
+- `mean`: the average value
+- `std`: the standard deviation
+- `min`/`max`: the minimum and maximum values
+- `25%`, `50%`, `75%`: the percentiles
 
 ### Checking the data types
 

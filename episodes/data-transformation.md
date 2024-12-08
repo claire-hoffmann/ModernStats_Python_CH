@@ -361,12 +361,51 @@ df['new_column'] = df['column1'] + df['column2']
 
 ## Merging and joining data
 
-Often, you need to combine multiple datasets. pandas makes it easy to merge and join DataFrames.
-
 ### Merging dataFrames
 
+The `merge()` function in pandas is used to combine two DataFrames based on one or more common columns. It's similar to SQL joins and can be used for various purposes such as combining datasets or performing lookups.
+
+The basic syntax for merging two DataFrames is:
+
 ```python
-df_merged = pd.merge(df1, df2, on='common_column')
+pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None, left_index=False, right_index=False)
+```
+
+- `left`: The first DataFrame.
+- `right`: The second DataFrame.
+- `how`: The type of merge to perform. Options include:
+  - `left`: Use only keys from the left DataFrame (like a left join in SQL).
+  - `right`: Use only keys from the right DataFrame (like a right join in SQL).
+  - `outer`: Use keys from both DataFrames, filling in missing values with `NaN` (like a full outer join in SQL).
+  - `inner`: Use only the common keys (like an inner join in SQL, default option).
+- `on`: The column or index level names to join on. If not specified, it will join on columns with the same name in both DataFrames.
+- `left_on` and `right_on`: Specify columns from left and right DataFrames to merge on if the column names are different.
+- `left_index` and `right_index`: If `True`, it uses the index of the DataFrames for merging instead of columns.
+
+In the following example, we merge DataFrames on multiple columns by passing a list to the on parameter.
+
+```python
+df1 = pd.DataFrame({
+    'Name': ['John', 'Anna', 'Peter'],
+    'City': ['NY', 'LA', 'SF'],
+    'Age': [22, 25, 28]
+})
+
+df2 = pd.DataFrame({
+    'Name': ['John', 'Anna', 'Peter'],
+    'City': ['NY', 'LA', 'DC'],
+    'Salary': [50000, 60000, 70000]
+})
+
+# Merge on multiple columns
+merged_df = pd.merge(df1, df2, how='inner', on=['Name', 'City'])
+print(merged_df)
+```
+
+```output
+    Name City  Age  Salary
+0   John   NY   22   50000
+1   Anna   LA   25   60000
 ```
 
 ### Concatenating dataFrames
@@ -618,3 +657,7 @@ with pd.ExcelWriter('output_data.xlsx') as writer:
 | **Pickle**  | `DataFrame.to_pickle()`  | `df.to_pickle('output')`                |
 
 Each of these export functions has additional parameters for customizing how the data is saved (e.g., file paths, indexes, column selections). You can refer to the pandas documentation for more advanced options for each method.
+
+```
+
+```

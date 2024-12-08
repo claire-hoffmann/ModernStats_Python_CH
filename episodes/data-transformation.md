@@ -410,11 +410,58 @@ print(merged_df)
 
 ### Concatenating dataFrames
 
-You can concatenate DataFrames vertically (stacking rows) or horizontally (stacking columns):
+In addition to merging DataFrames, pandas provides the `concat()` function, which is useful for combining DataFrames along a particular axis (either rows or columns). While `merge()` is typically used for combining DataFrames based on a shared key or index, `concat()` is more straightforward and is generally used when you want to append or stack DataFrames together.
+
+The basic syntax for concat() is:
 
 ```python
-df_combined = pd.concat([df1, df2], axis=0)  # Vertical stacking
+pd.concat([df1, df2], axis=0, ignore_index=False, join='outer')
 ```
+
+- `[df1, df2]`: A list of DataFrames to concatenate.
+- `axis`: The axis along which to concatenate:
+  - `axis=0`: Concatenate along rows (default behavior). This stacks DataFrames on top of each other.
+  - `axis=1`: Concatenate along columns, aligning DataFrames side-by-side.
+- `ignore_index`: If `True`, the index will be reset (i.e., it will generate a new index). If `False`, the original indices of the DataFrames are preserved.
+- `join`: Determines how to handle indices (or columns when axis=1):
+
+  - `outer`: Takes the union of the indices (or columns) from both DataFrames (default).
+  - `inner`: Takes the intersection of the indices (or columns), excluding any non-overlapping indices (or columns).
+
+  When concatenating along rows (which is the default behavior), the DataFrames are stacked on top of each other, and the rows are added to the end of the previous DataFrame. This is commonly used to combine datasets with the same structure but with different data.
+
+Here is an example for concatenating DataFrames with the same columns:
+
+```python
+df1 = pd.DataFrame({
+    'ID': [1, 2, 3],
+    'Name': ['John', 'Anna', 'Peter']
+})
+
+df2 = pd.DataFrame({
+    'ID': [4, 5],
+    'Name': ['Linda', 'James']
+})
+
+# Concatenate along rows (stack vertically)
+concatenated_df = pd.concat([df1, df2], axis=0, ignore_index=True)
+print(concatenated_df)
+```
+
+```output
+   ID   Name
+0   1   John
+1   2   Anna
+2   3  Peter
+3   4  Linda
+4   5  James
+```
+
+In this case:
+
+- The two DataFrames `df1` and `df2` are stacked vertically.
+- The `ignore_index=True` parameter ensures that the index is reset to a default integer index (0 to 4).
+- If you didn't set `ignore_index=True`, the original indices from `df1` and `df2` would be preserved.
 
 ## Aggregating data
 

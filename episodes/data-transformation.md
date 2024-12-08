@@ -281,6 +281,22 @@ If you no longer need a column, you can drop it:
 df.drop(columns=['column_name'], inplace=True)
 ```
 
+### Removing duplicates
+
+To remove duplicate rows, use the `drop_duplicates()` method, which removes all duplicate rows by default.
+
+```python
+df_cleaned = df.drop_duplicates()
+```
+
+You can also specify which columns to check for duplicates by passing a subset to the subset parameter:
+
+```python
+df_cleaned = df.drop_duplicates(subset=['A'])
+```
+
+This will remove duplicates based only on column 'A'.
+
 ### Handling missing data
 
 Missing data is common in real-world datasets. You can handle it in various ways:

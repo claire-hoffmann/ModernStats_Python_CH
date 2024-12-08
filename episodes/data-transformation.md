@@ -484,18 +484,20 @@ df = pd.DataFrame(data)
 pivot_df = df.pivot(index='Date', columns='City', values='Temperature')
 print(pivot_df)
 ```
+
 ```output
 City            Los Angeles  New York
 Date
 2021-01-01            75        30
 2021-01-02            77        32
-
+```
 
 - The `Date` column is used as the index.
 - The `City` column values are turned into new columns.
 - The `Temperature` column is used to populate the new DataFrame.
 
 #### Melt
+
 The `melt()` function is the opposite of `pivot()`. It transforms a DataFrame from wide format to long format.
 
 ```python
@@ -506,7 +508,6 @@ DataFrame.melt(id_vars=None, value_vars=None, var_name=None, value_name='value')
 - `value_vars`: Columns to unpivot. If not specified, all columns not in id_vars will be unpivoted.
 - `var_name`: Name for the new column that will hold the variable names (the original column names).
 - `value_name`: Name for the new column that will hold the values.
-
 
 ```python
 data = {
@@ -878,4 +879,3 @@ with pd.ExcelWriter('output_data.xlsx') as writer:
 | **Pickle**  | `DataFrame.to_pickle()`  | `df.to_pickle('output')`                |
 
 Each of these export functions has additional parameters for customizing how the data is saved (e.g., file paths, indexes, column selections). You can refer to the pandas documentation for more advanced options for each method.
-````

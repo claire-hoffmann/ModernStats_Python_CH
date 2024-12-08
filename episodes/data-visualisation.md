@@ -208,7 +208,7 @@ fig.savefig('plot.png')
 
 Matplotlib supports multiple formats, including PNG, PDF, SVG, and more. Use `fig.savefig('filename.format')`.
 
-# Quick and appealing plots with Seaborn
+## Quick and appealing plots with Seaborn
 
 Both Seaborn and Matplotlib are popular Python libraries for data visualization, but they serve different purposes:
 
@@ -233,3 +233,76 @@ Both Seaborn and Matplotlib are popular Python libraries for data visualization,
 - **Seaborn** integrates smoothly with Pandas, allowing you to pass DataFrame columns directly into plotting functions.
 
 However, Seaborn is built on top of Matplotlib, meaning that it inherits Matplotlib's flexibility, allowing users to make more detailed customizations as needed.
+
+### Creating Seaborn plots
+
+With Seaborn too, the `plt.subplots()` function is used to create a figure (`fig`) and one or more axes (`ax`) that can be used to draw plots.
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Create the figure and axes
+fig, ax = plt.subplots()
+
+# Use Seaborn to create a plot on the axes
+sns.set(style="whitegrid")
+data = sns.load_dataset("tips")
+sns.boxplot(x="day", y="total_bill", data=data, ax=ax)
+
+# Customize with Matplotlib
+ax.set_title("Total Bill by Day")
+ax.set_xlabel("Day of the Week")
+ax.set_ylabel("Total Bill ($)")
+
+# Show the plot
+plt.show()
+```
+
+In this example, we create a boxplot using Seaborn, but we specify the axes (`ax`) created with `plt.subplots()`. This allows us to use Matplotlib to customize the plot's title, labels, and size.
+
+The other types of graphs available in Seaborn include:
+
+- Distribution plots
+
+```python
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.histplot(data["total_bill"], ax=ax)
+ax.set_title("Histogram of Total Bill")
+plt.show()
+```
+
+- Scatter plots
+
+```python
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.scatterplot(x="total_bill", y="tip", data=data, ax=ax)
+ax.set_title("Total Bill vs Tip")
+plt.show()
+```
+
+Seaborn's `scatterplot()` function allows you to add additional features like color and size based on other variables.
+
+- Line plots
+
+```python
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.lineplot(x="size", y="total_bill", data=data, ax=ax)
+ax.set_title("Total Bill vs Size of Party")
+plt.show()
+```
+
+### Customizing Seaborn plots
+
+One of the benefits of using Seaborn is its simplicity and attractive default themes, but you can still customize the appearance of plots using Matplotlib functions. For example, you can set the plot's title, labels, or customize the grid.
+
+```python
+# Customizing plot appearance
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.boxplot(x="day", y="total_bill", data=data, ax=ax)
+ax.set_title("Total Bill by Day")
+ax.set_xlabel("Day of the Week")
+ax.set_ylabel("Total Bill ($)")
+ax.grid(True)  # Add gridlines
+plt.show()
+```

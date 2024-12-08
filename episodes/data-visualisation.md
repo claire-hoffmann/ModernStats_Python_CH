@@ -308,3 +308,23 @@ ax.set_ylabel("Total Bill ($)")
 ax.grid(True)  # Add gridlines
 plt.show()
 ```
+
+## Interactive plots with Plotly
+
+Plotly is an interactive graphing library that enables the creation of sophisticated visualizations that are interactive by default. Unlike static libraries like Matplotlib and Seaborn, Plotly allows you to zoom, pan, and hover over data points to inspect values directly in the plot.
+
+Advantages of Plotly include:
+
+- Interactive Plots: Plots in Plotly are interactive out of the box, making them ideal for exploring data.
+- Web Integration: Plotly graphs can easily be integrated into web applications, such as Dash.
+- High-quality Visualizations: Plotly can generate a wide range of high-quality, aesthetically appealing plots.
+
+### Importing `plotly`
+
+Plotly’s most commonly used module for creating visualizations is plotly.express. Here’s how to import it:
+
+```python
+import plotly.express as px
+```
+
+`plotly.graph_objects` is another module in Plotly that provides more flexibility for creating complex visualizations. However, we will primarily focus on plotly.express as it simplifies the syntax for most common plots.

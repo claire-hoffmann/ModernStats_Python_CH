@@ -22,12 +22,6 @@ exercises: 60
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Words are useful, but what's more useful are the sentences and stories we build with them.
-Similarly, while a lot of powerful, general tools are built into Python,
-specialized tools built up from these basic units live in
-[libraries](../learners/reference.md#library)
-that can be called upon when needed.
-
 ## Introduction
 
 ### What is a Package/Library in Python?

@@ -79,3 +79,131 @@ plt.show()
 When you use `plt.subplots()`, you get access to the figure and axes objects, allowing you to customize everything from the title, labels, grid, axis limits, and more, in a very controlled manner. This is the approach we will use in this episode.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Customizing Plots
+
+In this example, we change the line style and color, add a title, axis labels and legend:
+
+```python
+fig, ax = plt.subplots()
+
+# Plotting data
+ax.plot([1, 2, 3], [1, 4, 9], linestyle='--', color='r', label="y = x^2")
+
+# Adding title and labels
+ax.set_title('Simple Line Plot')
+ax.set_xlabel('X Axis')
+ax.set_ylabel('Y Axis')
+
+# Adding a legend
+ax.legend()
+
+# Show the plot
+plt.show()
+```
+
+### Types of plot
+
+On top of the line plot that we already created using `ax.plot()`, matplotlib offers many other types of plots, including:
+
+- Bar plot
+
+```python
+# Data
+categories = ['A', 'B', 'C', 'D']
+values = [3, 7, 5, 2]
+
+# Bar plot
+fig, ax = plt.subplots()
+ax.bar(categories, values)
+
+plt.show()
+```
+
+- Horizontal bar plot
+
+```python
+# Horizontal bar plot
+fig, ax = plt.subplots()
+ax.barh(categories, values)
+
+plt.show()
+```
+
+- Stacked bar plot
+
+```python
+# Data
+categories = ['A', 'B', 'C']
+values1 = [3, 7, 5]
+values2 = [2, 5, 6]
+
+# Stacked bar plot
+fig, ax = plt.subplots()
+ax.bar(categories, values1, label='Category 1')
+ax.bar(categories, values2, bottom=values1, label='Category 2')
+
+ax.legend()
+
+plt.show()
+```
+
+- Scatter plot
+
+```python
+# Data
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+
+# Scatter plot
+fig, ax = plt.subplots()
+ax.scatter(x, y)
+
+plt.show()
+```
+
+- Pie charts
+
+```python
+# Data
+sizes = [10, 20, 30, 40]
+labels = ['A', 'B', 'C', 'D']
+
+# Pie chart
+fig, ax = plt.subplots()
+ax.pie(sizes, labels=labels)
+
+plt.show()
+```
+
+### Multiple Subplots
+
+Using `fig, ax = plt.subplots()` allows you to create multiple subplots within a single figure.
+
+```python
+fig, ax = plt.subplots(2, 1)
+
+# Plotting in the first subplot
+ax[0].plot([1, 2, 3], [1, 4, 9])
+ax[0].set_title('First Plot')
+
+# Plotting in the second subplot
+ax[1].bar(['A', 'B', 'C'], [3, 7, 5])
+ax[1].set_title('Second Plot')
+
+plt.show()
+```
+
+### Saving plots to files
+
+```python
+fig, ax = plt.subplots()
+
+# Plotting
+ax.plot([1, 2, 3], [1, 4, 9])
+
+# Saving the plot
+fig.savefig('plot.png')
+```
+
+Matplotlib supports multiple formats, including PNG, PDF, SVG, and more. Use `fig.savefig('filename.format')`.

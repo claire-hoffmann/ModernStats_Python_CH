@@ -416,6 +416,45 @@ You can create new columns based on existing ones. For example:
 df['new_column'] = df['column1'] + df['column2']
 ```
 
+### Replace values using `map`
+
+The `map()` function in pandas allows you to apply a mapping or a function to each element in the Series. You can use `map()` with a dictionary to replace values in a Series according to the mapping provided.
+
+```python
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'City': ['NY', 'LA', 'CHI', 'SF']
+    }
+
+df = pd.DataFrame(data)
+
+# Create a dictionary for mapping
+
+city_map = {
+    'NY': 'New York',
+    'LA': 'Los Angeles',
+    'CHI': 'Chicago',
+    'SF': 'San Francisco'
+    }
+
+# Apply the map function to replace city abbreviations
+
+df['City'] = df['City'].map(city_map)
+
+print(df)
+```
+
+```output
+Name City
+0 Alice New York
+1 Bob Los Angeles
+2 Charlie Chicago
+3 David San Francisco
+```
+
+- `city_map` is a dictionary where the keys are the city abbreviations and the values are the full city names.
+- `df['City'].map(city_map)`: This replaces the city abbreviations with the corresponding full city names from the city_map dictionary.
+
 ### Pivoting data
 
 Pivoting and melting are two important operations for reshaping data in pandas. They are used to transform a DataFrame from "long" format to "wide" format, and vice versa. These operations allow you to better organize your data depending on your analysis needs.

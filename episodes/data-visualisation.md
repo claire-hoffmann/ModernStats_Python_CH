@@ -207,3 +207,29 @@ fig.savefig('plot.png')
 ```
 
 Matplotlib supports multiple formats, including PNG, PDF, SVG, and more. Use `fig.savefig('filename.format')`.
+
+# Quick and appealing plots with Seaborn
+
+Both Seaborn and Matplotlib are popular Python libraries for data visualization, but they serve different purposes:
+
+1. High-Level vs. Low-Level
+
+- **Matplotlib** is a low-level library, offering full control over plots but requiring more code.
+- **Seaborn** is a high-level library built on top of Matplotlib, offering easier and quicker creation of visually appealing statistical plots.
+
+2. Aesthetics
+
+- **Matplotlib** produces basic plots by default, requiring manual styling for better visuals.
+- **Seaborn** comes with default styles, making it easier to create polished plots.
+
+3. Plotting Types
+
+- **Matplotlib** supports a wide range of plots but requires extra work for advanced statistical plots.
+- **Seaborn** offers specialized plots for statistics (e.g., violin plots, pair plots) with minimal effort.
+
+4. Integration with Pandas
+
+- **Matplotlib** doesn’t integrate directly with Pandas DataFrames.
+- **Seaborn** integrates smoothly with Pandas, allowing you to pass DataFrame columns directly into plotting functions.
+
+However, Seaborn is built on top of Matplotlib, meaning that it inherits Matplotlib's flexibility, allowing users to make more detailed customizations as needed.

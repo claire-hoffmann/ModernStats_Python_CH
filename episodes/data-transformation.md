@@ -69,7 +69,7 @@ print(series)
 
 Output:
 
-```css
+```output
 0 10
 1 20
 2 30
@@ -120,7 +120,7 @@ print(df)
 
 Output:
 
-```css
+```output
 Name Age City
 0 Alice 25 New York
 1 Bob 30 Los Angeles
@@ -411,7 +411,7 @@ print(grouped)
 
 Output:
 
-```css
+```output
 store
 A    100
 B    150
@@ -432,7 +432,7 @@ print(grouped_multiple)
 
 Output:
 
-```css
+```output
 store product
 A apple 10
 banana 90
@@ -460,7 +460,7 @@ print(mean_sales)
 
 Output:
 
-```css
+```output
 store
 A 33.333333
 B 50.000000
@@ -479,7 +479,7 @@ print(count_sales)
 
 Output:
 
-```css
+```output
 store
 A 3
 B 3
@@ -498,7 +498,7 @@ print(range_sales)
 
 Output:
 
-```css
+```output
 store
 A 60
 B 50
@@ -530,7 +530,7 @@ print(agg_sales_with_na)
 
 Output:
 
-```css
+```output
 store
 A     100.0
 B     150.0
@@ -554,7 +554,7 @@ print(df)
 
 Output:
 
-```css
+```output
   store  product  sales  sales_rank
 0     A    apple     10         1.0
 1     A   banana     20         2.0

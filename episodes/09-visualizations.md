@@ -8,6 +8,7 @@ exercises: 0
 
 - create graphs and other visualizations using tabular data
 - group plots together to make comparative visualizations
+- test
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -137,18 +137,52 @@ Here:
 
 ### Loading CSV data
 
-The most common format for datasets is CSV (Comma Separated Values). You can load a CSV file into a pandas DataFrame using the `read_csv()` function:
+You can load a CSV file into a pandas DataFrame using the `read_csv()` function:
 
 ```python
-df = pd.read_csv('your_file.csv')
+df = pd.read_csv('path/to/file.csv')
 print(df.head())
+```
+
+- `read_csv()` reads the CSV file located at 'path/to/file.csv' and loads it into a pandas DataFrame (`df`).
+- By default, it assumes that the file has a header row (i.e., column names) in the first row.
+
+If the file does not have a header, you can use the `header=None` parameter to let pandas generate default column names.
+
+```python
+df = pd.read_csv('path/to/file.csv', header=None)
+```
+
+You can pass arguments like `sep` if the file uses a different delimiter (e.g., tab-separated \t).
+
+```python
+df = pd.read_csv('path/to/file.csv', sep=`t`)
+```
+
+### Loading Excel data
+
+Pandas provides the `read_excel()` function for reading Excel files.
+
+```python
+df = pd.read_excel('path/to/file.xlsx')
+```
+
+You can specify the sheet name if the file contains multiple sheets. By default, it will load the first sheet.
+
+```python
+df = pd.read_excel('data/sales_data.xlsx', sheet_name='Q1_2024')
+```
+
+You can also load multiple sheets into a dictionary of DataFrames using `sheet_name=None`.
+
+```python
+df = pd.read_excel('data/sales_data.xlsx', sheet_name=None)
 ```
 
 ### Other file formats
 
-You can also load data from other formats like Excel, JSON, or SQL databases:
+You can also load data from other formats like JSON, or SQL databases:
 
-- Excel: `pd.read_excel('your_file.xlsx')`
 - JSON: `pd.read_json('your_file.json')`
 - SQL: `pd.read_sql('SELECT * FROM table', connection)`
 

@@ -704,7 +704,3 @@ with pd.ExcelWriter('output_data.xlsx') as writer:
 | **Pickle**  | `DataFrame.to_pickle()`  | `df.to_pickle('output')`                |
 
 Each of these export functions has additional parameters for customizing how the data is saved (e.g., file paths, indexes, column selections). You can refer to the pandas documentation for more advanced options for each method.
-
-```
-
-```

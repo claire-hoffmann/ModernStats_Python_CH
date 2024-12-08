@@ -471,7 +471,7 @@ DataFrame.pivot(index=None, columns=None, values=None)
 - `columns`: Column to use as the new columns.
 - `values`: Column to use for populating the new DataFrame. If not specified, all remaining columns are used.
 
-````python
+```python
 data = {
     'Date': ['2021-01-01', '2021-01-01', '2021-01-02', '2021-01-02'],
     'City': ['New York', 'Los Angeles', 'New York', 'Los Angeles'],

@@ -402,6 +402,99 @@ ax.set_title("Total Bill vs Size of Party")
 plt.show()
 ```
 
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Line plot
+
+Using the education dataset we worked on in the previous episode, create a lineplot, showing the share of each subject in the total instruction time of students aged 6 and 13 years old in Austria. 
+
+- Use the `education_subset.csv` file.
+- The X axis will show the students' age (`age` column).
+- The Y axis will show the share of each subject in the total instruction time  of students (`value` column).
+- The color of the lines will indicate the subject (`subject_label` column).
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+# Reading the data into a DataFrame
+df = pd.read_csv(r"education_subset.csv")
+
+# Selecting Austria
+df = df[df['iso3']=='AUT']
+
+# Changing the type of the age column to integer
+df['age'] = df['age'].str.replace('Y', '').astype(int)
+
+# Creating figure and axes
+fig, ax = plt.subplots()
+
+# Plot the lines
+sns.lineplot(data=df, x='age', y='value', hue='subject_label', ax=ax)
+
+# Adding axis labels and title
+ax.set_title('Austria')
+ax.set_xlabel('Students age')
+ax.set_ylabel('Share of Mathematics in total instruction time')
+
+# Change the default legend title
+ax.legend(title='Subject')
+
+plt.show()
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Line plot with a loop
+
+Now let's do the same as before, but now we want one graph for each country where data is available.
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+# Reading the data into a DataFrame
+df = pd.read_csv(r"education_subset.csv")
+
+# Changing the type of the age column to integer
+df['age'] = df['age'].str.replace('Y', '').astype(int)
+
+
+for iso3 in df.iso3.unique(): # For loop over the iso3 codes
+
+    # Select the country
+    df_iso = df[df['iso3']==iso3]    
+
+    # Creating figure and axes
+    fig, ax = plt.subplots()
+    
+    # Plot the lines
+    sns.lineplot(data=df_iso, x='age', y='value', hue='subject_label', ax=ax)
+    
+    # Adding axis labels and title
+    ax.set_title(f'{iso3}') # Using a f-string for using the iso3 variable in the string
+    ax.set_xlabel('Students age')
+    ax.set_ylabel('Share of Mathematics in total instruction time')
+    
+    # Change the default legend title
+    ax.legend(title='Subject')
+    
+    # Saving the plot
+    fig.savefig(f'{iso3}.png')
+
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Customizing Seaborn plots
 
 One of the benefits of using Seaborn is its simplicity and attractive default themes, but you can still customize the appearance of plots using Matplotlib functions. For example, you can set the plot's title, labels, or customize the grid.

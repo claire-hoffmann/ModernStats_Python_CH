@@ -569,12 +569,12 @@ We are still using the `education.csv` dataset in the materials for this episode
 ## Solution
 
 ```python
-# Selecting only the 8 main subjects
-df = df.loc[df['subject'].isin(["READ", "MATH", "NSCI", "SSCI", "SLAN", "OLAN", "PHED", "ARTS"])]
+# Selecting only the 8 main subjects and assign to a new dataframe
+df_subset = df.loc[df['subject'].isin(["READ", "MATH", "NSCI", "SSCI", "SLAN", "OLAN", "PHED", "ARTS"])]
 
 # Adding labels
-df["subject_label"] = df["subject"].map({
-    "READ": "Readinf, writing and literature",
+df_subset["subject_label"] = df_subset["subject"].map({
+    "READ": "Reading, writing and literature",
     "MATH": "Mathematics",
     "NSCI": "Natural sciences",
     "SSCI": "Social sciences",

@@ -667,6 +667,39 @@ print(melted_df)
 - The `Date` column remains fixed (as `id_vars`).
 - The `New York` and `Los Angeles` columns are melted into a single `City` column, with corresponding values in the `Temperature` column.
 
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Pivot method
+
+You are given a dataset containing sales information for different products over a few months.
+
+```python
+import pandas as pd
+
+# Create the DataFrame
+data = {
+    'Product': ['A', 'A', 'A', 'B', 'B', 'B', 'C', 'C', 'C'],
+    'Month': ['January', 'February', 'March', 'January', 'February', 'March', 'January', 'February', 'March'],
+    'Sales': [100, 150, 200, 80, 120, 160, 130, 170, 220]
+}
+
+df = pd.DataFrame(data)
+```
+
+Use the `pivot()` method to rearrange this DataFrame so that the months become columns, and each product's sales data for each month appears under its respective column.
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+pivot_df = df.pivot(index='Product', columns='Month', values='Sales')
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Merging and joining data
 
 ### Merging dataFrames
@@ -770,6 +803,52 @@ In this case:
 - The two DataFrames `df1` and `df2` are stacked vertically.
 - The `ignore_index=True` parameter ensures that the index is reset to a default integer index (0 to 4).
 - If you didn't set `ignore_index=True`, the original indices from `df1` and `df2` would be preserved.
+
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Merge method
+
+We are given two datasets: one containing employee details and the other containing their department information. We want to merge these two datasets on the common column `Employee_ID` to create a single DataFrame that contains employee details along with their department names, while making sure we won´t drop any observation.
+
+```python
+import pandas as pd
+
+# Create the Employee DataFrame
+employee_data = {
+    'Employee_ID': [101, 102, 103, 104, 105],
+    'Employee_Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
+    'Age': [25, 30, 35, 40, 45]
+}
+
+employee_df = pd.DataFrame(employee_data)
+
+# Create the Department DataFrame
+department_data = {
+    'Employee_ID': [101, 102, 103, 106],
+    'Department': ['HR', 'Finance', 'IT', 'Marketing']
+}
+
+department_df = pd.DataFrame(department_data)
+
+# Display both DataFrames
+print("Employee DataFrame:")
+print(employee_df)
+
+print("\nDepartment DataFrame:")
+print(department_df)
+```
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+merged_df = pd.merge(employee_df, department_df, on='Employee_ID', how='outer')
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Aggregating data
 

@@ -328,3 +328,151 @@ import plotly.express as px
 ```
 
 `plotly.graph_objects` is another module in Plotly that provides more flexibility for creating complex visualizations. However, we will primarily focus on plotly.express as it simplifies the syntax for most common plots.
+
+### Creating Simple Plots with Plotly Express
+
+#### Line Plot
+
+```python
+import pandas as pd
+
+# Sample data
+
+data = pd.DataFrame({
+"Date": pd.date_range(start="2024-01-01", periods=10, freq="D"),
+"Value": [10, 12, 13, 15, 16, 18, 19, 20, 21, 22]
+})
+
+# Create a line plot
+
+fig = px.line(data, x="Date", y="Value", title="Simple Line Plot")
+fig.write_html("plot.html")
+```
+
+In this code:
+
+- `px.line()` creates the line plot.
+- The x and y arguments specify which columns to plot.
+- `fig.write_html()` saved the plot as a HTML file.
+
+#### Scatter Plot
+
+```python
+import numpy as np
+
+# Sample data
+
+data = pd.DataFrame({
+"X": np.random.rand(100),
+"Y": np.random.rand(100)
+})
+
+# Create a scatter plot
+
+fig = px.scatter(data, x="X", y="Y", title="Scatter Plot")
+fig.write_html("plot.html")
+```
+
+#### Bar Chart
+
+```python
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [23, 45, 56, 78, 33]
+data = pd.DataFrame({"Category": categories, "Value": values})
+
+# Create a bar chart
+
+fig = px.bar(data, x="Category", y="Value", title="Bar Chart")
+fig.write_html("plot.html")
+```
+
+#### Pie Chart
+
+```python
+# Sample data for Pie Chart
+
+categories = ['Red', 'Blue', 'Green']
+values = [25, 50, 25]
+data = pd.DataFrame({"Category": categories, "Value": values})
+
+# Create a pie chart
+
+fig = px.pie(data, names="Category", values="Value", title="Pie Chart")
+fig.write_html("plot.html")
+```
+
+### Customizing Plots in Plotly Express
+
+Plotly Express automatically makes plots interactive, but you can also customize your plots to make them more informative and visually appealing.
+
+#### Adding Titles and Labels
+
+You can modify the title and axis labels of your plot:
+
+```python
+fig.update_layout(
+title="Updated Plot Title",
+xaxis_title="Custom X Axis Label",
+yaxis_title="Custom Y Axis Label"
+)
+fig.write_html("plot.html")
+```
+
+#### Changing Colors
+
+You can change the color of data points or bars based on a categorical variable:
+
+```python
+# Adding a color dimension
+
+data['Color'] = np.random.choice(['Red', 'Blue', 'Green'], size=100)
+
+fig = px.scatter(data, x="X", y="Y", color="Color", title="Colored Scatter Plot")
+fig.write_html("plot.html")
+```
+
+In this example, the color argument differentiates data points by color based on the `Color` column.
+
+### Plotly Express vs. Plotly Graph Objects
+
+While `plotly.express` is great for creating quick, simple plots, there are cases when you might need more control over the plot’s components. This is where `plotly.graph_objects` comes in.
+
+Plotly Graph Objects (`go`) is a lower-level interface that gives you finer control over the layout and elements of your plot. With go, you can manually define traces (such as lines, bars, and scatter plots), customize plot attributes, and handle more complex visualizations.
+
+When to use `plotly.graph_objects`:
+
+- **Multiple Traces**: When you need to add different types of plots (like a line and scatter plot) in the same figure.
+- **Advanced Customization**: For precise control over each plot element (e.g., customizing legends, adding annotations).
+- **Complex Layouts**: When you need subplots or advanced arrangements of figures.
+
+For example, if you wanted to combine a line and scatter plot on the same figure, you would use `plotly.graph_objects`:
+
+```python
+import plotly.graph_objects as go
+
+# Create a figure with both a scatter and line trace
+
+fig = go.Figure()
+
+# Scatter plot trace
+
+fig.add_trace(go.Scatter(x=data["X"], y=data["Y"], mode='markers', name="Scatter"))
+
+# Line plot trace
+
+fig.add_trace(go.Scatter(x=data["X"], y=data["Y"], mode='lines', name="Line"))
+
+# Save the plot
+
+fig.write_html("plot.html")
+```
+
+While `plotly.express` handles this type of task easily with fewer lines of code, `go` offers more flexibility for complex customizations.
+
+### Interactive Features of Plotly Express
+
+Plotly plots are interactive by default. These features include:
+
+- **Zooming and Panning**: Users can zoom into a region of the plot by dragging the mouse, and pan across it.
+- **Hovering**: When you hover over data points, Plotly shows additional information (e.g., exact values).
+- **Saving and Exporting**: You can save your plot as an image or an interactive HTML file.

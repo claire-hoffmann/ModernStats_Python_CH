@@ -281,6 +281,40 @@ To understand the types of data in each column:
 print(df.dtypes)
 ```
 
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Exploring a SDMX dataset
+
+Using the `education.csv` dataset in the materials for this episode, write the lines of code to:
+
+- Import pandas
+- Load the dataset into a pandas DataFrame
+- Print the list of columns in this dataset
+- Print the unique values of the `REF_AREA` column
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+import pandas as pd
+
+df = pd.read_csv(r"education.csv")
+
+print(df.columns)
+print(df["AREA"].unique())
+```
+
+```output
+TBA
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::: challenge
+
 ## Cleaning data
 
 ### Renaming columns
@@ -350,6 +384,43 @@ df.dropna(inplace=True)
 ```python
 df.fillna(0, inplace=True)  # Fill missing values with 0
 ```
+
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## First cleaning steps
+
+Using the `education.csv` dataset in the materials for this episode (continuing on the script of the previous exercise), write the lines of code to:
+
+- Keep only the following columns: `REF_AREA`, `AGE`, `SUBJ_TYPE`, `OBS_VALUE`, `REF_PERIOD`
+- Rename them with simpler names: `iso3`, `age`, `subject`, `value`, `year`
+- Drop rows with missing data
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+# Keeping only the necessary columns
+df = df[["REF_AREA", "AGE", "SUBJ_TYPE", "OBS_VALUE", "REF_PERIOD"]]
+
+# Rename them
+df.rename(columns={
+    "REF_AREA": "iso3",
+    "AGE": "age",
+     "SUBJ_TYPE": "subject",
+     "OBS_VALUE": "value",
+     "REF_PERIOD": "year"},
+     inplace=True)
+
+# Drop rows with missing data
+df.dropna(inplace=True)
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::: challenge
 
 ## Transforming data
 

@@ -1113,3 +1113,29 @@ with pd.ExcelWriter('output_data.xlsx') as writer:
 | **Pickle**  | `DataFrame.to_pickle()`  | `df.to_pickle('output')`                |
 
 Each of these export functions has additional parameters for customizing how the data is saved (e.g., file paths, indexes, column selections). You can refer to the pandas documentation for more advanced options for each method.
+
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Exporting data
+
+Let's now export our transformed data, that we will use in the next episode focusing on data visualisations.
+
+We want to export the following dataframes from our script on education data:
+
+- `df` to be saved in a `education_clean.csv` file
+- `df_subset` to be saved in a `education_subset.csv` file
+- `df_average` to be saved in a `education_average.csv` file
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+df.to_csv(r"education_clean.csv", index=False)
+df_subset.to_csv(r"education_subset.csv", index=False)
+df_average.to_csv(r"education_average.csv", index=False)
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::

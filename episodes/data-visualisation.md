@@ -102,6 +102,57 @@ ax.legend()
 plt.show()
 ```
 
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Line plot
+
+Using the education dataset we worked on in the previous episode, write the lines of code to plot the share of Mathematics in the total instruction time of students aged 6 to 13 years old in Austria. 
+
+- Use the `education_subset.csv` file.
+- The X axis will show the students' age (`age` column).
+- The Y axis will show the share of Mathematics in the total instruction time  of students.
+- Add the axis labels and a title.
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Reading the data into a DataFrame
+df = pd.read_csv(r"education_subset.csv")
+
+# Selecting Austria and Mathematics only
+df = df[(df['iso3']=='AUT')&(df['subject_label']=='Mathematics')]
+
+# Changing the type of the age column to integer
+df['age'] = df['age'].str.replace('Y', '').astype(int)
+
+# Sorting values by age, as it will appear on the graph
+df.sort_values(by=['age'], ascending=True, inplace=True)
+
+# Creating figure and axes
+fig, ax = plt.subplots()
+
+# Plotting the value for each age
+ax.plot(df['age'], df['value'])
+
+# Adding axis labels and title
+ax.set_title('Austria')
+ax.set_xlabel('Students age')
+ax.set_ylabel('Share of Mathematics in total instruction time')
+
+plt.show()
+
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Types of plot
 
 On top of the line plot that we already created using `ax.plot()`, matplotlib offers many other types of plots, including:

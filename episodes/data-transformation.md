@@ -981,6 +981,28 @@ Name: sales, dtype: int64
 
 In this example, we used a lambda function to compute the range of sales for each store.
 
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Aggregating data using `groupby()`
+
+Let's now go back to our script for transforming the education dataset.
+
+The `df_subset` dataframe provides for each country and age, the share of instruction time spent on each of the 8 selected subjets.
+
+Now, we would like to compute the average share of instruction time of each selected subjects by country.
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+df_average = df_subset.groupby(["iso3", "subject", "subject_label", "year"])["value"].mean().reset_index()
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Handling missing values during aggregation
 
 When aggregating data, missing values (NaN) are typically ignored by default. However, if you need to change this behavior, you can control how pandas handles them using the `skipna` argument.

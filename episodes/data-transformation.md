@@ -353,6 +353,12 @@ If you no longer need a column, you can drop it:
 df.drop(columns=['column_name'], inplace=True)
 ```
 
+You can also select specific columns from a DataFrame by passing a list of column names to the DataFrame inside double square brackets.
+
+```python
+df = df[["col1", "col2"]]
+```
+
 ### Removing duplicates
 
 To remove duplicate rows, use the `drop_duplicates()` method, which removes all duplicate rows by default.

@@ -546,6 +546,48 @@ Name City
 - `city_map` is a dictionary where the keys are the city abbreviations and the values are the full city names.
 - `df['City'].map(city_map)`: This replaces the city abbreviations with the corresponding full city names from the city_map dictionary.
 
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Transforming the dataset for easier analysis
+
+We are still using the `education.csv` dataset in the materials for this episode (continuing on the script of the previous exercise).
+
+- Now, we would like to focus on a subset of education subjects, instead of using the full list (17 subjects). Write the lines of code to select only the 8 subjects listed below.
+  > You can use the `isin()` method in pandas is used to filter rows .
+- You may have noticed that the column for subjects labels in the raw data was filled with missing values. For a better readability, we will transform subject codes into labels, using the following mapping:
+  - `READ`: "Reading, writing and literature"
+  - `MATH`: "Mathematics"
+  - `NSCI`: "Natural sciences"
+  - `SSCI`: "Social sciences"
+  - `SLAN`: "Second language"
+  - `OLAN`: "Other languages"
+  - `PHED`: "Physical education and health"
+  - `ARTS`: "Arts"
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+# Selecting only the 8 main subjects
+df = df.loc[df['subject'].isin(["READ", "MATH", "NSCI", "SSCI", "SLAN", "OLAN", "PHED", "ARTS"])]
+
+# Adding labels
+df["subject_label"] = df["subject"].map({
+    "READ": "Readinf, writing and literature",
+    "MATH": "Mathematics",
+    "NSCI": "Natural sciences",
+    "SSCI": "Social sciences",
+    "SLAN": "Second language",
+    "OLAN": "Other languages",
+    "PHED": "Physical education and health",
+    "ARTS": "Arts"})
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Pivoting data
 
 Pivoting and melting are two important operations for reshaping data in pandas. They are used to transform a DataFrame from "long" format to "wide" format, and vice versa. These operations allow you to better organize your data depending on your analysis needs.

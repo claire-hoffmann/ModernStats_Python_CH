@@ -259,6 +259,63 @@ fig.savefig('plot.png')
 
 Matplotlib supports multiple formats, including PNG, PDF, SVG, and more. Use `fig.savefig('filename.format')`.
 
+::::::::::::::::::::::::::::::::::::::: challenge
+
+## Line plot
+
+Using the education dataset we worked on in the previous episode, create a figure with 2 subplots (bar plots), showing the share of Mathematics in the total instruction time of students aged 6 and 13 years old in all countries where data is available. 
+
+- Use the `education_subset.csv` file.
+- The X axis will show the country codes (`iso3` column).
+- The Y axis will show the share of Mathematics in the total instruction time  of students (`value` column).
+- The first subplot will show a bar chart for values at 6 year old students, the second  subplot will show values for 13 year old students
+- Add the axis labels and a title to each subplot.
+
+::::::::::::::: solution
+
+## Solution
+
+```python
+# Reading the data into a DataFrame
+df = pd.read_csv(r"education_subset.csv")
+
+# Selecting Mathematics
+df = df[df['subject_label']=='Mathematics']
+
+# Sorting values by country code, as it will appear on the graph
+df.sort_values(by=['iso3'], ascending=True, inplace=True)
+
+# Create 2 dataframes, one for 6 years old, one for 13 years old
+df6 = df[df['age']=='Y6']
+df13 = df[df['age']=='Y13']
+
+# Creating figure and axes
+fig, ax = plt.subplots(nrows=2, sharey=True, figsize=(10, 10))
+
+# Plotting the bars in each axes
+ax[0].bar(df6['iso3'], df6['value'])
+ax[1].bar(df13['iso3'], df13['value'])
+
+# Adding axis labels
+ax[0].set_ylabel('Share of Mathematics\nin total instruction time')
+
+# Rotate the country codes
+for ax_i in ax: 
+    ax_i.tick_params(axis='x', labelrotation = 45)
+    
+# Add a title to each axes
+ax[0].set_title('6 years old')
+ax[1].set_title('13 years old')
+
+plt.show()
+
+```
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 ## Quick and appealing plots with Seaborn
 
 Both Seaborn and Matplotlib are popular Python libraries for data visualization, but they serve different purposes:

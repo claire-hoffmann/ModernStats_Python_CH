@@ -127,6 +127,30 @@ Here:
 - The **columns** are `Name`, `Age`, and `City`.
 - Each column is a **Series**, so the `Name` column is a Series, the `Age` column is another Series, etc.
 
+::::::::::::::::::::::::::::::::::::::::: callout
+
+## Import methods
+
+In Python, libraries (or modules) can be imported into your code using the import statement. This allows you to access the functions, classes, and methods defined in that library. There are several ways to do it:
+
+1. Full import: `import pandas`
+
+- Use with `pandas.DataFrame()`, `pandas.Series()`, etc.
+
+2. Import with alias: `import pandas as pd`
+
+- Use with `pd.DataFrame()`, `pd.Series()`, etc.
+
+3. Import specific functions or classes: `from pandas import DataFrame`
+
+- Use directly as `DataFrame()`.
+
+4. Import multiple specific elements: `from pandas import DataFrame, Series`
+
+In general, we use the **option 2** for `pandas`.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Loading data
 
 ### Loading CSV data

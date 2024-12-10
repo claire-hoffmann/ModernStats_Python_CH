@@ -61,16 +61,14 @@ contact: 'team@carpentries.org'
 episodes: 
 - 01-introduction.md
 - 02-python_fundamentals.md
-- 03-data_transformation.md
-- 04-lists.md
-- 05-loops.md
-- 06-alternative_loops.md
-- 07-functions.md
-- 08-data_analysis.md
-- 09-visualizations.md
-- 10-errors_exceptions.md
-- data-transformation.md
-- data-visualisation.md
+- 03-lists_dictionaries.md
+- 04-data_transformation.md
+- 05-data_visualisation.md
+- 06-loops.md
+- 07-apis.md
+- 08-functions.md
+- 09-errors_exceptions.md
+
 
 
 # Information for Learners

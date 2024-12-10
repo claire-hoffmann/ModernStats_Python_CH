@@ -10,7 +10,16 @@
     <loc>https://UNECE.github.io/ModernStats_Python/03-data_transformation.html</loc>
   </url>
   <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/03-lists_dictionaries.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/04-data_transformation.html</loc>
+  </url>
+  <url>
     <loc>https://UNECE.github.io/ModernStats_Python/04-lists.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/05-data_visualisation.html</loc>
   </url>
   <url>
     <loc>https://UNECE.github.io/ModernStats_Python/05-loops.html</loc>
@@ -19,10 +28,22 @@
     <loc>https://UNECE.github.io/ModernStats_Python/06-alternative_loops.html</loc>
   </url>
   <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/06-loops.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/07-apis.html</loc>
+  </url>
+  <url>
     <loc>https://UNECE.github.io/ModernStats_Python/07-functions.html</loc>
   </url>
   <url>
     <loc>https://UNECE.github.io/ModernStats_Python/08-data_analysis.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/08-functions.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/09-errors_exceptions.html</loc>
   </url>
   <url>
     <loc>https://UNECE.github.io/ModernStats_Python/09-visualizations.html</loc>
@@ -67,7 +88,16 @@
     <loc>https://UNECE.github.io/ModernStats_Python/instructor/03-data_transformation.html</loc>
   </url>
   <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/instructor/03-lists_dictionaries.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/instructor/04-data_transformation.html</loc>
+  </url>
+  <url>
     <loc>https://UNECE.github.io/ModernStats_Python/instructor/04-lists.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/instructor/05-data_visualisation.html</loc>
   </url>
   <url>
     <loc>https://UNECE.github.io/ModernStats_Python/instructor/05-loops.html</loc>
@@ -76,10 +106,22 @@
     <loc>https://UNECE.github.io/ModernStats_Python/instructor/06-alternative_loops.html</loc>
   </url>
   <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/instructor/06-loops.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/instructor/07-apis.html</loc>
+  </url>
+  <url>
     <loc>https://UNECE.github.io/ModernStats_Python/instructor/07-functions.html</loc>
   </url>
   <url>
     <loc>https://UNECE.github.io/ModernStats_Python/instructor/08-data_analysis.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/instructor/08-functions.html</loc>
+  </url>
+  <url>
+    <loc>https://UNECE.github.io/ModernStats_Python/instructor/09-errors_exceptions.html</loc>
   </url>
   <url>
     <loc>https://UNECE.github.io/ModernStats_Python/instructor/09-visualizations.html</loc>

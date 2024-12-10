@@ -1,5 +1,5 @@
 ---
-title: Instructor Notes
+title: Instructors
 ---
 
 - Claire Hoffmann (CFE) claire.hoffmann@oecd.org

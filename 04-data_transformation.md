@@ -32,13 +32,13 @@ Python packages save time and effort by providing solutions to common programmin
 
 ### A Python package for data manipulations: `pandas`
 
-In this lesson, we will focus on using the **pandas** library in Python to perform common data wrangling tasks.
+In this lesson, we will focus on using the **`pandas`** library in Python to perform common data wrangling tasks.
 
-`pandas` is an open-source Python library for data manipulation and analysis. It provides data structures like **DataFrame** and **Series** that make it easy to handle and analyze data.
+`pandas` is an open-source Python library for data manipulation and analysis. It provides data structures like **`DataFrame`** and **`Series`** that make it easy to handle and analyze data.
 
 #### `Series`
 
-A Series is a one-dimensional labeled array, similar to a list. It can hold any data type, such as integers, strings, or even more complex data types.
+A `Series` is a one-dimensional labeled array, similar to a list. It can hold any data type, such as integers, strings, or even more complex data types.
 
 Key Features:
 
@@ -46,7 +46,7 @@ Key Features:
 - It has an index (labels) that you can use to access specific elements.
 - Each element in the Series has a label (index) and a value.
 
-Example of a Series:
+Example of a `Series`:
 
 ```python
 import pandas as pd
@@ -73,27 +73,27 @@ dtype: int64
 ```
 
 The index is 0, 1, 2, 3, 4, and the values are 10, 20, 30, 40, 50.
-pandas automatically creates an index for you (starting from 0), but you can also specify a custom index.
+`pandas` automatically creates an index for you (starting from 0), but you can also specify a custom index.
 
 #### `DataFrame`
 
-A DataFrame is a two-dimensional, table-like structure (similar to a spreadsheet or SQL table) that can hold multiple Series. It is the most commonly used pandas object.
+A `DataFrame` is a two-dimensional, table-like structure (similar to a spreadsheet or SQL table) that can hold multiple `Series`. It is the most commonly used `pandas` object.
 
-A DataFrame consists of:
+A `DataFrame` consists of:
 
-- Rows (with an index, just like a Series),
-- Columns (which are each Series).
+- Rows (with an index, just like a `Series`),
+- Columns (which are each `Series`).
 
-You can think of a DataFrame as a collection of Series that share the same index.
+You can think of a `DataFrame` as a collection of `Series` that share the same index.
 
 Key Features:
 
-- It’s two-dimensional (i.e., it has rows and columns).
-- Each column is a Series.
+- It’s two-dimensional.
+- Each column is a `Series`.
 - It has both row and column labels (indexes and column names).
 - It can hold multiple data types (integers, strings, floats, etc.).
 
-Example of a DataFrame:
+Example of a `DataFrame`:
 
 ```python
 import pandas as pd
@@ -121,17 +121,15 @@ Name Age City
 2 Charlie 35 Chicago
 ```
 
-Here:
-
 - The **rows** are indexed from 0, 1, 2 (default index).
 - The **columns** are `Name`, `Age`, and `City`.
-- Each column is a **Series**, so the `Name` column is a Series, the `Age` column is another Series, etc.
+- Each column is a **Series**, so the `Name` column is a `Series`, the `Age` column is another `Series`, etc.
 
 ::::::::::::::::::::::::::::::::::::::::: callout
 
 ## Import methods
 
-In Python, libraries (or modules) can be imported into your code using the import statement. This allows you to access the functions, classes, and methods defined in that library. There are several ways to do it:
+In Python, libraries (or modules) can be imported into your code using the `import` statement. This allows you to access the functions, classes, and methods defined in that library. There are several ways to do it:
 
 1. Full import: `import pandas`
 
@@ -141,7 +139,7 @@ In Python, libraries (or modules) can be imported into your code using the impor
 
 - Use with `pd.DataFrame()`, `pd.Series()`, etc.
 
-3. Import specific functions or classes: `from pandas import DataFrame`
+3. Import specific functions or classes: `from pandas import DataFrame` 
 
 - Use directly as `DataFrame()`.
 
@@ -155,46 +153,60 @@ In general, we use the **option 2** for `pandas`.
 
 ### Loading CSV data
 
-You can load a CSV file into a pandas DataFrame using the `read_csv()` function:
+You can load a CSV file into a `pandas` `DataFrame` using the `read_csv()` function:
 
 ```python
-df = pd.read_csv('path/to/file.csv')
+df = pd.read_csv('path\to\file.csv')
 print(df.head())
 ```
 
-- `read_csv()` reads the CSV file located at 'path/to/file.csv' and loads it into a pandas DataFrame (`df`).
+- `read_csv()` reads the CSV file located at `path\to\file.csv` and loads it into a `pandas` `DataFrame` (`df`).
 - By default, it assumes that the file has a header row (i.e., column names) in the first row.
 
 If the file does not have a header, you can use the `header=None` parameter to let pandas generate default column names.
 
 ```python
-df = pd.read_csv('path/to/file.csv', header=None)
+df = pd.read_csv('path\to\file.csv', header=None)
 ```
 
-You can pass arguments like `sep` if the file uses a different delimiter (e.g., tab-separated \t).
+You can pass arguments like `sep` if the file uses a different delimiter (e.g., tab-separated `\t`).
 
 ```python
-df = pd.read_csv('path/to/file.csv', sep=`t`)
+df = pd.read_csv('path\to\file.csv', sep=`t`)
 ```
+
+::::::::::::::::::::::::::::::::::::::::: callout
+
+## Raw string literal
+
+In Python, the `r` prefix before a string is used to create a raw string literal. This tells Python to treat the string exactly as it is, without interpreting backslashes (`\`) as escape characters.
+
+```python
+df = pd.read_csv(r'path\to\file.csv')
+```
+
+In regular strings, backslashes are used as escape characters. For example, `\n` represents a new line.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Loading Excel data
 
-Pandas provides the `read_excel()` function for reading Excel files.
+`pandas` provides the `read_excel()` function for reading Excel files.
 
 ```python
-df = pd.read_excel('path/to/file.xlsx')
+df = pd.read_excel('path\to\file.xlsx')
 ```
 
 You can specify the sheet name if the file contains multiple sheets. By default, it will load the first sheet.
 
 ```python
-df = pd.read_excel('data/sales_data.xlsx', sheet_name='Q1_2024')
+df = pd.read_excel('data\sales_data.xlsx', sheet_name='Q1_2024')
 ```
 
-You can also load multiple sheets into a dictionary of DataFrames using `sheet_name=None`.
+You can also load multiple sheets into a dictionary of `DataFrames` using `sheet_name=None`.
 
 ```python
-df = pd.read_excel('data/sales_data.xlsx', sheet_name=None)
+df = pd.read_excel('data\sales_data.xlsx', sheet_name=None)
 ```
 
 ### Other file formats
@@ -206,8 +218,6 @@ You can also load data from other formats like JSON, or SQL databases:
 
 ## Data exploration
 
-Once you've loaded your data, it's important to understand its structure and contents.
-
 ### Viewing the first few rows
 
 ```python
@@ -216,7 +226,7 @@ print(df.head())  # Shows the first 5 rows
 
 If you want to see more (or fewer) rows, you can pass a number to `head()`, such as `df.head(10)` to view the first 10 rows.
 
-Similarly, you can use the `tail()` method to view the last few rows of the DataFrame.
+Similarly, you can use the `tail()` method to view the last few rows of the `DataFrame`.
 
 ### Viewing the columns
 
@@ -240,13 +250,12 @@ df['column_name'].value_counts()
 
 The `value_counts()` method returns the count of unique values in the column, sorted in descending order. This is particularly useful for categorical data.
 
-### Checking for Missing Values
+### Checking for missing values
 
-The `isnull()` method returns a DataFrame of the same shape as `df`, where each element is a boolean (`True` for missing values and `False` for non-missing values).
+The `isnull()` method returns a `DataFrame` of the same shape as `df`, where each element is a boolean (`True` for missing values and `False` for non-missing values).
 
 ```python
 print(df.isnull())
-df.isnull().sum()
 ```
 
 To get the total number of missing values in each column, you can chain `sum()` to `isnull()`.
@@ -287,8 +296,8 @@ print(df.dtypes)
 
 Using the `education.csv` dataset in the materials for this episode, write the lines of code to:
 
-- Import pandas
-- Load the dataset into a pandas DataFrame
+- Import `pandas`
+- Load the dataset into a `pandas` `DataFrame`
 - Print the list of columns in this dataset
 - Print the unique values of the `REF_AREA` column
 
@@ -302,11 +311,24 @@ import pandas as pd
 df = pd.read_csv(r"education.csv")
 
 print(df.columns)
-print(df["AREA"].unique())
+print(df["REF_AREA"].unique())
 ```
 
 ```output
-TBA
+Index(['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'REF_AREA',
+       'Reference area', 'MEASURE', 'Measure', 'UNIT_MEASURE',
+       'Unit of measure', 'INST_TYPE_EDU', 'Type of educational institution',
+       'EDUCATION_LEV', 'Education level', 'AGE', 'Age', 'SUBJ_TYPE',
+       'Subject', 'OBS_VALUE', 'Observation value', 'OBS_STATUS',
+       'Observation status', 'UNIT_MULT', 'Unit multiplier',
+       'STATISTICAL_OPERATION', 'Statistical operation', 'REF_PERIOD',
+       'Reference period', 'DECIMALS', 'Decimals'],
+      dtype='object')
+['BFR' 'CHN' 'ESP' 'ISL' 'MEX' 'CHE' 'DEU' 'LTU' 'SAU' 'AUS' 'CAN' 'NLD'
+ 'CHL' 'FRA' 'KOR' 'GRC' 'LUX' 'ROU' 'FIN' 'IND' 'IRL' 'ISR' 'CZE' 'SVK'
+ 'TUR' 'USA' 'SVN' 'BGR' 'SWE' 'ZAF' 'UKM' 'NZL' 'OECD' 'BFL' 'IDN' 'NOR'
+ 'DNK' 'HRV' 'HUN' 'ARG' 'CRI' 'EST' 'COL' 'PER' 'POL' 'PRT' 'UKB' 'ITA'
+ 'BRA' 'JPN' 'LVA' 'EU25' 'G20' 'AUT']
 ```
 
 :::::::::::::::::::::::::
@@ -325,21 +347,21 @@ df.rename(columns={'old_name': 'new_name'}, inplace=True)
 
 ::::::::::::::::::::::::::::::::::::::::: callout
 
-The `inplace=True` parameter means that we are modifying the original DataFrame `df` directly.
+The `inplace=True` parameter means that we are modifying the original `DataFrame` `df` directly.
 
-By default, `inplace=False`, which means the following line won´t rename the `old_name` column:
+By default, `inplace=False`, which means the following line won't rename the `old_name` column:
 
 ```python
 df.rename(columns={'old_name': 'new_name'})
 ```
 
-An alternative is to create a new DataFrame with the renamed columns and assign it back to `df`:
+An alternative is to create a new `DataFrame` with the renamed columns and assign it back to `df`:
 
 ```python
 df = df.rename(columns={'old_name': 'new_name'})
 ```
 
-The `inplace` parameter is present in many other pandas methods.
+The `inplace` parameter is present in many other `pandas` methods.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -351,7 +373,7 @@ If you no longer need a column, you can drop it:
 df.drop(columns=['column_name'], inplace=True)
 ```
 
-You can also select specific columns from a DataFrame by passing a list of column names to the DataFrame inside double square brackets.
+You can also select specific columns from a `DataFrame` by passing a list of column names to the `DataFrame` inside double brackets.
 
 ```python
 df = df[["col1", "col2"]]
@@ -371,11 +393,11 @@ You can also specify which columns to check for duplicates by passing a subset t
 df_cleaned = df.drop_duplicates(subset=['A'])
 ```
 
-This will remove duplicates based only on column 'A'.
+This will remove duplicates based only on column `A`.
 
 ### Handling missing data
 
-Missing data is common in real-world datasets. You can handle it in various ways:
+You can handle missing data it in various ways:
 
 - Dropping rows with missing values:
 
@@ -388,6 +410,16 @@ df.dropna(inplace=True)
 ```python
 df.fillna(0, inplace=True)  # Fill missing values with 0
 ```
+
+::::::::::::::::::::::::::::::::::::::::: callout
+
+Some methods, such as `fillna()` can be applied both on `Series` and `DataFrame` objects.
+
+```python
+df['A'] = df['A'].fillna(0) # Fill missing values in column 'A' with 0
+```
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::: challenge
 
@@ -428,7 +460,7 @@ df.dropna(inplace=True)
 
 ### Filtering rows
 
-You can filter rows based on certain conditions. For example, to filter for rows where the column age is greater than 30:
+You can filter rows based on certain conditions. For example, to filter for rows where the column `age` is greater than 30:
 
 ```python
 df_filtered = df[df['age'] > 30]
@@ -442,8 +474,8 @@ df_filtered = df.loc[df['age'] > 30]
 
 ### Replacing values based on condition
 
-`loc` can also be used to replace values in a DataFrame based on conditions.
-Let's assume we have the following DataFrame, and we want to update certain values based on specific conditions.
+`loc` can also be used to replace values in a `DataFrame` based on conditions.
+Let's assume we have the following `DataFrame`, and we want to update certain values based on specific conditions.
 
 ```python
 data = {
@@ -466,7 +498,7 @@ Original DataFrame:
 3    David   40  San Francisco
 ```
 
-Suppose we want to replace the City for anyone over the age of 30 with Seattle.
+Suppose we want to replace the city for anyone over the age of 30 with Seattle.
 
 ```python
 # Replace 'City' with 'Seattle' where 'Age' is greater than 30
@@ -485,15 +517,14 @@ Updated DataFrame:
 3    David   40   Seattle
 ```
 
-- `df['Age'] > 30`: This is the condition used to filter rows where the Age is greater than 30.
-- `df.loc[df['Age'] > 30, 'City']`: This selects the City column for those rows where the condition is true.
-- `= 'Seattle'`: This replaces the value in the City column with 'Seattle' for those rows.
+- `df['Age'] > 30`: This is the condition used to filter rows where the `Age` is greater than 30.
+- `df.loc[df['Age'] > 30, 'City']`: This selects the `City` column for those rows where the condition is true.
+- `= 'Seattle'`: This replaces the value in the `City` column with 'Seattle' for those rows.
 
-In the above example, the cities for Charlie and David were changed to Seattle because their ages are greater than 30.
 
 ### Sorting data
 
-To sort your DataFrame by a specific column:
+To sort your `DataFrame` by a specific column:
 
 ```python
 df_sorted = df.sort_values(by='column_name', ascending=False)
@@ -509,7 +540,7 @@ df['new_column'] = df['column1'] + df['column2']
 
 ### Replace values using `map`
 
-The `map()` function in pandas allows you to apply a mapping or a function to each element in the Series. You can use `map()` with a dictionary to replace values in a Series according to the mapping provided.
+The `map()` method in `pandas` allows you to apply a mapping or a function to each element in the `Series`. You can use `map()` with a dictionary to replace values in a `Series` according to the mapping provided.
 
 ```python
 data = {
@@ -544,16 +575,18 @@ Name City
 ```
 
 - `city_map` is a dictionary where the keys are the city abbreviations and the values are the full city names.
-- `df['City'].map(city_map)`: This replaces the city abbreviations with the corresponding full city names from the city_map dictionary.
+- `df['City'].map(city_map)`: This replaces the city abbreviations with the corresponding full city names from the `city_map` dictionary.
 
 ::::::::::::::::::::::::::::::::::::::: challenge
 
-## Transforming the dataset for easier analysis
+## Selection and mapping
 
 We are still using the `education.csv` dataset in the materials for this episode (continuing on the script of the previous exercise).
 
 - Now, we would like to focus on a subset of education subjects, instead of using the full list (17 subjects). Write the lines of code to select only the 8 subjects listed below.
-  > You can use the `isin()` method in pandas is used to filter rows .
+
+> You can use the `isin()` method in pandas is used to filter rows .
+
 - You may have noticed that the column for subjects labels in the raw data was filled with missing values. For a better readability, we will transform subject codes into labels, using the following mapping:
   - `READ`: "Reading, writing and literature"
   - `MATH`: "Mathematics"
@@ -590,19 +623,12 @@ df_subset["subject_label"] = df_subset["subject"].map({
 
 ### Pivoting data
 
-Pivoting and melting are two important operations for reshaping data in pandas. They are used to transform a DataFrame from "long" format to "wide" format, and vice versa. These operations allow you to better organize your data depending on your analysis needs.
+Pivoting and melting are two important operations for reshaping data in `pandas`. They are used to transform a `DataFrame` from "long" format to "wide" format, and vice versa.
 
 #### Pivot
 
-The `pivot()` method reshapes the data by turning unique values from one column into new columns. It's useful when you want to convert a "long" format DataFrame (where each row represents a single observation) into a "wide" format (where each unique value becomes a column).
+The `pivot()` method reshapes the data by turning unique values from one column into new columns. It's useful when you want to convert a "long" format `DataFrame` (where each row represents a single observation) into a "wide" format (where each unique value becomes a column).
 
-```python
-DataFrame.pivot(index=None, columns=None, values=None)
-```
-
-- `index`: Column to use as the new index of the DataFrame.
-- `columns`: Column to use as the new columns.
-- `values`: Column to use for populating the new DataFrame. If not specified, all remaining columns are used.
 
 ```python
 data = {
@@ -632,15 +658,6 @@ Date
 #### Melt
 
 The `melt()` function is the opposite of `pivot()`. It transforms a DataFrame from wide format to long format.
-
-```python
-DataFrame.melt(id_vars=None, value_vars=None, var_name=None, value_name='value')
-```
-
-- `id_vars`: Columns that should remain in the "long" format (i.e., columns that will not be unpivoted).
-- `value_vars`: Columns to unpivot. If not specified, all columns not in id_vars will be unpivoted.
-- `var_name`: Name for the new column that will hold the variable names (the original column names).
-- `value_name`: Name for the new column that will hold the values.
 
 ```python
 data = {
@@ -702,28 +719,27 @@ pivot_df = df.pivot(index='Product', columns='Month', values='Sales')
 
 ## Merging and joining data
 
-### Merging dataFrames
+### Merging `DataFrames`
 
-The `merge()` function in pandas is used to combine two DataFrames based on one or more common columns. It's similar to SQL joins and can be used for various purposes such as combining datasets or performing lookups.
+The `merge()` function in `pandas` is used to combine two `DataFrames` based on one or more common columns. It's similar to SQL joins.
 
-The basic syntax for merging two DataFrames is:
+The basic syntax for merging two `DataFrames` is:
 
 ```python
-pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None, left_index=False, right_index=False)
+pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None)
 ```
 
-- `left`: The first DataFrame.
-- `right`: The second DataFrame.
+- `left`: The first `DataFrame`.
+- `right`: The second `DataFrame`.
 - `how`: The type of merge to perform. Options include:
-  - `left`: Use only keys from the left DataFrame (like a left join in SQL).
-  - `right`: Use only keys from the right DataFrame (like a right join in SQL).
-  - `outer`: Use keys from both DataFrames, filling in missing values with `NaN` (like a full outer join in SQL).
+  - `left`: Use only keys from the left `DataFrame` (like a left join in SQL).
+  - `right`: Use only keys from the right `DataFrame` (like a right join in SQL).
+  - `outer`: Use keys from both `DataFrames`, filling in missing values with `NaN` (like a full outer join in SQL).
   - `inner`: Use only the common keys (like an inner join in SQL, default option).
-- `on`: The column or index level names to join on. If not specified, it will join on columns with the same name in both DataFrames.
-- `left_on` and `right_on`: Specify columns from left and right DataFrames to merge on if the column names are different.
-- `left_index` and `right_index`: If `True`, it uses the index of the DataFrames for merging instead of columns.
+- `on`: The column or index level names to join on. If not specified, it will join on columns with the same name in both `DataFrames`.
+- `left_on` and `right_on`: Specify columns from left and right `DataFrames` to merge on if the column names are different.
 
-In the following example, we merge DataFrames on multiple columns by passing a list to the on parameter.
+In the following example, we merge `DataFrames` on multiple columns by passing a list to the `on` parameter.
 
 ```python
 df1 = pd.DataFrame({
@@ -749,29 +765,29 @@ print(merged_df)
 1   Anna   LA   25   60000
 ```
 
-### Concatenating dataFrames
+### Concatenating `DataFrames`
 
-In addition to merging DataFrames, pandas provides the `concat()` function, which is useful for combining DataFrames along a particular axis (either rows or columns). While `merge()` is typically used for combining DataFrames based on a shared key or index, `concat()` is more straightforward and is generally used when you want to append or stack DataFrames together.
+In addition to merging `DataFrames`, `pandas` provides the `concat()` function, which is useful for combining `DataFrames` along a particular axis (either rows or columns). While `merge()` is typically used for combining `DataFrames` based on a shared key or index, `concat()` is more straightforward and is generally used when you want to append or stack `DataFrames` together.
 
-The basic syntax for concat() is:
+The basic syntax for `concat()` is:
 
 ```python
 pd.concat([df1, df2], axis=0, ignore_index=False, join='outer')
 ```
 
-- `[df1, df2]`: A list of DataFrames to concatenate.
+- `[df1, df2]`: A list of `DataFrames` to concatenate.
 - `axis`: The axis along which to concatenate:
-  - `axis=0`: Concatenate along rows (default behavior). This stacks DataFrames on top of each other.
-  - `axis=1`: Concatenate along columns, aligning DataFrames side-by-side.
-- `ignore_index`: If `True`, the index will be reset (i.e., it will generate a new index). If `False`, the original indices of the DataFrames are preserved.
-- `join`: Determines how to handle indices (or columns when axis=1):
+  - `axis=0`: Concatenate along rows (default behavior). This stacks `DataFrames` on top of each other.
+  - `axis=1`: Concatenate along columns, aligning `DataFrames` side-by-side.
+- `ignore_index`: If `True`, the index will be reset (i.e., it will generate a new index). If `False`, the original indices of the `DataFrames` are preserved.
+- `join`: Determines how to handle indices (or columns when `axis=1`):
 
-  - `outer`: Takes the union of the indices (or columns) from both DataFrames (default).
+  - `outer`: Takes the union of the indices (or columns) from both `DataFrames` (default).
   - `inner`: Takes the intersection of the indices (or columns), excluding any non-overlapping indices (or columns).
 
-  When concatenating along rows (which is the default behavior), the DataFrames are stacked on top of each other, and the rows are added to the end of the previous DataFrame. This is commonly used to combine datasets with the same structure but with different data.
+ When concatenating along rows (which is the default behavior), the `DataFrames` are stacked on top of each other, and the rows are added to the end of the previous `DataFrame`. This is commonly used to combine datasets with the same structure but with different data.
 
-Here is an example for concatenating DataFrames with the same columns:
+Here is an example for concatenating `DataFrames` with the same columns:
 
 ```python
 df1 = pd.DataFrame({
@@ -806,9 +822,9 @@ In this case:
 
 ::::::::::::::::::::::::::::::::::::::: challenge
 
-## Merge method
+## Merging datasets
 
-We are given two datasets: one containing employee details and the other containing their department information. We want to merge these two datasets on the common column `Employee_ID` to create a single DataFrame that contains employee details along with their department names, while making sure we won´t drop any observation.
+We are given two datasets: one containing employee details and the other containing their department information. We want to merge these two datasets on the common column `Employee_ID` to create a single `DataFrame` that contains employee details with their department names, while making sure we won't drop any observation.
 
 ```python
 import pandas as pd
@@ -864,7 +880,7 @@ df_grouped = df.groupby('column_name').agg({'numeric_column': 'mean'})
 
 #### Basic Grouping
 
-Let's assume we have a dataset of sales data that includes the following columns: store, product, and sales.
+Let's assume we have a dataset of sales data that includes the following columns: `store`, `product`, and `sales`.
 
 ```python
 import pandas as pd
@@ -922,7 +938,7 @@ This shows the total `sales` for each combination of `store` and `product`.
 
 Once you've grouped the data, you can apply different aggregation functions. The most common ones include `sum()`, `mean()`, `min()`, `max()`, and `count()`. These can be used to summarize the data in various ways.
 
-#### Calculating the Mean
+#### Calculating the mean
 
 To calculate the average sales per store, you can use the `mean()` function:
 
@@ -941,7 +957,7 @@ C 55.000000
 Name: sales, dtype: float64
 ```
 
-#### Calculating the Count
+#### Calculating the count
 
 You can also count how many rows there are in each group. This is useful when you want to know how many entries exist for each group:
 
@@ -979,17 +995,15 @@ C 10
 Name: sales, dtype: int64
 ```
 
-In this example, we used a lambda function to compute the range of sales for each store.
-
 ::::::::::::::::::::::::::::::::::::::: challenge
 
 ## Aggregating data using `groupby()`
 
 Let's now go back to our script for transforming the education dataset.
 
-The `df_subset` dataframe provides for each country and age, the share of instruction time spent on each of the 8 selected subjets.
+The `df_subset` `DataFrame` provides for each country and age, the share of instruction time spent on each of the 8 selected subjets.
 
-Now, we would like to compute the average share of instruction time of each selected subjects by country.
+Now, we would like to compute the average share of instruction time of each selected subject and country.
 
 ::::::::::::::: solution
 
@@ -1005,7 +1019,7 @@ df_average = df_subset.groupby(["iso3", "subject", "subject_label", "year"])["va
 
 ### Handling missing values during aggregation
 
-When aggregating data, missing values (NaN) are typically ignored by default. However, if you need to change this behavior, you can control how pandas handles them using the `skipna` argument.
+When aggregating data, missing values (`NaN`) are typically ignored by default. However, if you need to change this behavior, you can control how `pandas` handles them using the `skipna` argument.
 
 For example, if you want to include missing values in your aggregation, you can do the following:
 
@@ -1033,13 +1047,13 @@ C      NaN
 Name: sales, dtype: float64
 ```
 
-Notice that the sum for store C is NaN because the `df` dataframe contains a missing value.
+Notice that the sum for store C is `NaN` because the `df` `DataFrame` contains a missing value.
 
 ### Aggregating while preserving the data structure
 
-The `transform()` function in pandas allows you to perform transformations on a group of data while preserving the original structure. Unlike aggregation (which reduces data), `transform()` returns a `DataFrame` or `Series` with the same index as the original.
+The `transform()` function in `pandas` allows you to perform transformations on a group of data while preserving the original structure. Unlike aggregation (which reduces data), `transform()` returns a `DataFrame` or `Series` with the same index as the original.
 
-If you want to rank the sales data within each store, you can use the `rank()` function inside transform():
+If you want to rank the sales data within each store, you can use the `rank()` function inside `transform()`:
 
 ```python
 # Rank the sales within each store
@@ -1073,7 +1087,7 @@ df.to_csv('cleaned_data.csv', index=False)
 
 > `index=False` prevents the row index from being saved in the file.
 
-You can also specify other options like separator (sep), columns to export, or if you want to handle missing values with the na_rep parameter.
+You can also specify other options like separator (`sep`):
 
 ```python
 df.to_csv('output_data.tsv', sep='\t', index=False)
@@ -1087,19 +1101,21 @@ df.to_excel('cleaned_data.xlsx', index=False)
 
 You can also specify which sheet name to use with the `sheet_name` parameter:
 
-```Python
+```python
 df.to_excel('output_data.xlsx', sheet_name='Sheet1', index=False)
 ```
 
-If you're dealing with multiple DataFrames and need to save them in different sheets of the same Excel file, you can use an ExcelWriter:
+If you're dealing with multiple `DataFrames` and need to save them in different sheets of the same Excel file, you can use `ExcelWriter`:
 
-```Python
+```python
 with pd.ExcelWriter('output_data.xlsx') as writer:
     df.to_excel(writer, sheet_name='Sheet1', index=False)
     df.to_excel(writer, sheet_name='Sheet2', index=False)
 ```
 
 ### Other supported export formats
+
+Other supported export formats include:
 
 | Format      | Method                   | Example Usage                           |
 | ----------- | ------------------------ | --------------------------------------- |

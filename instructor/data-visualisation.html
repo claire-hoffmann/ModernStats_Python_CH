@@ -383,7 +383,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Visualizations</h1>
-        <p>Last updated on 2024-12-09 |
+        <p>Last updated on 2024-12-10 |
 
         <a href="https://github.com/UNECE/ModernStats_Python/edit/main/episodes/data-visualisation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -564,7 +564,7 @@ instruction time of students.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -742,7 +742,7 @@ students</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb13">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -886,6 +886,120 @@ additional features like color and size based on other variables.</p>
 <span id="cb17-3"><a href="#cb17-3" tabindex="-1"></a>ax.set_title(<span class="st">"Total Bill vs Size of Party"</span>)</span>
 <span id="cb17-4"><a href="#cb17-4" tabindex="-1"></a>plt.show()</span></code></pre>
 </div>
+<div id="line-plot-2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="line-plot-2" class="callout-inner">
+<h3 class="callout-title">Line plot</h3>
+<div class="callout-content">
+<p>Using the education dataset we worked on in the previous episode,
+create a lineplot, showing the share of each subject in the total
+instruction time of students aged 6 and 13 years old in Austria.</p>
+<ul><li>Use the <code>education_subset.csv</code> file.</li>
+<li>The X axis will show the students’ age (<code>age</code>
+column).</li>
+<li>The Y axis will show the share of each subject in the total
+instruction time of students (<code>value</code> column).</li>
+<li>The color of the lines will indicate the subject
+(<code>subject_label</code> column).</li>
+</ul></div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div class="accordion-body">
+<div class="codewrapper sourceCode" id="cb18">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="co"># Reading the data into a DataFrame</span></span>
+<span id="cb18-2"><a href="#cb18-2" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="vs">r"education_subset.csv"</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" tabindex="-1"></a><span class="co"># Selecting Austria</span></span>
+<span id="cb18-5"><a href="#cb18-5" tabindex="-1"></a>df <span class="op">=</span> df[df[<span class="st">'iso3'</span>]<span class="op">==</span><span class="st">'AUT'</span>]</span>
+<span id="cb18-6"><a href="#cb18-6" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" tabindex="-1"></a><span class="co"># Changing the type of the age column to integer</span></span>
+<span id="cb18-8"><a href="#cb18-8" tabindex="-1"></a>df[<span class="st">'age'</span>] <span class="op">=</span> df[<span class="st">'age'</span>].<span class="bu">str</span>.replace(<span class="st">'Y'</span>, <span class="st">''</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb18-9"><a href="#cb18-9" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" tabindex="-1"></a><span class="co"># Creating figure and axes</span></span>
+<span id="cb18-11"><a href="#cb18-11" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb18-12"><a href="#cb18-12" tabindex="-1"></a></span>
+<span id="cb18-13"><a href="#cb18-13" tabindex="-1"></a><span class="co"># Plot the lines</span></span>
+<span id="cb18-14"><a href="#cb18-14" tabindex="-1"></a>sns.lineplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">'age'</span>, y<span class="op">=</span><span class="st">'value'</span>, hue<span class="op">=</span><span class="st">'subject_label'</span>, ax<span class="op">=</span>ax)</span>
+<span id="cb18-15"><a href="#cb18-15" tabindex="-1"></a></span>
+<span id="cb18-16"><a href="#cb18-16" tabindex="-1"></a><span class="co"># Adding axis labels and title</span></span>
+<span id="cb18-17"><a href="#cb18-17" tabindex="-1"></a>ax.set_title(<span class="st">'Austria'</span>)</span>
+<span id="cb18-18"><a href="#cb18-18" tabindex="-1"></a>ax.set_xlabel(<span class="st">'Students age'</span>)</span>
+<span id="cb18-19"><a href="#cb18-19" tabindex="-1"></a>ax.set_ylabel(<span class="st">'Share of Mathematics in total instruction time'</span>)</span>
+<span id="cb18-20"><a href="#cb18-20" tabindex="-1"></a></span>
+<span id="cb18-21"><a href="#cb18-21" tabindex="-1"></a><span class="co"># Change the default legend title</span></span>
+<span id="cb18-22"><a href="#cb18-22" tabindex="-1"></a>ax.legend(title<span class="op">=</span><span class="st">'Subject'</span>)</span>
+<span id="cb18-23"><a href="#cb18-23" tabindex="-1"></a></span>
+<span id="cb18-24"><a href="#cb18-24" tabindex="-1"></a>plt.show()</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="line-plot-with-a-loop" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="line-plot-with-a-loop" class="callout-inner">
+<h3 class="callout-title">Line plot with a loop</h3>
+<div class="callout-content">
+<p>Now let’s do the same as before, but now we want one graph for each
+country where data is available.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
+  <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
+</button>
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div class="accordion-body">
+<div class="codewrapper sourceCode" id="cb19">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="co"># Reading the data into a DataFrame</span></span>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="vs">r"education_subset.csv"</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a><span class="co"># Changing the type of the age column to integer</span></span>
+<span id="cb19-5"><a href="#cb19-5" tabindex="-1"></a>df[<span class="st">'age'</span>] <span class="op">=</span> df[<span class="st">'age'</span>].<span class="bu">str</span>.replace(<span class="st">'Y'</span>, <span class="st">''</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb19-6"><a href="#cb19-6" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" tabindex="-1"></a><span class="cf">for</span> iso3 <span class="kw">in</span> df.iso3.unique(): <span class="co"># For loop over the iso3 codes</span></span>
+<span id="cb19-9"><a href="#cb19-9" tabindex="-1"></a></span>
+<span id="cb19-10"><a href="#cb19-10" tabindex="-1"></a>    <span class="co"># Select the country</span></span>
+<span id="cb19-11"><a href="#cb19-11" tabindex="-1"></a>    df_iso <span class="op">=</span> df[df[<span class="st">'iso3'</span>]<span class="op">==</span>iso3]    </span>
+<span id="cb19-12"><a href="#cb19-12" tabindex="-1"></a></span>
+<span id="cb19-13"><a href="#cb19-13" tabindex="-1"></a>    <span class="co"># Creating figure and axes</span></span>
+<span id="cb19-14"><a href="#cb19-14" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb19-15"><a href="#cb19-15" tabindex="-1"></a>    </span>
+<span id="cb19-16"><a href="#cb19-16" tabindex="-1"></a>    <span class="co"># Plot the lines</span></span>
+<span id="cb19-17"><a href="#cb19-17" tabindex="-1"></a>    sns.lineplot(data<span class="op">=</span>df_iso, x<span class="op">=</span><span class="st">'age'</span>, y<span class="op">=</span><span class="st">'value'</span>, hue<span class="op">=</span><span class="st">'subject_label'</span>, ax<span class="op">=</span>ax)</span>
+<span id="cb19-18"><a href="#cb19-18" tabindex="-1"></a>    </span>
+<span id="cb19-19"><a href="#cb19-19" tabindex="-1"></a>    <span class="co"># Adding axis labels and title</span></span>
+<span id="cb19-20"><a href="#cb19-20" tabindex="-1"></a>    ax.set_title(<span class="ss">f'</span><span class="sc">{</span>iso3<span class="sc">}</span><span class="ss">'</span>) <span class="co"># Using a f-string for using the iso3 variable in the string</span></span>
+<span id="cb19-21"><a href="#cb19-21" tabindex="-1"></a>    ax.set_xlabel(<span class="st">'Students age'</span>)</span>
+<span id="cb19-22"><a href="#cb19-22" tabindex="-1"></a>    ax.set_ylabel(<span class="st">'Share of Mathematics in total instruction time'</span>)</span>
+<span id="cb19-23"><a href="#cb19-23" tabindex="-1"></a>    </span>
+<span id="cb19-24"><a href="#cb19-24" tabindex="-1"></a>    <span class="co"># Change the default legend title</span></span>
+<span id="cb19-25"><a href="#cb19-25" tabindex="-1"></a>    ax.legend(title<span class="op">=</span><span class="st">'Subject'</span>)</span>
+<span id="cb19-26"><a href="#cb19-26" tabindex="-1"></a>    </span>
+<span id="cb19-27"><a href="#cb19-27" tabindex="-1"></a>    <span class="co"># Saving the plot</span></span>
+<span id="cb19-28"><a href="#cb19-28" tabindex="-1"></a>    fig.savefig(<span class="ss">f'</span><span class="sc">{</span>iso3<span class="sc">}</span><span class="ss">.png'</span>)</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="section level3">
 <h3 id="customizing-seaborn-plots">Customizing Seaborn plots<a class="anchor" aria-label="anchor" href="#customizing-seaborn-plots"></a></h3>
@@ -893,17 +1007,17 @@ additional features like color and size based on other variables.</p>
 default themes, but you can still customize the appearance of plots
 using Matplotlib functions. For example, you can set the plot’s title,
 labels, or customize the grid.</p>
-<div class="codewrapper sourceCode" id="cb18">
+<div class="codewrapper sourceCode" id="cb20">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="co"># Customizing plot appearance</span></span>
-<span id="cb18-2"><a href="#cb18-2" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
-<span id="cb18-3"><a href="#cb18-3" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">"day"</span>, y<span class="op">=</span><span class="st">"total_bill"</span>, data<span class="op">=</span>data, ax<span class="op">=</span>ax)</span>
-<span id="cb18-4"><a href="#cb18-4" tabindex="-1"></a>ax.set_title(<span class="st">"Total Bill by Day"</span>)</span>
-<span id="cb18-5"><a href="#cb18-5" tabindex="-1"></a>ax.set_xlabel(<span class="st">"Day of the Week"</span>)</span>
-<span id="cb18-6"><a href="#cb18-6" tabindex="-1"></a>ax.set_ylabel(<span class="st">"Total Bill ($)"</span>)</span>
-<span id="cb18-7"><a href="#cb18-7" tabindex="-1"></a>ax.grid(<span class="va">True</span>)  <span class="co"># Add gridlines</span></span>
-<span id="cb18-8"><a href="#cb18-8" tabindex="-1"></a>plt.show()</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="co"># Customizing plot appearance</span></span>
+<span id="cb20-2"><a href="#cb20-2" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb20-3"><a href="#cb20-3" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">"day"</span>, y<span class="op">=</span><span class="st">"total_bill"</span>, data<span class="op">=</span>data, ax<span class="op">=</span>ax)</span>
+<span id="cb20-4"><a href="#cb20-4" tabindex="-1"></a>ax.set_title(<span class="st">"Total Bill by Day"</span>)</span>
+<span id="cb20-5"><a href="#cb20-5" tabindex="-1"></a>ax.set_xlabel(<span class="st">"Day of the Week"</span>)</span>
+<span id="cb20-6"><a href="#cb20-6" tabindex="-1"></a>ax.set_ylabel(<span class="st">"Total Bill ($)"</span>)</span>
+<span id="cb20-7"><a href="#cb20-7" tabindex="-1"></a>ax.grid(<span class="va">True</span>)  <span class="co"># Add gridlines</span></span>
+<span id="cb20-8"><a href="#cb20-8" tabindex="-1"></a>plt.show()</span></code></pre>
 </div>
 </div>
 </section><section><h2 class="section-heading" id="interactive-plots-with-plotly">Interactive plots with Plotly<a class="anchor" aria-label="anchor" href="#interactive-plots-with-plotly"></a></h2>
@@ -924,10 +1038,10 @@ high-quality, aesthetically appealing plots.</li>
 <a class="anchor" aria-label="anchor" href="#importing-plotly"></a></h3>
 <p>Plotly’s most commonly used module for creating visualizations is
 plotly.express. Here’s how to import it:</p>
-<div class="codewrapper sourceCode" id="cb19">
+<div class="codewrapper sourceCode" id="cb21">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span></code></pre>
 </div>
 <p><code>plotly.graph_objects</code> is another module in Plotly that
 provides more flexibility for creating complex visualizations. However,
@@ -937,23 +1051,23 @@ for most common plots.</p>
 <div class="section level3">
 <h3 id="creating-simple-plots-with-plotly-express">Creating Simple Plots with Plotly Express<a class="anchor" aria-label="anchor" href="#creating-simple-plots-with-plotly-express"></a></h3>
 <div class="section level4">
-<h4 id="line-plot-2">Line Plot<a class="anchor" aria-label="anchor" href="#line-plot-2"></a></h4>
-<div class="codewrapper sourceCode" id="cb20">
+<h4 id="line-plot-3">Line Plot<a class="anchor" aria-label="anchor" href="#line-plot-3"></a></h4>
+<div class="codewrapper sourceCode" id="cb22">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb20-2"><a href="#cb20-2" tabindex="-1"></a></span>
-<span id="cb20-3"><a href="#cb20-3" tabindex="-1"></a><span class="co"># Sample data</span></span>
-<span id="cb20-4"><a href="#cb20-4" tabindex="-1"></a></span>
-<span id="cb20-5"><a href="#cb20-5" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({</span>
-<span id="cb20-6"><a href="#cb20-6" tabindex="-1"></a><span class="st">"Date"</span>: pd.date_range(start<span class="op">=</span><span class="st">"2024-01-01"</span>, periods<span class="op">=</span><span class="dv">10</span>, freq<span class="op">=</span><span class="st">"D"</span>),</span>
-<span id="cb20-7"><a href="#cb20-7" tabindex="-1"></a><span class="st">"Value"</span>: [<span class="dv">10</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">18</span>, <span class="dv">19</span>, <span class="dv">20</span>, <span class="dv">21</span>, <span class="dv">22</span>]</span>
-<span id="cb20-8"><a href="#cb20-8" tabindex="-1"></a>})</span>
-<span id="cb20-9"><a href="#cb20-9" tabindex="-1"></a></span>
-<span id="cb20-10"><a href="#cb20-10" tabindex="-1"></a><span class="co"># Create a line plot</span></span>
-<span id="cb20-11"><a href="#cb20-11" tabindex="-1"></a></span>
-<span id="cb20-12"><a href="#cb20-12" tabindex="-1"></a>fig <span class="op">=</span> px.line(data, x<span class="op">=</span><span class="st">"Date"</span>, y<span class="op">=</span><span class="st">"Value"</span>, title<span class="op">=</span><span class="st">"Simple Line Plot"</span>)</span>
-<span id="cb20-13"><a href="#cb20-13" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb22-2"><a href="#cb22-2" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" tabindex="-1"></a><span class="co"># Sample data</span></span>
+<span id="cb22-4"><a href="#cb22-4" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb22-6"><a href="#cb22-6" tabindex="-1"></a><span class="st">"Date"</span>: pd.date_range(start<span class="op">=</span><span class="st">"2024-01-01"</span>, periods<span class="op">=</span><span class="dv">10</span>, freq<span class="op">=</span><span class="st">"D"</span>),</span>
+<span id="cb22-7"><a href="#cb22-7" tabindex="-1"></a><span class="st">"Value"</span>: [<span class="dv">10</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">18</span>, <span class="dv">19</span>, <span class="dv">20</span>, <span class="dv">21</span>, <span class="dv">22</span>]</span>
+<span id="cb22-8"><a href="#cb22-8" tabindex="-1"></a>})</span>
+<span id="cb22-9"><a href="#cb22-9" tabindex="-1"></a></span>
+<span id="cb22-10"><a href="#cb22-10" tabindex="-1"></a><span class="co"># Create a line plot</span></span>
+<span id="cb22-11"><a href="#cb22-11" tabindex="-1"></a></span>
+<span id="cb22-12"><a href="#cb22-12" tabindex="-1"></a>fig <span class="op">=</span> px.line(data, x<span class="op">=</span><span class="st">"Date"</span>, y<span class="op">=</span><span class="st">"Value"</span>, title<span class="op">=</span><span class="st">"Simple Line Plot"</span>)</span>
+<span id="cb22-13"><a href="#cb22-13" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
 </div>
 <p>In this code:</p>
 <ul><li>
@@ -964,54 +1078,54 @@ for most common plots.</p>
 </ul></div>
 <div class="section level4">
 <h4 id="scatter-plot">Scatter Plot<a class="anchor" aria-label="anchor" href="#scatter-plot"></a></h4>
-<div class="codewrapper sourceCode" id="cb21">
+<div class="codewrapper sourceCode" id="cb23">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a></span>
-<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a><span class="co"># Sample data</span></span>
-<span id="cb21-4"><a href="#cb21-4" tabindex="-1"></a></span>
-<span id="cb21-5"><a href="#cb21-5" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({</span>
-<span id="cb21-6"><a href="#cb21-6" tabindex="-1"></a><span class="st">"X"</span>: np.random.rand(<span class="dv">100</span>),</span>
-<span id="cb21-7"><a href="#cb21-7" tabindex="-1"></a><span class="st">"Y"</span>: np.random.rand(<span class="dv">100</span>)</span>
-<span id="cb21-8"><a href="#cb21-8" tabindex="-1"></a>})</span>
-<span id="cb21-9"><a href="#cb21-9" tabindex="-1"></a></span>
-<span id="cb21-10"><a href="#cb21-10" tabindex="-1"></a><span class="co"># Create a scatter plot</span></span>
-<span id="cb21-11"><a href="#cb21-11" tabindex="-1"></a></span>
-<span id="cb21-12"><a href="#cb21-12" tabindex="-1"></a>fig <span class="op">=</span> px.scatter(data, x<span class="op">=</span><span class="st">"X"</span>, y<span class="op">=</span><span class="st">"Y"</span>, title<span class="op">=</span><span class="st">"Scatter Plot"</span>)</span>
-<span id="cb21-13"><a href="#cb21-13" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a><span class="co"># Sample data</span></span>
+<span id="cb23-4"><a href="#cb23-4" tabindex="-1"></a></span>
+<span id="cb23-5"><a href="#cb23-5" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb23-6"><a href="#cb23-6" tabindex="-1"></a><span class="st">"X"</span>: np.random.rand(<span class="dv">100</span>),</span>
+<span id="cb23-7"><a href="#cb23-7" tabindex="-1"></a><span class="st">"Y"</span>: np.random.rand(<span class="dv">100</span>)</span>
+<span id="cb23-8"><a href="#cb23-8" tabindex="-1"></a>})</span>
+<span id="cb23-9"><a href="#cb23-9" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" tabindex="-1"></a><span class="co"># Create a scatter plot</span></span>
+<span id="cb23-11"><a href="#cb23-11" tabindex="-1"></a></span>
+<span id="cb23-12"><a href="#cb23-12" tabindex="-1"></a>fig <span class="op">=</span> px.scatter(data, x<span class="op">=</span><span class="st">"X"</span>, y<span class="op">=</span><span class="st">"Y"</span>, title<span class="op">=</span><span class="st">"Scatter Plot"</span>)</span>
+<span id="cb23-13"><a href="#cb23-13" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
 </div>
 </div>
 <div class="section level4">
 <h4 id="bar-chart">Bar Chart<a class="anchor" aria-label="anchor" href="#bar-chart"></a></h4>
-<div class="codewrapper sourceCode" id="cb22">
+<div class="codewrapper sourceCode" id="cb24">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a>categories <span class="op">=</span> [<span class="st">'A'</span>, <span class="st">'B'</span>, <span class="st">'C'</span>, <span class="st">'D'</span>, <span class="st">'E'</span>]</span>
-<span id="cb22-2"><a href="#cb22-2" tabindex="-1"></a>values <span class="op">=</span> [<span class="dv">23</span>, <span class="dv">45</span>, <span class="dv">56</span>, <span class="dv">78</span>, <span class="dv">33</span>]</span>
-<span id="cb22-3"><a href="#cb22-3" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({<span class="st">"Category"</span>: categories, <span class="st">"Value"</span>: values})</span>
-<span id="cb22-4"><a href="#cb22-4" tabindex="-1"></a></span>
-<span id="cb22-5"><a href="#cb22-5" tabindex="-1"></a><span class="co"># Create a bar chart</span></span>
-<span id="cb22-6"><a href="#cb22-6" tabindex="-1"></a></span>
-<span id="cb22-7"><a href="#cb22-7" tabindex="-1"></a>fig <span class="op">=</span> px.bar(data, x<span class="op">=</span><span class="st">"Category"</span>, y<span class="op">=</span><span class="st">"Value"</span>, title<span class="op">=</span><span class="st">"Bar Chart"</span>)</span>
-<span id="cb22-8"><a href="#cb22-8" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a>categories <span class="op">=</span> [<span class="st">'A'</span>, <span class="st">'B'</span>, <span class="st">'C'</span>, <span class="st">'D'</span>, <span class="st">'E'</span>]</span>
+<span id="cb24-2"><a href="#cb24-2" tabindex="-1"></a>values <span class="op">=</span> [<span class="dv">23</span>, <span class="dv">45</span>, <span class="dv">56</span>, <span class="dv">78</span>, <span class="dv">33</span>]</span>
+<span id="cb24-3"><a href="#cb24-3" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({<span class="st">"Category"</span>: categories, <span class="st">"Value"</span>: values})</span>
+<span id="cb24-4"><a href="#cb24-4" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" tabindex="-1"></a><span class="co"># Create a bar chart</span></span>
+<span id="cb24-6"><a href="#cb24-6" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" tabindex="-1"></a>fig <span class="op">=</span> px.bar(data, x<span class="op">=</span><span class="st">"Category"</span>, y<span class="op">=</span><span class="st">"Value"</span>, title<span class="op">=</span><span class="st">"Bar Chart"</span>)</span>
+<span id="cb24-8"><a href="#cb24-8" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
 </div>
 </div>
 <div class="section level4">
 <h4 id="pie-chart">Pie Chart<a class="anchor" aria-label="anchor" href="#pie-chart"></a></h4>
-<div class="codewrapper sourceCode" id="cb23">
+<div class="codewrapper sourceCode" id="cb25">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="co"># Sample data for Pie Chart</span></span>
-<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a></span>
-<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a>categories <span class="op">=</span> [<span class="st">'Red'</span>, <span class="st">'Blue'</span>, <span class="st">'Green'</span>]</span>
-<span id="cb23-4"><a href="#cb23-4" tabindex="-1"></a>values <span class="op">=</span> [<span class="dv">25</span>, <span class="dv">50</span>, <span class="dv">25</span>]</span>
-<span id="cb23-5"><a href="#cb23-5" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({<span class="st">"Category"</span>: categories, <span class="st">"Value"</span>: values})</span>
-<span id="cb23-6"><a href="#cb23-6" tabindex="-1"></a></span>
-<span id="cb23-7"><a href="#cb23-7" tabindex="-1"></a><span class="co"># Create a pie chart</span></span>
-<span id="cb23-8"><a href="#cb23-8" tabindex="-1"></a></span>
-<span id="cb23-9"><a href="#cb23-9" tabindex="-1"></a>fig <span class="op">=</span> px.pie(data, names<span class="op">=</span><span class="st">"Category"</span>, values<span class="op">=</span><span class="st">"Value"</span>, title<span class="op">=</span><span class="st">"Pie Chart"</span>)</span>
-<span id="cb23-10"><a href="#cb23-10" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="co"># Sample data for Pie Chart</span></span>
+<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a>categories <span class="op">=</span> [<span class="st">'Red'</span>, <span class="st">'Blue'</span>, <span class="st">'Green'</span>]</span>
+<span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a>values <span class="op">=</span> [<span class="dv">25</span>, <span class="dv">50</span>, <span class="dv">25</span>]</span>
+<span id="cb25-5"><a href="#cb25-5" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({<span class="st">"Category"</span>: categories, <span class="st">"Value"</span>: values})</span>
+<span id="cb25-6"><a href="#cb25-6" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="#cb25-7" tabindex="-1"></a><span class="co"># Create a pie chart</span></span>
+<span id="cb25-8"><a href="#cb25-8" tabindex="-1"></a></span>
+<span id="cb25-9"><a href="#cb25-9" tabindex="-1"></a>fig <span class="op">=</span> px.pie(data, names<span class="op">=</span><span class="st">"Category"</span>, values<span class="op">=</span><span class="st">"Value"</span>, title<span class="op">=</span><span class="st">"Pie Chart"</span>)</span>
+<span id="cb25-10"><a href="#cb25-10" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
 </div>
 </div>
 </div>
@@ -1023,30 +1137,30 @@ appealing.</p>
 <div class="section level4">
 <h4 id="adding-titles-and-labels">Adding Titles and Labels<a class="anchor" aria-label="anchor" href="#adding-titles-and-labels"></a></h4>
 <p>You can modify the title and axis labels of your plot:</p>
-<div class="codewrapper sourceCode" id="cb24">
+<div class="codewrapper sourceCode" id="cb26">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a>fig.update_layout(</span>
-<span id="cb24-2"><a href="#cb24-2" tabindex="-1"></a>title<span class="op">=</span><span class="st">"Updated Plot Title"</span>,</span>
-<span id="cb24-3"><a href="#cb24-3" tabindex="-1"></a>xaxis_title<span class="op">=</span><span class="st">"Custom X Axis Label"</span>,</span>
-<span id="cb24-4"><a href="#cb24-4" tabindex="-1"></a>yaxis_title<span class="op">=</span><span class="st">"Custom Y Axis Label"</span></span>
-<span id="cb24-5"><a href="#cb24-5" tabindex="-1"></a>)</span>
-<span id="cb24-6"><a href="#cb24-6" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" tabindex="-1"></a>fig.update_layout(</span>
+<span id="cb26-2"><a href="#cb26-2" tabindex="-1"></a>title<span class="op">=</span><span class="st">"Updated Plot Title"</span>,</span>
+<span id="cb26-3"><a href="#cb26-3" tabindex="-1"></a>xaxis_title<span class="op">=</span><span class="st">"Custom X Axis Label"</span>,</span>
+<span id="cb26-4"><a href="#cb26-4" tabindex="-1"></a>yaxis_title<span class="op">=</span><span class="st">"Custom Y Axis Label"</span></span>
+<span id="cb26-5"><a href="#cb26-5" tabindex="-1"></a>)</span>
+<span id="cb26-6"><a href="#cb26-6" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
 </div>
 </div>
 <div class="section level4">
 <h4 id="changing-colors">Changing Colors<a class="anchor" aria-label="anchor" href="#changing-colors"></a></h4>
 <p>You can change the color of data points or bars based on a
 categorical variable:</p>
-<div class="codewrapper sourceCode" id="cb25">
+<div class="codewrapper sourceCode" id="cb27">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="co"># Adding a color dimension</span></span>
-<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a></span>
-<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a>data[<span class="st">'Color'</span>] <span class="op">=</span> np.random.choice([<span class="st">'Red'</span>, <span class="st">'Blue'</span>, <span class="st">'Green'</span>], size<span class="op">=</span><span class="dv">100</span>)</span>
-<span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a></span>
-<span id="cb25-5"><a href="#cb25-5" tabindex="-1"></a>fig <span class="op">=</span> px.scatter(data, x<span class="op">=</span><span class="st">"X"</span>, y<span class="op">=</span><span class="st">"Y"</span>, color<span class="op">=</span><span class="st">"Color"</span>, title<span class="op">=</span><span class="st">"Colored Scatter Plot"</span>)</span>
-<span id="cb25-6"><a href="#cb25-6" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a><span class="co"># Adding a color dimension</span></span>
+<span id="cb27-2"><a href="#cb27-2" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" tabindex="-1"></a>data[<span class="st">'Color'</span>] <span class="op">=</span> np.random.choice([<span class="st">'Red'</span>, <span class="st">'Blue'</span>, <span class="st">'Green'</span>], size<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb27-4"><a href="#cb27-4" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" tabindex="-1"></a>fig <span class="op">=</span> px.scatter(data, x<span class="op">=</span><span class="st">"X"</span>, y<span class="op">=</span><span class="st">"Y"</span>, color<span class="op">=</span><span class="st">"Color"</span>, title<span class="op">=</span><span class="st">"Colored Scatter Plot"</span>)</span>
+<span id="cb27-6"><a href="#cb27-6" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
 </div>
 <p>In this example, the color argument differentiates data points by
 color based on the <code>Color</code> column.</p>
@@ -1075,26 +1189,26 @@ each plot element (e.g., customizing legends, adding annotations).</li>
 arrangements of figures.</li>
 </ul><p>For example, if you wanted to combine a line and scatter plot on the
 same figure, you would use <code>plotly.graph_objects</code>:</p>
-<div class="codewrapper sourceCode" id="cb26">
+<div class="codewrapper sourceCode" id="cb28">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" tabindex="-1"></a><span class="im">import</span> plotly.graph_objects <span class="im">as</span> go</span>
-<span id="cb26-2"><a href="#cb26-2" tabindex="-1"></a></span>
-<span id="cb26-3"><a href="#cb26-3" tabindex="-1"></a><span class="co"># Create a figure with both a scatter and line trace</span></span>
-<span id="cb26-4"><a href="#cb26-4" tabindex="-1"></a></span>
-<span id="cb26-5"><a href="#cb26-5" tabindex="-1"></a>fig <span class="op">=</span> go.Figure()</span>
-<span id="cb26-6"><a href="#cb26-6" tabindex="-1"></a></span>
-<span id="cb26-7"><a href="#cb26-7" tabindex="-1"></a><span class="co"># Scatter plot trace</span></span>
-<span id="cb26-8"><a href="#cb26-8" tabindex="-1"></a></span>
-<span id="cb26-9"><a href="#cb26-9" tabindex="-1"></a>fig.add_trace(go.Scatter(x<span class="op">=</span>data[<span class="st">"X"</span>], y<span class="op">=</span>data[<span class="st">"Y"</span>], mode<span class="op">=</span><span class="st">'markers'</span>, name<span class="op">=</span><span class="st">"Scatter"</span>))</span>
-<span id="cb26-10"><a href="#cb26-10" tabindex="-1"></a></span>
-<span id="cb26-11"><a href="#cb26-11" tabindex="-1"></a><span class="co"># Line plot trace</span></span>
-<span id="cb26-12"><a href="#cb26-12" tabindex="-1"></a></span>
-<span id="cb26-13"><a href="#cb26-13" tabindex="-1"></a>fig.add_trace(go.Scatter(x<span class="op">=</span>data[<span class="st">"X"</span>], y<span class="op">=</span>data[<span class="st">"Y"</span>], mode<span class="op">=</span><span class="st">'lines'</span>, name<span class="op">=</span><span class="st">"Line"</span>))</span>
-<span id="cb26-14"><a href="#cb26-14" tabindex="-1"></a></span>
-<span id="cb26-15"><a href="#cb26-15" tabindex="-1"></a><span class="co"># Save the plot</span></span>
-<span id="cb26-16"><a href="#cb26-16" tabindex="-1"></a></span>
-<span id="cb26-17"><a href="#cb26-17" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a><span class="im">import</span> plotly.graph_objects <span class="im">as</span> go</span>
+<span id="cb28-2"><a href="#cb28-2" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" tabindex="-1"></a><span class="co"># Create a figure with both a scatter and line trace</span></span>
+<span id="cb28-4"><a href="#cb28-4" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="#cb28-5" tabindex="-1"></a>fig <span class="op">=</span> go.Figure()</span>
+<span id="cb28-6"><a href="#cb28-6" tabindex="-1"></a></span>
+<span id="cb28-7"><a href="#cb28-7" tabindex="-1"></a><span class="co"># Scatter plot trace</span></span>
+<span id="cb28-8"><a href="#cb28-8" tabindex="-1"></a></span>
+<span id="cb28-9"><a href="#cb28-9" tabindex="-1"></a>fig.add_trace(go.Scatter(x<span class="op">=</span>data[<span class="st">"X"</span>], y<span class="op">=</span>data[<span class="st">"Y"</span>], mode<span class="op">=</span><span class="st">'markers'</span>, name<span class="op">=</span><span class="st">"Scatter"</span>))</span>
+<span id="cb28-10"><a href="#cb28-10" tabindex="-1"></a></span>
+<span id="cb28-11"><a href="#cb28-11" tabindex="-1"></a><span class="co"># Line plot trace</span></span>
+<span id="cb28-12"><a href="#cb28-12" tabindex="-1"></a></span>
+<span id="cb28-13"><a href="#cb28-13" tabindex="-1"></a>fig.add_trace(go.Scatter(x<span class="op">=</span>data[<span class="st">"X"</span>], y<span class="op">=</span>data[<span class="st">"Y"</span>], mode<span class="op">=</span><span class="st">'lines'</span>, name<span class="op">=</span><span class="st">"Line"</span>))</span>
+<span id="cb28-14"><a href="#cb28-14" tabindex="-1"></a></span>
+<span id="cb28-15"><a href="#cb28-15" tabindex="-1"></a><span class="co"># Save the plot</span></span>
+<span id="cb28-16"><a href="#cb28-16" tabindex="-1"></a></span>
+<span id="cb28-17"><a href="#cb28-17" tabindex="-1"></a>fig.write_html(<span class="st">"plot.html"</span>)</span></code></pre>
 </div>
 <p>While <code>plotly.express</code> handles this type of task easily
 with fewer lines of code, <code>go</code> offers more flexibility for
@@ -1171,7 +1285,7 @@ image or an interactive HTML file.</li>
   "url": "https://UNECE.github.io/ModernStats_Python/instructor/data-visualisation.html",
   "identifier": "https://UNECE.github.io/ModernStats_Python/instructor/data-visualisation.html",
   "dateCreated": "2023-03-06",
-  "dateModified": "2024-12-09",
+  "dateModified": "2024-12-10",
   "datePublished": "2024-12-10"
 }
 

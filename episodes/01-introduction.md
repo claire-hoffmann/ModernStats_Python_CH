@@ -1,5 +1,5 @@
 ---
-title: Introduction to OECD
+title: Introduction
 teaching: 15
 exercises: 0
 ---

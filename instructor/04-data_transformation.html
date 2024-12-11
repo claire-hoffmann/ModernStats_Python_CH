@@ -360,7 +360,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Data Transformation</h1>
-        <p>Last updated on 2024-12-10 |
+        <p>Last updated on 2024-12-11 |
 
         <a href="https://github.com/UNECE/ModernStats_Python/edit/main/episodes/04-data_transformation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -1831,47 +1831,6 @@ save them in different sheets of the same Excel file, you can use
 customizing how the data is saved (e.g., file paths, indexes, column
 selections). You can refer to the pandas documentation for more advanced
 options for each method.</p>
-<div id="exporting-data-1" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="exporting-data-1" class="callout-inner">
-<h3 class="callout-title">Exporting data</h3>
-<div class="callout-content">
-<p>Let’s now export our transformed data, that we will use in the next
-episode focusing on data visualisations.</p>
-<p>We want to export the following dataframes from our script on
-education data:</p>
-<ul><li>
-<code>df</code> to be saved in a <code>education_clean.csv</code>
-file</li>
-<li>
-<code>df_subset</code> to be saved in a
-<code>education_subset.csv</code> file</li>
-<li>
-<code>df_average</code> to be saved in a
-<code>education_average.csv</code> file</li>
-</ul></div>
-</div>
-</div>
-<div id="accordionSolution7" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution7" aria-expanded="false" aria-controls="collapseSolution7">
-  <h4 class="accordion-header" id="headingSolution7"> Show me the solution </h4>
-</button>
-<div id="collapseSolution7" class="accordion-collapse collapse" aria-labelledby="headingSolution7" data-bs-parent="#accordionSolution7">
-<div class="accordion-body">
-<div class="codewrapper sourceCode" id="cb79">
-<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb79-1"><a href="#cb79-1" tabindex="-1"></a>df.to_csv(<span class="vs">r"education_clean.csv"</span>, index<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb79-2"><a href="#cb79-2" tabindex="-1"></a>df_subset.to_csv(<span class="vs">r"education_subset.csv"</span>, index<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb79-3"><a href="#cb79-3" tabindex="-1"></a>df_average.to_csv(<span class="vs">r"education_average.csv"</span>, index<span class="op">=</span><span class="va">False</span>)</span></code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
 </div>
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
@@ -1931,7 +1890,7 @@ file</li>
   "url": "https://UNECE.github.io/ModernStats_Python/instructor/04-data_transformation.html",
   "identifier": "https://UNECE.github.io/ModernStats_Python/instructor/04-data_transformation.html",
   "dateCreated": "2023-03-06",
-  "dateModified": "2024-12-10",
+  "dateModified": "2024-12-11",
   "datePublished": "2024-12-11"
 }
 

@@ -1,0 +1,2102 @@
+iso3,age,subject,value,year,subject_label
+ISL,Y10,MATH,14.28503,2023,Mathematics
+GRC,Y6,READ,30.0,2023,"Reading, writing and literature"
+ROU,Y14,READ,13.33333,2023,"Reading, writing and literature"
+IRL,Y7,NSCI,4.0,2023,Natural sciences
+ISR,Y14,SLAN,11.11111,2023,Second language
+ESP,Y8,MATH,18.7317,2023,Mathematics
+SVK,Y7,PHED,8.69565,2023,Physical education and health
+TUR,Y17,ARTS,4.69072,2023,Arts
+BFR,Y15,PHED,7.14286,2023,Physical education and health
+CHL,Y14,NSCI,14.55848,2023,Natural sciences
+DNK,Y8,ARTS,13.18681,2023,Arts
+OECD,Y10,SLAN,10.51392,2023,Second language
+HUN,Y15,NSCI,20.58824,2023,Natural sciences
+ESP,Y12,SLAN,11.40164,2023,Second language
+BGR,Y12,SLAN,9.37478,2023,Second language
+CRI,Y6,NSCI,13.95349,2023,Natural sciences
+FRA,Y13,SSCI,11.15702,2023,Social sciences
+CRI,Y11,SSCI,9.30233,2023,Social sciences
+EST,Y10,SSCI,7.22892,2023,Social sciences
+SVK,Y14,READ,16.66667,2023,"Reading, writing and literature"
+ROU,Y14,MATH,13.33333,2023,Mathematics
+JPN,Y6,PHED,11.11353,2023,Physical education and health
+NOR,Y15,ARTS,8.73379,2023,Arts
+DNK,Y15,SSCI,10.0,2023,Social sciences
+EU25,Y11,NSCI,8.51913,2023,Natural sciences
+FIN,Y14,NSCI,16.47059,2023,Natural sciences
+HRV,Y7,READ,27.77778,2023,"Reading, writing and literature"
+GRC,Y6,MATH,16.66667,2023,Mathematics
+AUT,Y10,MATH,13.7931,2023,Mathematics
+HUN,Y8,MATH,16.66667,2023,Mathematics
+JPN,Y14,SLAN,13.11475,2023,Second language
+CRI,Y6,SLAN,11.62791,2023,Second language
+CRI,Y8,MATH,18.60465,2023,Mathematics
+TUR,Y12,SSCI,8.54457,2023,Social sciences
+FRA,Y11,PHED,15.06276,2023,Physical education and health
+FIN,Y12,PHED,8.76623,2023,Physical education and health
+CRI,Y12,SLAN,7.14286,2023,Second language
+NOR,Y6,READ,29.85068,2023,"Reading, writing and literature"
+OECD,Y9,ARTS,11.57049,2023,Arts
+ISL,Y13,ARTS,7.65766,2023,Arts
+LTU,Y8,ARTS,17.14763,2023,Arts
+CHL,Y7,SSCI,8.79874,2023,Social sciences
+GRC,Y9,ARTS,10.00383,2023,Arts
+JPN,Y12,PHED,9.83607,2023,Physical education and health
+LTU,Y12,NSCI,6.66351,2023,Natural sciences
+NOR,Y9,ARTS,13.96116,2023,Arts
+AUT,Y13,ARTS,9.33329,2023,Arts
+GRC,Y12,MATH,12.12121,2023,Mathematics
+GRC,Y10,SLAN,9.6846,2023,Second language
+SVN,Y7,SSCI,4.96977,2023,Social sciences
+OECD,Y13,NSCI,13.27887,2023,Natural sciences
+LVA,Y10,MATH,18.82353,2023,Mathematics
+ISL,Y10,READ,16.18971,2023,"Reading, writing and literature"
+BGR,Y11,SSCI,12.50017,2023,Social sciences
+SVN,Y6,PHED,16.77448,2023,Physical education and health
+FRA,Y7,SLAN,6.25,2023,Second language
+LVA,Y13,ARTS,6.93069,2023,Arts
+NOR,Y10,SLAN,10.58917,2023,Second language
+CRI,Y8,READ,23.25581,2023,"Reading, writing and literature"
+BGR,Y8,ARTS,15.21673,2023,Arts
+NOR,Y12,MATH,15.23355,2023,Mathematics
+DEU,Y13,MATH,11.7834,2022,Mathematics
+NOR,Y6,MATH,17.95529,2023,Mathematics
+IRL,Y11,PHED,4.0,2023,Physical education and health
+GRC,Y13,SLAN,6.06081,2023,Second language
+AUT,Y13,MATH,10.22307,2023,Mathematics
+ROU,Y10,PHED,14.28571,2023,Physical education and health
+CZE,Y6,NSCI,11.00917,2023,Natural sciences
+HRV,Y13,PHED,7.69231,2023,Physical education and health
+AUT,Y10,READ,13.7931,2023,"Reading, writing and literature"
+GRC,Y12,READ,27.27273,2023,"Reading, writing and literature"
+CZE,Y12,NSCI,17.21311,2023,Natural sciences
+CRI,Y12,NSCI,11.90476,2023,Natural sciences
+LVA,Y13,MATH,14.85149,2023,Mathematics
+PRT,Y15,PHED,9.80392,2023,Physical education and health
+LTU,Y11,SSCI,8.67283,2023,Social sciences
+LVA,Y10,READ,21.17647,2023,"Reading, writing and literature"
+SVN,Y14,SLAN,9.88671,2023,Second language
+BFR,Y9,PHED,7.14286,2023,Physical education and health
+BGR,Y8,MATH,15.21673,2023,Mathematics
+NOR,Y15,READ,15.17925,2023,"Reading, writing and literature"
+EST,Y9,PHED,11.76471,2023,Physical education and health
+HRV,Y8,SLAN,11.11111,2023,Second language
+CHL,Y13,MATH,16.04092,2023,Mathematics
+EU25,Y11,SLAN,11.66405,2023,Second language
+SVK,Y14,ARTS,3.33333,2023,Arts
+TUR,Y8,PHED,16.66667,2023,Physical education and health
+HRV,Y7,ARTS,11.11111,2023,Arts
+OECD,Y9,MATH,16.29326,2023,Mathematics
+CZE,Y11,SSCI,9.01639,2023,Social sciences
+OECD,Y12,READ,16.01241,2023,"Reading, writing and literature"
+SVN,Y12,PHED,9.15657,2023,Physical education and health
+BGR,Y12,NSCI,7.81278,2023,Natural sciences
+ISR,Y14,NSCI,12.96296,2023,Natural sciences
+LVA,Y14,SSCI,14.85149,2023,Social sciences
+SVN,Y14,NSCI,21.31823,2023,Natural sciences
+TUR,Y11,MATH,14.23285,2023,Mathematics
+ESP,Y12,NSCI,9.79265,2023,Natural sciences
+POL,Y10,SSCI,4.16667,2023,Social sciences
+CZE,Y12,SLAN,9.83607,2023,Second language
+ROU,Y12,OLAN,7.40741,2023,Other languages
+ROU,Y8,NSCI,5.0,2023,Natural sciences
+NOR,Y6,ARTS,13.96116,2023,Arts
+LUX,Y12,SSCI,13.33333,2023,Social sciences
+DNK,Y11,SSCI,5.35714,2023,Social sciences
+GRC,Y13,NSCI,18.18244,2023,Natural sciences
+NOR,Y9,READ,29.85068,2023,"Reading, writing and literature"
+ISL,Y14,SSCI,8.10811,2023,Social sciences
+LTU,Y9,SSCI,4.1038,2023,Social sciences
+CHL,Y16,MATH,7.29316,2023,Mathematics
+NOR,Y10,NSCI,8.31343,2023,Natural sciences
+DNK,Y12,NSCI,5.35714,2023,Natural sciences
+DNK,Y9,SSCI,3.2967,2023,Social sciences
+CRI,Y8,ARTS,4.65116,2023,Arts
+FIN,Y16,READ,8.0,2023,"Reading, writing and literature"
+OECD,Y13,SLAN,9.46506,2023,Second language
+LTU,Y12,SLAN,9.99527,2023,Second language
+LTU,Y8,MATH,19.29109,2023,Mathematics
+FIN,Y14,SLAN,8.23529,2023,Second language
+PRT,Y12,PHED,10.0,2023,Physical education and health
+ISL,Y14,NSCI,8.10811,2023,Natural sciences
+ROU,Y8,SLAN,5.0,2023,Second language
+LTU,Y9,NSCI,4.1038,2023,Natural sciences
+GRC,Y9,MATH,13.33844,2023,Mathematics
+IRL,Y12,READ,8.60585,2023,"Reading, writing and literature"
+NOR,Y11,ARTS,15.1672,2023,Arts
+CRI,Y15,SSCI,15.90909,2023,Social sciences
+CHL,Y10,MATH,16.19706,2023,Mathematics
+LVA,Y10,ARTS,11.76471,2023,Arts
+TUR,Y14,OLAN,5.0,2023,Other languages
+AUT,Y10,ARTS,13.7931,2023,Arts
+EU25,Y9,SLAN,9.03138,2023,Second language
+NOR,Y7,SLAN,4.4247,2023,Second language
+ISR,Y7,NSCI,8.45355,2023,Natural sciences
+LTU,Y16,OLAN,5.75389,2023,Other languages
+JPN,Y9,PHED,9.59781,2023,Physical education and health
+OECD,Y14,OLAN,5.45236,2023,Other languages
+BFR,Y11,PHED,7.14286,2023,Physical education and health
+IRL,Y9,ARTS,12.0,2023,Arts
+FRA,Y12,READ,16.94561,2023,"Reading, writing and literature"
+BGR,Y9,NSCI,3.70319,2023,Natural sciences
+SVN,Y13,MATH,13.26989,2023,Mathematics
+ISL,Y7,MATH,16.66736,2023,Mathematics
+TUR,Y11,READ,17.07942,2023,"Reading, writing and literature"
+LTU,Y15,SSCI,16.50421,2023,Social sciences
+LUX,Y11,READ,25.0,2023,"Reading, writing and literature"
+DEU,Y10,READ,15.29596,2022,"Reading, writing and literature"
+BFR,Y13,SSCI,13.33333,2023,Social sciences
+IRL,Y10,SLAN,14.0,2023,Second language
+IRL,Y12,MATH,8.60585,2023,Mathematics
+DNK,Y8,MATH,16.48352,2023,Mathematics
+FRA,Y12,MATH,13.17992,2023,Mathematics
+JPN,Y10,SSCI,9.14077,2023,Social sciences
+OECD,Y15,READ,12.46095,2023,"Reading, writing and literature"
+NOR,Y13,SLAN,8.46682,2023,Second language
+EU25,Y15,NSCI,14.28131,2023,Natural sciences
+CHL,Y16,ARTS,1.21553,2023,Arts
+BGR,Y15,SSCI,15.875,2023,Social sciences
+DEU,Y10,MATH,14.31262,2022,Mathematics
+NOR,Y12,ARTS,15.1672,2023,Arts
+ROU,Y17,SLAN,7.14286,2023,Second language
+HUN,Y8,ARTS,16.66667,2023,Arts
+KOR,Y14,MATH,11.11111,2023,Mathematics
+DNK,Y13,OLAN,7.5,2023,Other languages
+KOR,Y10,ARTS,12.5,2023,Arts
+HRV,Y10,READ,27.77778,2023,"Reading, writing and literature"
+BGR,Y15,SLAN,12.5,2023,Second language
+GRC,Y14,OLAN,5.88235,2023,Other languages
+OECD,Y11,ARTS,9.37312,2023,Arts
+LUX,Y15,SSCI,13.33333,2023,Social sciences
+CRI,Y9,NSCI,13.95349,2023,Natural sciences
+EU25,Y7,PHED,10.3309,2023,Physical education and health
+OECD,Y7,SLAN,4.03585,2023,Second language
+POL,Y13,MATH,12.39062,2023,Mathematics
+HUN,Y12,NSCI,13.33333,2023,Natural sciences
+PRT,Y13,MATH,13.32,2023,Mathematics
+KOR,Y14,READ,13.13131,2023,"Reading, writing and literature"
+JPN,Y13,MATH,9.83607,2023,Mathematics
+EST,Y14,NSCI,21.2766,2023,Natural sciences
+POL,Y13,SSCI,12.39062,2023,Social sciences
+TUR,Y9,SSCI,16.66667,2023,Social sciences
+HRV,Y10,MATH,22.22222,2023,Mathematics
+ISL,Y7,SSCI,12.08384,2023,Social sciences
+ROU,Y16,PHED,5.46848,2023,Physical education and health
+OECD,Y15,MATH,12.03053,2023,Mathematics
+DEU,Y7,SSCI,5.4164,2022,Social sciences
+DEU,Y6,PHED,11.26349,2022,Physical education and health
+FRA,Y15,PHED,7.14286,2023,Physical education and health
+ESP,Y8,ARTS,8.98115,2023,Arts
+SVN,Y7,NSCI,6.67586,2023,Natural sciences
+HRV,Y7,MATH,22.22222,2023,Mathematics
+DNK,Y9,SLAN,6.59341,2023,Second language
+ISR,Y13,READ,33.93047,2023,"Reading, writing and literature"
+SVK,Y11,NSCI,10.34483,2023,Natural sciences
+ESP,Y6,SLAN,10.77204,2023,Second language
+FIN,Y16,MATH,8.0,2023,Mathematics
+GRC,Y6,ARTS,13.33333,2023,Arts
+IRL,Y6,ARTS,12.0,2023,Arts
+CRI,Y14,PHED,4.7619,2023,Physical education and health
+OECD,Y12,MATH,12.9241,2023,Mathematics
+BGR,Y11,NSCI,7.81278,2023,Natural sciences
+DEU,Y13,READ,12.19938,2022,"Reading, writing and literature"
+SVN,Y10,SSCI,10.65975,2023,Social sciences
+EST,Y7,SSCI,2.94118,2023,Social sciences
+ROU,Y15,OLAN,8.32463,2023,Other languages
+LVA,Y14,SLAN,14.85149,2023,Second language
+EST,Y13,READ,12.76596,2023,"Reading, writing and literature"
+ITA,Y11,ARTS,13.33333,2023,Arts
+FIN,Y13,ARTS,7.05882,2023,Arts
+ROU,Y7,PHED,10.0,2023,Physical education and health
+CZE,Y8,ARTS,9.67742,2023,Arts
+GRC,Y11,MATH,12.91999,2023,Mathematics
+JPN,Y13,SSCI,9.83607,2023,Social sciences
+FIN,Y15,PHED,11.76471,2023,Physical education and health
+LUX,Y12,NSCI,9.37172,2023,Natural sciences
+CRI,Y15,SLAN,11.36364,2023,Second language
+LTU,Y15,SLAN,9.3947,2023,Second language
+HUN,Y9,SLAN,7.40741,2023,Second language
+DEU,Y14,NSCI,13.01985,2022,Natural sciences
+LVA,Y12,PHED,10.58824,2023,Physical education and health
+NOR,Y15,MATH,11.93745,2023,Mathematics
+TUR,Y6,SSCI,13.33333,2023,Social sciences
+BGR,Y14,PHED,6.20347,2023,Physical education and health
+CHL,Y13,READ,16.04092,2023,"Reading, writing and literature"
+PRT,Y16,READ,11.76471,2023,"Reading, writing and literature"
+LTU,Y12,SSCI,14.2275,2023,Social sciences
+FIN,Y14,SSCI,8.23529,2023,Social sciences
+GRC,Y7,SLAN,6.6705,2023,Second language
+EU25,Y13,OLAN,5.83253,2023,Other languages
+FIN,Y17,OLAN,6.66667,2023,Other languages
+BFR,Y14,SLAN,14.28571,2023,Second language
+LTU,Y8,READ,31.97668,2023,"Reading, writing and literature"
+AUT,Y12,PHED,9.41708,2023,Physical education and health
+GRC,Y8,PHED,10.00767,2023,Physical education and health
+IRL,Y7,SLAN,14.0,2023,Second language
+ISL,Y13,READ,14.18919,2023,"Reading, writing and literature"
+POL,Y14,SLAN,9.59003,2023,Second language
+SVN,Y9,PHED,14.20744,2023,Physical education and health
+LTU,Y14,PHED,9.67299,2023,Physical education and health
+OECD,Y8,PHED,9.94057,2023,Physical education and health
+CHL,Y6,PHED,10.30041,2023,Physical education and health
+FRA,Y6,ARTS,8.33333,2023,Arts
+EU25,Y8,SSCI,3.80561,2023,Social sciences
+PRT,Y11,PHED,9.67867,2023,Physical education and health
+KOR,Y8,SLAN,6.89655,2023,Second language
+TUR,Y16,SLAN,9.94949,2023,Second language
+DEU,Y7,MATH,21.77438,2022,Mathematics
+TUR,Y9,MATH,16.66667,2023,Mathematics
+BFR,Y12,PHED,10.0,2023,Physical education and health
+PRT,Y13,SSCI,15.0,2023,Social sciences
+ESP,Y9,SLAN,12.03274,2023,Second language
+ITA,Y15,SSCI,14.62008,2023,Social sciences
+BGR,Y8,READ,30.4358,2023,"Reading, writing and literature"
+POL,Y12,PHED,16.0,2023,Physical education and health
+CRI,Y11,SLAN,11.62791,2023,Second language
+FRA,Y9,READ,33.33333,2023,"Reading, writing and literature"
+IRL,Y9,MATH,16.68,2023,Mathematics
+SVN,Y12,ARTS,8.19272,2023,Arts
+GRC,Y10,SSCI,9.6846,2023,Social sciences
+TUR,Y10,SLAN,8.53971,2023,Second language
+TUR,Y12,MATH,14.24096,2023,Mathematics
+NOR,Y9,PHED,10.15024,2023,Physical education and health
+SVN,Y13,ARTS,8.05672,2023,Arts
+POL,Y10,MATH,16.66667,2023,Mathematics
+NOR,Y15,PHED,8.50496,2023,Physical education and health
+TUR,Y11,SSCI,8.53971,2023,Social sciences
+CHL,Y11,PHED,5.39864,2023,Physical education and health
+EST,Y12,READ,18.07229,2023,"Reading, writing and literature"
+LUX,Y12,SLAN,16.44849,2023,Second language
+LVA,Y8,SLAN,8.57143,2023,Second language
+AUT,Y8,SLAN,4.16667,2023,Second language
+HRV,Y14,ARTS,7.69231,2023,Arts
+ISL,Y13,PHED,8.10811,2023,Physical education and health
+LTU,Y8,PHED,12.86073,2023,Physical education and health
+TUR,Y13,NSCI,11.39926,2023,Natural sciences
+ITA,Y15,MATH,14.6529,2023,Mathematics
+LUX,Y9,MATH,17.85714,2023,Mathematics
+HRV,Y10,PHED,11.11111,2023,Physical education and health
+JPN,Y10,READ,15.99634,2023,"Reading, writing and literature"
+EST,Y13,ARTS,6.38298,2023,Arts
+KOR,Y10,MATH,12.5,2023,Mathematics
+ISR,Y10,NSCI,7.9199,2023,Natural sciences
+KOR,Y13,ARTS,8.08081,2023,Arts
+ISL,Y6,PHED,10.00042,2023,Physical education and health
+PRT,Y12,READ,13.32,2023,"Reading, writing and literature"
+PRT,Y17,PHED,14.49275,2023,Physical education and health
+BFR,Y17,PHED,7.14286,2023,Physical education and health
+SVN,Y7,SLAN,7.95467,2023,Second language
+OECD,Y11,MATH,14.6609,2023,Mathematics
+JPN,Y12,ARTS,8.43091,2023,Arts
+BFR,Y12,READ,20.0,2023,"Reading, writing and literature"
+CRI,Y11,NSCI,13.95349,2023,Natural sciences
+ISL,Y8,SLAN,1.66257,2023,Second language
+LTU,Y11,MATH,15.2807,2023,Mathematics
+BFR,Y16,READ,14.28571,2023,"Reading, writing and literature"
+POL,Y13,ARTS,6.19531,2023,Arts
+SVN,Y10,MATH,14.21301,2023,Mathematics
+ISR,Y10,MATH,14.93529,2023,Mathematics
+BFR,Y13,ARTS,3.33333,2023,Arts
+EU25,Y11,SSCI,8.19005,2023,Social sciences
+FIN,Y16,SSCI,10.66667,2023,Social sciences
+LUX,Y8,READ,25.0,2023,"Reading, writing and literature"
+FRA,Y13,SLAN,11.15702,2023,Second language
+FRA,Y15,MATH,14.28571,2023,Mathematics
+TUR,Y12,NSCI,11.39277,2023,Natural sciences
+POL,Y11,PHED,16.0,2023,Physical education and health
+LUX,Y8,MATH,17.85714,2023,Mathematics
+HRV,Y13,READ,15.38462,2023,"Reading, writing and literature"
+CZE,Y9,SLAN,12.09677,2023,Second language
+SVK,Y15,SLAN,11.47541,2023,Second language
+EU25,Y10,OLAN,0.65439,2023,Other languages
+ROU,Y11,NSCI,4.0,2023,Natural sciences
+IRL,Y7,SSCI,8.0,2023,Social sciences
+EU25,Y8,MATH,16.72416,2023,Mathematics
+LUX,Y13,SLAN,12.70505,2023,Second language
+CRI,Y12,SSCI,14.28571,2023,Social sciences
+FRA,Y14,NSCI,10.8871,2023,Natural sciences
+CHL,Y10,ARTS,7.77586,2023,Arts
+POL,Y10,NSCI,8.33333,2023,Natural sciences
+TUR,Y16,OLAN,5.0,2023,Other languages
+FIN,Y11,PHED,9.50704,2023,Physical education and health
+LUX,Y9,NSCI,7.14286,2023,Natural sciences
+FRA,Y9,ARTS,8.33333,2023,Arts
+KOR,Y14,SSCI,15.15152,2023,Social sciences
+OECD,Y8,OLAN,0.0,2023,Other languages
+KOR,Y8,SSCI,13.7931,2023,Social sciences
+ROU,Y9,SLAN,10.0,2023,Second language
+FIN,Y10,ARTS,14.78873,2023,Arts
+FRA,Y6,PHED,12.5,2023,Physical education and health
+DEU,Y11,OLAN,3.18972,2022,Other languages
+SVN,Y13,READ,11.61115,2023,"Reading, writing and literature"
+EST,Y13,MATH,13.82979,2023,Mathematics
+FRA,Y12,PHED,11.29707,2023,Physical education and health
+ISR,Y16,READ,10.45017,2023,"Reading, writing and literature"
+DEU,Y10,SSCI,10.20931,2022,Social sciences
+EU25,Y13,PHED,8.26729,2023,Physical education and health
+HRV,Y14,NSCI,23.07692,2023,Natural sciences
+TUR,Y8,MATH,16.66667,2023,Mathematics
+KOR,Y13,READ,13.13131,2023,"Reading, writing and literature"
+SVK,Y8,SLAN,12.0,2023,Second language
+ITA,Y12,SLAN,10.0,2023,Second language
+HUN,Y11,SLAN,10.71429,2023,Second language
+LVA,Y15,PHED,8.91089,2023,Physical education and health
+LVA,Y8,NSCI,8.57143,2023,Natural sciences
+POL,Y14,SSCI,15.98338,2023,Social sciences
+PRT,Y14,SSCI,15.0,2023,Social sciences
+OECD,Y10,SSCI,7.98154,2023,Social sciences
+HUN,Y15,SSCI,8.82353,2023,Social sciences
+ISR,Y10,READ,26.74677,2023,"Reading, writing and literature"
+BGR,Y11,MATH,15.62418,2023,Mathematics
+CZE,Y9,READ,26.6129,2023,"Reading, writing and literature"
+LUX,Y13,NSCI,9.37172,2023,Natural sciences
+LVA,Y7,READ,25.71429,2023,"Reading, writing and literature"
+NOR,Y13,SSCI,9.49657,2023,Social sciences
+FRA,Y14,SLAN,10.8871,2023,Second language
+CZE,Y13,OLAN,4.91803,2023,Other languages
+SVN,Y13,SSCI,14.92926,2023,Social sciences
+EST,Y12,ARTS,8.43373,2023,Arts
+FIN,Y7,SLAN,4.54545,2023,Second language
+FIN,Y10,NSCI,10.56338,2023,Natural sciences
+ISL,Y10,SSCI,14.28503,2023,Social sciences
+IRL,Y11,ARTS,12.0,2023,Arts
+CHL,Y10,SSCI,10.79804,2023,Social sciences
+FRA,Y6,MATH,20.83333,2023,Mathematics
+POL,Y12,READ,20.0,2023,"Reading, writing and literature"
+BGR,Y8,PHED,8.69494,2023,Physical education and health
+LUX,Y9,ARTS,10.71429,2023,Arts
+NOR,Y7,NSCI,5.99579,2023,Natural sciences
+TUR,Y15,READ,12.80303,2023,"Reading, writing and literature"
+DNK,Y15,NSCI,12.5,2023,Natural sciences
+ROU,Y7,ARTS,10.0,2023,Arts
+SVK,Y13,PHED,6.66667,2023,Physical education and health
+HRV,Y13,MATH,15.38462,2023,Mathematics
+SVK,Y7,MATH,17.3913,2023,Mathematics
+AUT,Y10,SSCI,6.89655,2023,Social sciences
+CZE,Y9,NSCI,9.67742,2023,Natural sciences
+LVA,Y10,SSCI,8.23529,2023,Social sciences
+AUT,Y8,NSCI,12.5,2023,Natural sciences
+SVK,Y15,NSCI,13.11475,2023,Natural sciences
+EU25,Y12,NSCI,9.82266,2023,Natural sciences
+AUT,Y7,READ,30.43478,2023,"Reading, writing and literature"
+CHL,Y10,READ,16.19706,2023,"Reading, writing and literature"
+BFR,Y16,MATH,7.14286,2023,Mathematics
+LUX,Y15,MATH,13.33333,2023,Mathematics
+EST,Y7,NSCI,4.41176,2023,Natural sciences
+EST,Y7,SLAN,4.41176,2023,Second language
+BGR,Y7,PHED,9.0898,2023,Physical education and health
+SVK,Y10,ARTS,7.40741,2023,Arts
+LTU,Y13,OLAN,5.92433,2023,Other languages
+LTU,Y15,NSCI,17.22362,2023,Natural sciences
+DEU,Y8,SLAN,7.45025,2022,Second language
+KOR,Y11,SLAN,9.375,2023,Second language
+LTU,Y14,OLAN,5.92433,2023,Other languages
+ROU,Y15,SLAN,8.32463,2023,Second language
+PRT,Y7,READ,28.0,2023,"Reading, writing and literature"
+POL,Y14,NSCI,15.98338,2023,Natural sciences
+ROU,Y17,NSCI,14.64646,2023,Natural sciences
+BFR,Y14,NSCI,10.71429,2023,Natural sciences
+OECD,Y11,PHED,8.74516,2023,Physical education and health
+CRI,Y9,SSCI,9.30233,2023,Social sciences
+FRA,Y10,NSCI,8.33333,2023,Natural sciences
+HRV,Y14,SSCI,15.38462,2023,Social sciences
+GRC,Y14,SLAN,5.88235,2023,Second language
+DEU,Y14,SLAN,9.67906,2022,Second language
+ESP,Y11,NSCI,7.56511,2023,Natural sciences
+BFR,Y7,SLAN,3.57143,2023,Second language
+IRL,Y6,READ,20.0,2023,"Reading, writing and literature"
+EU25,Y9,OLAN,0.0,2023,Other languages
+FIN,Y17,PHED,4.0,2023,Physical education and health
+CHL,Y10,NSCI,10.47537,2023,Natural sciences
+ROU,Y13,PHED,6.66667,2023,Physical education and health
+LVA,Y14,NSCI,13.86139,2023,Natural sciences
+ROU,Y14,PHED,6.66667,2023,Physical education and health
+LUX,Y12,READ,14.17979,2023,"Reading, writing and literature"
+IRL,Y13,MATH,8.60585,2023,Mathematics
+ESP,Y11,MATH,18.15912,2023,Mathematics
+FIN,Y13,READ,11.76471,2023,"Reading, writing and literature"
+HRV,Y8,NSCI,11.11111,2023,Natural sciences
+ESP,Y11,SSCI,7.95553,2023,Social sciences
+ITA,Y11,READ,33.33333,2023,"Reading, writing and literature"
+DEU,Y12,PHED,8.35335,2022,Physical education and health
+CZE,Y8,READ,26.6129,2023,"Reading, writing and literature"
+DNK,Y13,SLAN,7.5,2023,Second language
+FRA,Y10,SSCI,6.25,2023,Social sciences
+BFR,Y13,SLAN,13.33333,2023,Second language
+BFR,Y15,MATH,17.85714,2023,Mathematics
+SVN,Y13,NSCI,19.66851,2023,Natural sciences
+TUR,Y15,SLAN,10.0,2023,Second language
+HUN,Y14,ARTS,5.88235,2023,Arts
+IRL,Y11,READ,20.0,2023,"Reading, writing and literature"
+EST,Y13,SSCI,10.6383,2023,Social sciences
+EST,Y14,SSCI,10.6383,2023,Social sciences
+ISL,Y14,READ,14.18919,2023,"Reading, writing and literature"
+ESP,Y6,NSCI,6.70092,2023,Natural sciences
+IRL,Y9,PHED,4.0,2023,Physical education and health
+ESP,Y8,PHED,10.45924,2023,Physical education and health
+CRI,Y9,MATH,18.60465,2023,Mathematics
+PRT,Y13,READ,13.32,2023,"Reading, writing and literature"
+SVN,Y7,READ,27.84133,2023,"Reading, writing and literature"
+OECD,Y12,PHED,8.31972,2023,Physical education and health
+NOR,Y9,MATH,17.95529,2023,Mathematics
+JPN,Y10,SLAN,6.39854,2023,Second language
+ROU,Y10,READ,23.80952,2023,"Reading, writing and literature"
+JPN,Y12,MATH,13.11475,2023,Mathematics
+EST,Y13,NSCI,21.2766,2023,Natural sciences
+KOR,Y7,READ,25.68807,2023,"Reading, writing and literature"
+BGR,Y15,NSCI,15.4375,2023,Natural sciences
+KOR,Y8,NSCI,10.34483,2023,Natural sciences
+KOR,Y10,PHED,9.375,2023,Physical education and health
+FIN,Y16,ARTS,4.0,2023,Arts
+EU25,Y14,PHED,8.22863,2023,Physical education and health
+FIN,Y10,SSCI,7.04225,2023,Social sciences
+GRC,Y12,PHED,6.06061,2023,Physical education and health
+TUR,Y12,ARTS,5.69638,2023,Arts
+EST,Y7,READ,27.94118,2023,"Reading, writing and literature"
+DNK,Y12,SLAN,8.03571,2023,Second language
+BFR,Y16,SSCI,10.71429,2023,Social sciences
+ISR,Y16,SLAN,13.06271,2023,Second language
+SVN,Y12,READ,13.49389,2023,"Reading, writing and literature"
+BFR,Y16,NSCI,10.71429,2023,Natural sciences
+CRI,Y8,SSCI,9.30233,2023,Social sciences
+SVN,Y9,MATH,19.1254,2023,Mathematics
+NOR,Y11,READ,20.48169,2023,"Reading, writing and literature"
+CRI,Y11,READ,23.25581,2023,"Reading, writing and literature"
+DNK,Y9,ARTS,13.18681,2023,Arts
+NOR,Y13,NSCI,9.49657,2023,Natural sciences
+PRT,Y14,NSCI,20.0,2023,Natural sciences
+DNK,Y8,READ,36.26374,2023,"Reading, writing and literature"
+EU25,Y15,SLAN,10.23642,2023,Second language
+HUN,Y9,NSCI,3.7037,2023,Natural sciences
+TUR,Y17,READ,12.62887,2023,"Reading, writing and literature"
+DEU,Y10,NSCI,9.68382,2022,Natural sciences
+ISL,Y11,PHED,8.57102,2023,Physical education and health
+LVA,Y7,SLAN,8.57143,2023,Second language
+ISR,Y6,MATH,15.94164,2023,Mathematics
+ROU,Y7,MATH,15.0,2023,Mathematics
+TUR,Y11,NSCI,11.38628,2023,Natural sciences
+TUR,Y6,READ,33.33333,2023,"Reading, writing and literature"
+JPN,Y7,MATH,17.89732,2023,Mathematics
+BFR,Y6,PHED,7.14286,2023,Physical education and health
+DEU,Y10,ARTS,12.06014,2022,Arts
+BGR,Y9,SLAN,11.1113,2023,Second language
+SVK,Y9,SLAN,11.53846,2023,Second language
+CHL,Y12,PHED,5.34597,2023,Physical education and health
+TUR,Y11,ARTS,5.69314,2023,Arts
+DNK,Y15,MATH,12.5,2023,Mathematics
+GRC,Y11,PHED,6.46,2023,Physical education and health
+ESP,Y15,SLAN,11.76574,2023,Second language
+PRT,Y16,SSCI,9.80392,2023,Social sciences
+JPN,Y6,ARTS,14.81804,2023,Arts
+ISL,Y14,SLAN,18.91892,2023,Second language
+AUT,Y6,PHED,13.04348,2023,Physical education and health
+LTU,Y9,SLAN,9.88416,2023,Second language
+DNK,Y9,NSCI,6.59341,2023,Natural sciences
+LUX,Y8,ARTS,10.71429,2023,Arts
+CHL,Y16,READ,7.29316,2023,"Reading, writing and literature"
+HUN,Y8,READ,20.83333,2023,"Reading, writing and literature"
+OECD,Y10,NSCI,8.42068,2023,Natural sciences
+ESP,Y14,PHED,6.94144,2023,Physical education and health
+HRV,Y14,MATH,15.38462,2023,Mathematics
+OECD,Y9,READ,23.85235,2023,"Reading, writing and literature"
+BFR,Y13,READ,16.66667,2023,"Reading, writing and literature"
+ROU,Y16,OLAN,8.32463,2023,Other languages
+CHL,Y14,SLAN,9.4935,2023,Second language
+OECD,Y15,ARTS,5.14427,2023,Arts
+POL,Y13,READ,15.48827,2023,"Reading, writing and literature"
+CZE,Y13,SLAN,9.83607,2023,Second language
+NOR,Y12,READ,20.48169,2023,"Reading, writing and literature"
+ROU,Y11,SSCI,16.0,2023,Social sciences
+CHL,Y6,MATH,17.59669,2023,Mathematics
+ITA,Y11,SLAN,10.0,2023,Second language
+TUR,Y14,PHED,5.0,2023,Physical education and health
+DEU,Y11,PHED,9.60534,2022,Physical education and health
+KOR,Y14,NSCI,20.20202,2023,Natural sciences
+CHL,Y15,ARTS,4.85713,2023,Arts
+HRV,Y13,ARTS,7.69231,2023,Arts
+ISL,Y12,PHED,8.57102,2023,Physical education and health
+SVN,Y14,SSCI,13.18229,2023,Social sciences
+ESP,Y12,SSCI,9.9173,2023,Social sciences
+GRC,Y10,NSCI,16.141,2023,Natural sciences
+HUN,Y12,SLAN,10.0,2023,Second language
+ISL,Y10,ARTS,19.99905,2023,Arts
+AUT,Y13,READ,12.44439,2023,"Reading, writing and literature"
+FIN,Y10,MATH,15.84507,2023,Mathematics
+EST,Y15,PHED,6.38298,2023,Physical education and health
+GRC,Y9,READ,26.67689,2023,"Reading, writing and literature"
+LTU,Y16,SLAN,9.3947,2023,Second language
+ITA,Y12,READ,33.33333,2023,"Reading, writing and literature"
+LVA,Y13,READ,14.85149,2023,"Reading, writing and literature"
+OECD,Y14,SLAN,9.61296,2023,Second language
+KOR,Y14,ARTS,8.08081,2023,Arts
+LUX,Y7,SLAN,5.35714,2023,Second language
+IRL,Y13,SSCI,9.68158,2023,Social sciences
+NOR,Y12,NSCI,8.31343,2023,Natural sciences
+SVK,Y13,MATH,13.33333,2023,Mathematics
+HUN,Y8,NSCI,4.16667,2023,Natural sciences
+FIN,Y14,MATH,12.94118,2023,Mathematics
+ROU,Y8,ARTS,10.0,2023,Arts
+CRI,Y16,NSCI,20.45455,2023,Natural sciences
+GRC,Y13,READ,24.24325,2023,"Reading, writing and literature"
+DNK,Y10,NSCI,8.03571,2023,Natural sciences
+CRI,Y13,NSCI,11.90476,2023,Natural sciences
+EU25,Y12,SSCI,10.23288,2023,Social sciences
+EU25,Y10,ARTS,10.46592,2023,Arts
+KOR,Y10,SSCI,12.5,2023,Social sciences
+GRC,Y11,SSCI,9.68999,2023,Social sciences
+ROU,Y13,MATH,13.33333,2023,Mathematics
+CHL,Y9,READ,21.60475,2023,"Reading, writing and literature"
+ISR,Y16,PHED,5.22508,2023,Physical education and health
+AUT,Y6,ARTS,8.69565,2023,Arts
+POL,Y14,OLAN,6.39335,2023,Other languages
+HUN,Y13,PHED,16.12903,2023,Physical education and health
+OECD,Y12,NSCI,10.15807,2023,Natural sciences
+GRC,Y13,MATH,12.12162,2023,Mathematics
+OECD,Y10,OLAN,0.49679,2023,Other languages
+ISL,Y8,SSCI,12.08384,2023,Social sciences
+ROU,Y6,NSCI,5.26316,2023,Natural sciences
+CHL,Y15,MATH,16.77777,2023,Mathematics
+LVA,Y10,NSCI,7.05882,2023,Natural sciences
+PRT,Y9,MATH,28.0,2023,Mathematics
+EU25,Y7,READ,28.41296,2023,"Reading, writing and literature"
+CHL,Y10,PHED,5.39902,2023,Physical education and health
+HUN,Y15,READ,11.76471,2023,"Reading, writing and literature"
+JPN,Y9,MATH,15.99634,2023,Mathematics
+JPN,Y13,SLAN,13.11475,2023,Second language
+DEU,Y13,NSCI,12.82814,2022,Natural sciences
+HUN,Y9,READ,22.22222,2023,"Reading, writing and literature"
+FRA,Y10,ARTS,8.33333,2023,Arts
+NOR,Y13,READ,15.17925,2023,"Reading, writing and literature"
+ESP,Y11,ARTS,7.89926,2023,Arts
+AUT,Y12,READ,12.55611,2023,"Reading, writing and literature"
+HRV,Y9,PHED,16.66667,2023,Physical education and health
+SVK,Y13,READ,16.66667,2023,"Reading, writing and literature"
+EST,Y8,PHED,11.76471,2023,Physical education and health
+EST,Y11,ARTS,8.43373,2023,Arts
+DEU,Y15,ARTS,6.21551,2022,Arts
+NOR,Y8,ARTS,13.96116,2023,Arts
+KOR,Y14,SLAN,10.10101,2023,Second language
+GRC,Y8,ARTS,10.00767,2023,Arts
+ESP,Y8,NSCI,6.67917,2023,Natural sciences
+ROU,Y16,MATH,10.93696,2023,Mathematics
+HUN,Y11,ARTS,7.14286,2023,Arts
+SVK,Y8,ARTS,8.0,2023,Arts
+CHL,Y14,MATH,16.77274,2023,Mathematics
+LUX,Y7,NSCI,10.71429,2023,Natural sciences
+HUN,Y15,MATH,8.82353,2023,Mathematics
+JPN,Y13,PHED,9.83607,2023,Physical education and health
+FIN,Y12,OLAN,7.79221,2023,Other languages
+HUN,Y7,ARTS,16.66667,2023,Arts
+HRV,Y13,SSCI,15.38462,2023,Social sciences
+ITA,Y14,ARTS,9.14075,2023,Arts
+SVK,Y10,READ,18.51852,2023,"Reading, writing and literature"
+DNK,Y14,READ,17.5,2023,"Reading, writing and literature"
+GRC,Y13,ARTS,6.06081,2023,Arts
+KOR,Y12,PHED,8.08081,2023,Physical education and health
+KOR,Y14,PHED,8.08081,2023,Physical education and health
+ROU,Y8,READ,30.0,2023,"Reading, writing and literature"
+NOR,Y6,NSCI,5.99579,2023,Natural sciences
+SVK,Y12,SLAN,10.0,2023,Second language
+SVK,Y8,MATH,16.0,2023,Mathematics
+EU25,Y10,READ,20.29802,2023,"Reading, writing and literature"
+CRI,Y12,OLAN,7.14286,2023,Other languages
+EST,Y9,MATH,14.70588,2023,Mathematics
+IRL,Y12,SSCI,9.68158,2023,Social sciences
+JPN,Y14,MATH,13.11475,2023,Mathematics
+LTU,Y7,SLAN,5.86315,2023,Second language
+AUT,Y6,READ,30.43478,2023,"Reading, writing and literature"
+LVA,Y14,READ,14.85149,2023,"Reading, writing and literature"
+DNK,Y7,SLAN,3.2967,2023,Second language
+PRT,Y14,MATH,13.32,2023,Mathematics
+CZE,Y10,NSCI,9.67742,2023,Natural sciences
+BGR,Y15,READ,9.375,2023,"Reading, writing and literature"
+DEU,Y11,ARTS,11.2855,2022,Arts
+EST,Y11,MATH,15.66265,2023,Mathematics
+NOR,Y12,SLAN,10.58917,2023,Second language
+CHL,Y13,SLAN,8.02046,2023,Second language
+FIN,Y9,ARTS,15.90909,2023,Arts
+EU25,Y7,ARTS,12.59088,2023,Arts
+HUN,Y14,READ,8.82353,2023,"Reading, writing and literature"
+ISR,Y8,NSCI,8.09014,2023,Natural sciences
+JPN,Y10,PHED,8.22669,2023,Physical education and health
+CHL,Y12,READ,16.03792,2023,"Reading, writing and literature"
+CHL,Y6,READ,23.46226,2023,"Reading, writing and literature"
+EST,Y15,READ,12.76596,2023,"Reading, writing and literature"
+EST,Y13,PHED,6.38298,2023,Physical education and health
+CHL,Y9,MATH,16.20356,2023,Mathematics
+DEU,Y8,NSCI,3.89134,2022,Natural sciences
+LTU,Y15,READ,15.11054,2023,"Reading, writing and literature"
+DEU,Y12,OLAN,6.51731,2022,Other languages
+CRI,Y6,READ,23.25581,2023,"Reading, writing and literature"
+CHL,Y14,READ,14.55848,2023,"Reading, writing and literature"
+ESP,Y7,ARTS,8.74616,2023,Arts
+EU25,Y14,SSCI,11.62822,2023,Social sciences
+GRC,Y8,READ,26.68712,2023,"Reading, writing and literature"
+LTU,Y7,PHED,12.86073,2023,Physical education and health
+ISR,Y15,READ,10.45017,2023,"Reading, writing and literature"
+OECD,Y15,SSCI,11.20717,2023,Social sciences
+CRI,Y8,NSCI,13.95349,2023,Natural sciences
+ISR,Y11,MATH,14.93529,2023,Mathematics
+AUT,Y12,ARTS,12.55611,2023,Arts
+IRL,Y6,SSCI,8.0,2023,Social sciences
+LUX,Y11,NSCI,3.57143,2023,Natural sciences
+KOR,Y9,SLAN,6.89655,2023,Second language
+EST,Y8,SLAN,4.41176,2023,Second language
+FRA,Y13,ARTS,7.43802,2023,Arts
+SVK,Y11,SSCI,10.34483,2023,Social sciences
+EST,Y7,ARTS,22.05882,2023,Arts
+HUN,Y13,SLAN,9.67742,2023,Second language
+HUN,Y7,READ,29.16667,2023,"Reading, writing and literature"
+FIN,Y17,ARTS,4.0,2023,Arts
+FRA,Y8,ARTS,8.33333,2023,Arts
+ITA,Y14,READ,14.42927,2023,"Reading, writing and literature"
+FIN,Y14,OLAN,4.70588,2023,Other languages
+KOR,Y13,SSCI,15.15152,2023,Social sciences
+OECD,Y9,NSCI,7.50578,2023,Natural sciences
+ROU,Y14,SLAN,6.66667,2023,Second language
+BFR,Y17,MATH,7.14286,2023,Mathematics
+LTU,Y12,OLAN,6.12172,2023,Other languages
+AUT,Y11,PHED,10.77419,2023,Physical education and health
+LUX,Y15,NSCI,13.33333,2023,Natural sciences
+CZE,Y11,SLAN,9.83607,2023,Second language
+ROU,Y13,ARTS,6.66667,2023,Arts
+DNK,Y13,SSCI,5.0,2023,Social sciences
+IRL,Y13,READ,8.60585,2023,"Reading, writing and literature"
+DNK,Y9,READ,26.37363,2023,"Reading, writing and literature"
+DNK,Y15,READ,17.5,2023,"Reading, writing and literature"
+CZE,Y13,NSCI,17.21311,2023,Natural sciences
+FIN,Y7,PHED,9.09091,2023,Physical education and health
+LTU,Y11,PHED,11.46053,2023,Physical education and health
+ISL,Y15,READ,14.18919,2023,"Reading, writing and literature"
+OECD,Y14,PHED,7.61986,2023,Physical education and health
+KOR,Y9,PHED,10.34483,2023,Physical education and health
+LVA,Y13,NSCI,13.86139,2023,Natural sciences
+DNK,Y11,SLAN,8.03571,2023,Second language
+TUR,Y17,SSCI,5.30928,2023,Social sciences
+POL,Y14,MATH,12.78671,2023,Mathematics
+BFR,Y14,MATH,17.85714,2023,Mathematics
+ESP,Y6,MATH,19.02383,2023,Mathematics
+OECD,Y9,SSCI,6.65574,2023,Social sciences
+AUT,Y7,NSCI,13.04348,2023,Natural sciences
+ISL,Y11,SLAN,10.95662,2023,Second language
+TUR,Y14,SLAN,10.0,2023,Second language
+GRC,Y6,PHED,10.0,2023,Physical education and health
+DEU,Y13,PHED,7.63559,2022,Physical education and health
+NOR,Y6,PHED,10.15024,2023,Physical education and health
+AUT,Y10,PHED,13.7931,2023,Physical education and health
+OECD,Y10,MATH,15.05808,2023,Mathematics
+FIN,Y14,ARTS,7.05882,2023,Arts
+KOR,Y8,READ,20.68966,2023,"Reading, writing and literature"
+DNK,Y8,NSCI,6.59341,2023,Natural sciences
+LVA,Y9,READ,25.71429,2023,"Reading, writing and literature"
+SVK,Y6,PHED,9.09091,2023,Physical education and health
+EST,Y12,SSCI,7.22892,2023,Social sciences
+JPN,Y6,READ,33.3406,2023,"Reading, writing and literature"
+CHL,Y6,ARTS,11.73113,2023,Arts
+BFR,Y10,PHED,7.14286,2023,Physical education and health
+ISR,Y16,NSCI,5.93511,2023,Natural sciences
+DEU,Y7,SLAN,2.24007,2022,Second language
+IRL,Y8,PHED,4.0,2023,Physical education and health
+CHL,Y14,ARTS,4.85283,2023,Arts
+JPN,Y14,READ,9.83607,2023,"Reading, writing and literature"
+LVA,Y13,SSCI,14.85149,2023,Social sciences
+CRI,Y6,ARTS,4.65116,2023,Arts
+TUR,Y12,PHED,5.38308,2023,Physical education and health
+EST,Y7,MATH,14.70588,2023,Mathematics
+BGR,Y11,ARTS,12.50017,2023,Arts
+ISR,Y12,OLAN,7.87121,2023,Other languages
+POL,Y10,PHED,16.66667,2023,Physical education and health
+IRL,Y8,ARTS,12.0,2023,Arts
+LUX,Y7,PHED,10.71429,2023,Physical education and health
+ESP,Y7,READ,24.28172,2023,"Reading, writing and literature"
+LTU,Y16,PHED,6.26314,2023,Physical education and health
+PRT,Y17,READ,19.30435,2023,"Reading, writing and literature"
+ROU,Y12,PHED,7.40741,2023,Physical education and health
+FIN,Y12,READ,17.53247,2023,"Reading, writing and literature"
+IRL,Y11,MATH,16.68,2023,Mathematics
+GRC,Y10,READ,22.5974,2023,"Reading, writing and literature"
+EST,Y13,SLAN,9.57447,2023,Second language
+ISR,Y7,MATH,15.94164,2023,Mathematics
+FRA,Y13,READ,16.73554,2023,"Reading, writing and literature"
+LUX,Y6,READ,39.28571,2023,"Reading, writing and literature"
+ROU,Y17,SSCI,19.58874,2023,Social sciences
+HUN,Y13,NSCI,12.90323,2023,Natural sciences
+ESP,Y10,ARTS,8.97867,2023,Arts
+NOR,Y14,PHED,8.50496,2023,Physical education and health
+IRL,Y12,SLAN,8.60585,2023,Second language
+ROU,Y16,READ,11.7729,2023,"Reading, writing and literature"
+AUT,Y6,MATH,17.3913,2023,Mathematics
+GRC,Y12,SLAN,6.06061,2023,Second language
+ESP,Y7,PHED,10.16867,2023,Physical education and health
+KOR,Y12,NSCI,20.20202,2023,Natural sciences
+SVN,Y6,READ,27.09724,2023,"Reading, writing and literature"
+ISL,Y7,SLAN,1.66257,2023,Second language
+LUX,Y11,PHED,7.14286,2023,Physical education and health
+AUT,Y7,PHED,13.04348,2023,Physical education and health
+HRV,Y14,PHED,7.69231,2023,Physical education and health
+CZE,Y8,NSCI,9.67742,2023,Natural sciences
+CHL,Y9,ARTS,10.80237,2023,Arts
+CHL,Y12,MATH,16.03792,2023,Mathematics
+NOR,Y12,SSCI,7.66322,2023,Social sciences
+IRL,Y13,PHED,4.84079,2023,Physical education and health
+DNK,Y15,PHED,5.0,2023,Physical education and health
+EU25,Y11,READ,18.46421,2023,"Reading, writing and literature"
+CHL,Y10,SLAN,8.09853,2023,Second language
+EST,Y11,OLAN,3.61446,2023,Other languages
+POL,Y10,ARTS,8.33333,2023,Arts
+ROU,Y8,MATH,20.0,2023,Mathematics
+DNK,Y13,NSCI,15.0,2023,Natural sciences
+LUX,Y12,ARTS,11.25656,2023,Arts
+LTU,Y11,ARTS,7.64035,2023,Arts
+ROU,Y6,SLAN,5.26316,2023,Second language
+ITA,Y13,SLAN,10.0,2023,Second language
+IRL,Y6,NSCI,4.0,2023,Natural sciences
+OECD,Y15,SLAN,10.39437,2023,Second language
+DEU,Y8,PHED,10.81521,2022,Physical education and health
+LVA,Y15,ARTS,6.93069,2023,Arts
+HUN,Y10,NSCI,7.14286,2023,Natural sciences
+OECD,Y7,MATH,16.59076,2023,Mathematics
+FRA,Y14,OLAN,9.07258,2023,Other languages
+PRT,Y6,READ,28.0,2023,"Reading, writing and literature"
+CHL,Y17,PHED,1.21678,2023,Physical education and health
+ESP,Y8,SSCI,6.45362,2023,Social sciences
+HUN,Y15,ARTS,5.88235,2023,Arts
+EST,Y9,ARTS,22.05882,2023,Arts
+ESP,Y13,NSCI,9.68004,2023,Natural sciences
+TUR,Y9,SLAN,6.66667,2023,Second language
+JPN,Y8,SLAN,3.34033,2023,Second language
+ESP,Y11,READ,21.65488,2023,"Reading, writing and literature"
+FRA,Y10,READ,33.33333,2023,"Reading, writing and literature"
+LVA,Y8,SSCI,4.28571,2023,Social sciences
+DEU,Y11,MATH,14.07853,2022,Mathematics
+NOR,Y15,SLAN,8.46682,2023,Second language
+DEU,Y15,READ,11.6399,2022,"Reading, writing and literature"
+NOR,Y8,READ,29.85068,2023,"Reading, writing and literature"
+FIN,Y9,MATH,17.04545,2023,Mathematics
+JPN,Y9,READ,22.39488,2023,"Reading, writing and literature"
+ITA,Y14,PHED,7.61934,2023,Physical education and health
+HRV,Y8,READ,27.77778,2023,"Reading, writing and literature"
+JPN,Y10,NSCI,9.59781,2023,Natural sciences
+EST,Y15,MATH,13.82979,2023,Mathematics
+CRI,Y10,SLAN,11.62791,2023,Second language
+CRI,Y12,MATH,11.90476,2023,Mathematics
+TUR,Y12,READ,14.24096,2023,"Reading, writing and literature"
+OECD,Y14,NSCI,13.11657,2023,Natural sciences
+LTU,Y16,NSCI,17.22362,2023,Natural sciences
+SVK,Y8,READ,28.0,2023,"Reading, writing and literature"
+HUN,Y11,READ,14.28571,2023,"Reading, writing and literature"
+FIN,Y10,PHED,9.50704,2023,Physical education and health
+IRL,Y7,MATH,16.68,2023,Mathematics
+LTU,Y7,ARTS,17.14763,2023,Arts
+CZE,Y13,PHED,8.19672,2023,Physical education and health
+GRC,Y11,NSCI,16.14999,2023,Natural sciences
+KOR,Y10,NSCI,15.625,2023,Natural sciences
+BFR,Y17,SLAN,14.28571,2023,Second language
+ITA,Y12,PHED,6.66667,2023,Physical education and health
+IRL,Y13,SLAN,8.60585,2023,Second language
+SVK,Y15,OLAN,9.83607,2023,Other languages
+ISL,Y7,ARTS,18.75078,2023,Arts
+ISL,Y11,READ,16.18971,2023,"Reading, writing and literature"
+SVN,Y6,ARTS,20.64552,2023,Arts
+IRL,Y14,SLAN,8.60585,2023,Second language
+CZE,Y14,PHED,8.19672,2023,Physical education and health
+DNK,Y15,SLAN,7.5,2023,Second language
+LUX,Y11,SSCI,7.14286,2023,Social sciences
+ITA,Y15,READ,14.42927,2023,"Reading, writing and literature"
+CZE,Y11,READ,12.29508,2023,"Reading, writing and literature"
+CHL,Y17,READ,7.30068,2023,"Reading, writing and literature"
+FRA,Y6,SLAN,6.25,2023,Second language
+DEU,Y12,SSCI,12.69111,2022,Social sciences
+SVN,Y11,PHED,13.19779,2023,Physical education and health
+ESP,Y11,PHED,9.07888,2023,Physical education and health
+FRA,Y9,MATH,20.83333,2023,Mathematics
+DEU,Y11,SLAN,13.6291,2022,Second language
+ISL,Y14,PHED,8.10811,2023,Physical education and health
+LVA,Y9,SLAN,8.57143,2023,Second language
+NOR,Y7,MATH,17.95529,2023,Mathematics
+EU25,Y13,NSCI,14.31615,2023,Natural sciences
+CZE,Y7,ARTS,11.00917,2023,Arts
+IRL,Y12,PHED,4.84079,2023,Physical education and health
+ESP,Y10,MATH,16.51336,2023,Mathematics
+FIN,Y7,NSCI,9.09091,2023,Natural sciences
+LTU,Y15,PHED,6.26314,2023,Physical education and health
+FRA,Y8,MATH,20.83333,2023,Mathematics
+LTU,Y11,READ,20.65393,2023,"Reading, writing and literature"
+LVA,Y7,ARTS,15.71429,2023,Arts
+DNK,Y8,PHED,6.59341,2023,Physical education and health
+POL,Y10,READ,20.83333,2023,"Reading, writing and literature"
+BGR,Y12,SSCI,12.50017,2023,Social sciences
+DNK,Y11,READ,18.75,2023,"Reading, writing and literature"
+ESP,Y14,SSCI,9.62646,2023,Social sciences
+DNK,Y7,ARTS,9.89011,2023,Arts
+BGR,Y9,PHED,9.25884,2023,Physical education and health
+CHL,Y7,NSCI,8.79874,2023,Natural sciences
+POL,Y12,ARTS,8.0,2023,Arts
+ESP,Y7,SLAN,10.98897,2023,Second language
+OECD,Y12,SSCI,10.37054,2023,Social sciences
+ISL,Y15,SLAN,18.91892,2023,Second language
+TUR,Y8,ARTS,6.66667,2023,Arts
+BGR,Y11,SLAN,9.37478,2023,Second language
+CRI,Y10,ARTS,4.65116,2023,Arts
+EU25,Y14,NSCI,13.80025,2023,Natural sciences
+EST,Y10,NSCI,8.43373,2023,Natural sciences
+LVA,Y11,MATH,18.82353,2023,Mathematics
+TUR,Y14,READ,12.60204,2023,"Reading, writing and literature"
+LVA,Y14,PHED,8.91089,2023,Physical education and health
+DEU,Y7,READ,29.61191,2022,"Reading, writing and literature"
+TUR,Y9,ARTS,6.66667,2023,Arts
+LVA,Y13,PHED,8.91089,2023,Physical education and health
+TUR,Y15,ARTS,4.84848,2023,Arts
+NOR,Y10,SSCI,7.66322,2023,Social sciences
+TUR,Y13,READ,14.24907,2023,"Reading, writing and literature"
+ITA,Y14,SLAN,11.37165,2023,Second language
+LTU,Y9,PHED,12.31139,2023,Physical education and health
+ITA,Y13,PHED,6.66667,2023,Physical education and health
+DNK,Y9,PHED,6.59341,2023,Physical education and health
+OECD,Y7,READ,27.3017,2023,"Reading, writing and literature"
+LVA,Y15,SLAN,14.85149,2023,Second language
+BGR,Y7,READ,31.81796,2023,"Reading, writing and literature"
+SVN,Y10,READ,17.76626,2023,"Reading, writing and literature"
+OECD,Y15,PHED,6.71856,2023,Physical education and health
+IRL,Y6,PHED,4.0,2023,Physical education and health
+CZE,Y11,MATH,12.29508,2023,Mathematics
+ISL,Y11,ARTS,19.99905,2023,Arts
+ROU,Y10,SSCI,14.28571,2023,Social sciences
+NOR,Y8,PHED,10.15024,2023,Physical education and health
+ITA,Y15,SLAN,11.37165,2023,Second language
+LUX,Y13,OLAN,8.30709,2023,Other languages
+CZE,Y7,MATH,18.34862,2023,Mathematics
+ISL,Y7,READ,23.33431,2023,"Reading, writing and literature"
+ISL,Y9,PHED,10.00042,2023,Physical education and health
+AUT,Y11,NSCI,9.67742,2023,Natural sciences
+ISL,Y15,PHED,8.10811,2023,Physical education and health
+LUX,Y6,MATH,21.42857,2023,Mathematics
+LUX,Y10,SLAN,21.42857,2023,Second language
+LUX,Y12,MATH,15.41011,2023,Mathematics
+CZE,Y8,PHED,8.06452,2023,Physical education and health
+DNK,Y11,MATH,13.39286,2023,Mathematics
+ISL,Y8,NSCI,8.75036,2023,Natural sciences
+ITA,Y15,ARTS,9.14075,2023,Arts
+FIN,Y10,READ,19.01408,2023,"Reading, writing and literature"
+DNK,Y13,PHED,5.0,2023,Physical education and health
+LVA,Y11,ARTS,11.76471,2023,Arts
+CHL,Y11,NSCI,10.47551,2023,Natural sciences
+FRA,Y10,PHED,12.5,2023,Physical education and health
+ISR,Y16,SSCI,13.06271,2023,Social sciences
+NOR,Y11,MATH,15.23355,2023,Mathematics
+BGR,Y13,SSCI,12.69841,2023,Social sciences
+SVN,Y7,PHED,14.77295,2023,Physical education and health
+TUR,Y16,READ,12.57576,2023,"Reading, writing and literature"
+BFR,Y13,MATH,16.66667,2023,Mathematics
+IRL,Y9,SLAN,14.0,2023,Second language
+PRT,Y6,MATH,28.0,2023,Mathematics
+CRI,Y11,PHED,4.65116,2023,Physical education and health
+SVN,Y10,SLAN,10.65975,2023,Second language
+SVN,Y12,MATH,13.49389,2023,Mathematics
+OECD,Y9,PHED,9.3451,2023,Physical education and health
+HRV,Y14,READ,15.38462,2023,"Reading, writing and literature"
+TUR,Y14,ARTS,4.89796,2023,Arts
+FRA,Y11,SSCI,11.29707,2023,Social sciences
+ESP,Y11,SLAN,12.11646,2023,Second language
+NOR,Y8,SLAN,4.4247,2023,Second language
+DEU,Y15,PHED,6.99392,2022,Physical education and health
+FRA,Y10,SLAN,6.25,2023,Second language
+FRA,Y14,MATH,12.70161,2023,Mathematics
+BFR,Y12,ARTS,3.33333,2023,Arts
+DEU,Y9,PHED,10.30921,2022,Physical education and health
+EU25,Y8,NSCI,6.4435,2023,Natural sciences
+ISR,Y12,NSCI,12.96296,2023,Natural sciences
+LTU,Y13,SSCI,13.76876,2023,Social sciences
+OECD,Y14,SSCI,11.16939,2023,Social sciences
+CRI,Y10,READ,23.25581,2023,"Reading, writing and literature"
+ESP,Y15,SSCI,10.03715,2023,Social sciences
+TUR,Y9,READ,26.66667,2023,"Reading, writing and literature"
+LTU,Y16,SSCI,16.50421,2023,Social sciences
+EU25,Y12,OLAN,4.41072,2023,Other languages
+DEU,Y7,ARTS,12.54252,2022,Arts
+TUR,Y10,NSCI,11.38628,2023,Natural sciences
+ESP,Y9,SSCI,7.73189,2023,Social sciences
+JPN,Y13,ARTS,6.55738,2023,Arts
+BGR,Y7,ARTS,18.18204,2023,Arts
+IRL,Y8,READ,20.0,2023,"Reading, writing and literature"
+OECD,Y7,ARTS,12.06056,2023,Arts
+TUR,Y12,SLAN,11.39277,2023,Second language
+DEU,Y14,SSCI,12.4571,2022,Social sciences
+OECD,Y11,SLAN,10.82827,2023,Second language
+EST,Y14,READ,12.76596,2023,"Reading, writing and literature"
+FIN,Y12,ARTS,13.63636,2023,Arts
+PRT,Y12,MATH,13.32,2023,Mathematics
+FIN,Y17,SLAN,8.0,2023,Second language
+LVA,Y9,PHED,11.42857,2023,Physical education and health
+SVN,Y10,ARTS,13.95988,2023,Arts
+TUR,Y17,PHED,5.0,2023,Physical education and health
+HRV,Y10,NSCI,16.66667,2023,Natural sciences
+ISL,Y13,NSCI,8.10811,2023,Natural sciences
+IRL,Y14,READ,8.60585,2023,"Reading, writing and literature"
+KOR,Y7,MATH,14.6789,2023,Mathematics
+ROU,Y16,ARTS,3.44828,2023,Arts
+FIN,Y10,SLAN,9.50704,2023,Second language
+FIN,Y12,MATH,14.61039,2023,Mathematics
+FIN,Y13,MATH,12.94118,2023,Mathematics
+GRC,Y12,ARTS,6.06061,2023,Arts
+HRV,Y9,READ,27.77778,2023,"Reading, writing and literature"
+ITA,Y11,MATH,20.0,2023,Mathematics
+IRL,Y10,SSCI,8.0,2023,Social sciences
+CHL,Y17,SLAN,4.86712,2023,Second language
+ROU,Y11,OLAN,8.0,2023,Other languages
+SVK,Y9,MATH,15.38462,2023,Mathematics
+HRV,Y12,PHED,8.0,2023,Physical education and health
+LTU,Y8,NSCI,4.28691,2023,Natural sciences
+FIN,Y15,OLAN,4.70588,2023,Other languages
+NOR,Y13,PHED,8.50496,2023,Physical education and health
+TUR,Y16,ARTS,4.64646,2023,Arts
+HUN,Y9,PHED,18.51852,2023,Physical education and health
+HRV,Y14,SLAN,11.53846,2023,Second language
+JPN,Y8,ARTS,11.45257,2023,Arts
+BFR,Y17,READ,14.28571,2023,"Reading, writing and literature"
+CRI,Y15,NSCI,20.45455,2023,Natural sciences
+HUN,Y8,PHED,20.83333,2023,Physical education and health
+LTU,Y11,SLAN,11.46053,2023,Second language
+EU25,Y7,SLAN,5.21523,2023,Second language
+POL,Y11,SSCI,12.0,2023,Social sciences
+ROU,Y6,PHED,10.52632,2023,Physical education and health
+OECD,Y8,SSCI,5.71664,2023,Social sciences
+EU25,Y15,SSCI,11.46134,2023,Social sciences
+DEU,Y11,READ,14.67163,2022,"Reading, writing and literature"
+LVA,Y15,READ,14.85149,2023,"Reading, writing and literature"
+CRI,Y7,PHED,4.65116,2023,Physical education and health
+TUR,Y8,SLAN,6.66667,2023,Second language
+EST,Y9,READ,27.94118,2023,"Reading, writing and literature"
+JPN,Y12,READ,13.11475,2023,"Reading, writing and literature"
+BGR,Y9,SSCI,7.40811,2023,Social sciences
+CHL,Y12,ARTS,7.70426,2023,Arts
+EST,Y15,ARTS,6.38298,2023,Arts
+TUR,Y6,PHED,16.66667,2023,Physical education and health
+BGR,Y8,SSCI,4.34864,2023,Social sciences
+CHL,Y13,ARTS,7.70196,2023,Arts
+ISR,Y7,READ,31.73732,2023,"Reading, writing and literature"
+EU25,Y10,MATH,15.39024,2023,Mathematics
+JPN,Y13,READ,13.11475,2023,"Reading, writing and literature"
+LVA,Y12,SSCI,8.23529,2023,Social sciences
+HUN,Y12,SSCI,13.33333,2023,Social sciences
+NOR,Y14,SLAN,8.46682,2023,Second language
+HUN,Y11,MATH,14.28571,2023,Mathematics
+ISR,Y11,SLAN,11.94824,2023,Second language
+ISL,Y12,NSCI,8.09485,2023,Natural sciences
+FRA,Y11,NSCI,15.06276,2023,Natural sciences
+JPN,Y9,ARTS,10.96892,2023,Arts
+LTU,Y8,SSCI,4.28691,2023,Social sciences
+CZE,Y13,SSCI,9.01639,2023,Social sciences
+SVN,Y6,MATH,18.06483,2023,Mathematics
+DNK,Y7,MATH,16.48352,2023,Mathematics
+POL,Y11,NSCI,4.0,2023,Natural sciences
+FRA,Y6,READ,41.66667,2023,"Reading, writing and literature"
+LTU,Y14,SSCI,13.76876,2023,Social sciences
+DEU,Y8,SSCI,6.51781,2022,Social sciences
+NOR,Y12,PHED,11.02707,2023,Physical education and health
+EU25,Y9,SSCI,4.88437,2023,Social sciences
+CRI,Y14,OLAN,7.14286,2023,Other languages
+FIN,Y11,NSCI,10.56338,2023,Natural sciences
+ROU,Y14,ARTS,6.66667,2023,Arts
+CZE,Y9,PHED,8.06452,2023,Physical education and health
+IRL,Y8,SLAN,14.0,2023,Second language
+AUT,Y12,MATH,11.93772,2023,Mathematics
+GRC,Y7,NSCI,9.94825,2023,Natural sciences
+SVK,Y14,MATH,16.66667,2023,Mathematics
+LUX,Y10,READ,25.0,2023,"Reading, writing and literature"
+AUT,Y10,SLAN,13.7931,2023,Second language
+GRC,Y6,SLAN,6.66667,2023,Second language
+GRC,Y8,MATH,13.26687,2023,Mathematics
+KOR,Y13,PHED,8.08081,2023,Physical education and health
+LTU,Y7,READ,31.97668,2023,"Reading, writing and literature"
+CZE,Y11,ARTS,8.19672,2023,Arts
+DNK,Y12,SSCI,5.35714,2023,Social sciences
+FIN,Y17,READ,8.0,2023,"Reading, writing and literature"
+LUX,Y14,OLAN,13.33333,2023,Other languages
+ROU,Y13,READ,13.33333,2023,"Reading, writing and literature"
+ROU,Y17,PHED,3.57143,2023,Physical education and health
+HUN,Y7,MATH,16.66667,2023,Mathematics
+NOR,Y9,SLAN,4.4247,2023,Second language
+ISL,Y13,SSCI,8.10811,2023,Social sciences
+CRI,Y13,OLAN,7.14286,2023,Other languages
+TUR,Y15,MATH,15.0,2023,Mathematics
+KOR,Y11,MATH,12.5,2023,Mathematics
+LTU,Y13,NSCI,12.89732,2023,Natural sciences
+HUN,Y14,PHED,14.70588,2023,Physical education and health
+LVA,Y8,PHED,11.42857,2023,Physical education and health
+IRL,Y9,READ,20.0,2023,"Reading, writing and literature"
+IRL,Y10,NSCI,4.0,2023,Natural sciences
+SVK,Y10,PHED,7.40741,2023,Physical education and health
+TUR,Y13,SLAN,11.39926,2023,Second language
+FRA,Y12,ARTS,7.53138,2023,Arts
+CRI,Y6,MATH,18.60465,2023,Mathematics
+HRV,Y9,SLAN,11.11111,2023,Second language
+DNK,Y11,ARTS,8.03571,2023,Arts
+EST,Y12,PHED,9.63855,2023,Physical education and health
+OECD,Y13,SSCI,10.01319,2023,Social sciences
+TUR,Y8,READ,26.66667,2023,"Reading, writing and literature"
+BGR,Y14,SSCI,9.05707,2023,Social sciences
+HUN,Y15,SLAN,8.82353,2023,Second language
+ISR,Y11,READ,26.74677,2023,"Reading, writing and literature"
+ISR,Y15,PHED,5.22508,2023,Physical education and health
+BGR,Y13,NSCI,15.87302,2023,Natural sciences
+BGR,Y15,PHED,6.25,2023,Physical education and health
+JPN,Y14,ARTS,6.55738,2023,Arts
+EU25,Y9,NSCI,6.80285,2023,Natural sciences
+ISR,Y13,NSCI,12.96296,2023,Natural sciences
+JPN,Y12,SLAN,13.11475,2023,Second language
+LVA,Y7,MATH,17.14286,2023,Mathematics
+BGR,Y11,READ,17.18756,2023,"Reading, writing and literature"
+FRA,Y13,MATH,13.01653,2023,Mathematics
+EST,Y14,SLAN,9.57447,2023,Second language
+TUR,Y10,SSCI,8.53971,2023,Social sciences
+BFR,Y12,MATH,13.33333,2023,Mathematics
+DEU,Y13,SSCI,12.52468,2022,Social sciences
+ROU,Y12,SLAN,7.40741,2023,Second language
+BFR,Y10,SLAN,7.14286,2023,Second language
+DNK,Y14,PHED,5.0,2023,Physical education and health
+POL,Y10,SLAN,12.5,2023,Second language
+POL,Y12,MATH,16.0,2023,Mathematics
+SVK,Y13,ARTS,6.66667,2023,Arts
+CZE,Y12,SSCI,9.01639,2023,Social sciences
+ESP,Y9,NSCI,7.58878,2023,Natural sciences
+FRA,Y7,NSCI,6.25,2023,Natural sciences
+NOR,Y6,SSCI,7.05387,2023,Social sciences
+OECD,Y11,READ,18.30934,2023,"Reading, writing and literature"
+AUT,Y11,SSCI,9.67742,2023,Social sciences
+LUX,Y6,ARTS,10.71429,2023,Arts
+HUN,Y14,NSCI,17.64706,2023,Natural sciences
+ISL,Y15,SSCI,8.10811,2023,Social sciences
+DNK,Y13,READ,17.5,2023,"Reading, writing and literature"
+LUX,Y10,ARTS,10.71429,2023,Arts
+FIN,Y13,OLAN,4.70588,2023,Other languages
+KOR,Y11,ARTS,12.5,2023,Arts
+ISL,Y9,SSCI,12.08384,2023,Social sciences
+SVK,Y12,READ,13.33333,2023,"Reading, writing and literature"
+DEU,Y8,READ,24.96427,2022,"Reading, writing and literature"
+LTU,Y13,MATH,12.89732,2023,Mathematics
+ESP,Y14,SLAN,11.0785,2023,Second language
+TUR,Y7,READ,33.33333,2023,"Reading, writing and literature"
+LTU,Y16,MATH,12.52627,2023,Mathematics
+POL,Y14,PHED,12.78671,2023,Physical education and health
+ITA,Y11,OLAN,6.66667,2023,Other languages
+CHL,Y6,NSCI,8.79835,2023,Natural sciences
+IRL,Y11,SLAN,14.0,2023,Second language
+SVN,Y9,NSCI,9.28948,2023,Natural sciences
+LUX,Y14,SSCI,10.0,2023,Social sciences
+ESP,Y7,SSCI,7.1456,2023,Social sciences
+SVK,Y10,SLAN,11.11111,2023,Second language
+SVK,Y12,MATH,13.33333,2023,Mathematics
+ISR,Y15,SLAN,13.06271,2023,Second language
+ROU,Y15,ARTS,4.87635,2023,Arts
+SVK,Y6,READ,40.90909,2023,"Reading, writing and literature"
+HUN,Y14,SLAN,8.82353,2023,Second language
+EU25,Y15,PHED,7.38522,2023,Physical education and health
+HRV,Y8,PHED,16.66667,2023,Physical education and health
+FIN,Y17,SSCI,10.66667,2023,Social sciences
+CZE,Y13,ARTS,8.19672,2023,Arts
+EST,Y15,NSCI,21.2766,2023,Natural sciences
+BGR,Y13,MATH,15.87302,2023,Mathematics
+OECD,Y14,MATH,12.15299,2023,Mathematics
+ROU,Y16,NSCI,19.85371,2023,Natural sciences
+SVN,Y9,SLAN,7.65016,2023,Second language
+ESP,Y6,PHED,10.67473,2023,Physical education and health
+BFR,Y14,PHED,7.14286,2023,Physical education and health
+ISR,Y15,NSCI,5.93511,2023,Natural sciences
+CRI,Y16,MATH,11.36364,2023,Mathematics
+TUR,Y7,MATH,16.66667,2023,Mathematics
+LTU,Y16,READ,15.11054,2023,"Reading, writing and literature"
+IRL,Y8,SSCI,8.0,2023,Social sciences
+HUN,Y6,PHED,20.83333,2023,Physical education and health
+ROU,Y12,MATH,14.81481,2023,Mathematics
+ROU,Y10,SLAN,9.52381,2023,Second language
+SVK,Y9,ARTS,7.69231,2023,Arts
+NOR,Y14,READ,15.17925,2023,"Reading, writing and literature"
+DEU,Y6,NSCI,3.06589,2022,Natural sciences
+EST,Y14,PHED,6.38298,2023,Physical education and health
+HUN,Y12,PHED,16.66667,2023,Physical education and health
+ESP,Y14,NSCI,14.35531,2023,Natural sciences
+ISR,Y9,NSCI,8.09014,2023,Natural sciences
+DEU,Y12,NSCI,11.0326,2022,Natural sciences
+DEU,Y10,OLAN,0.30468,2022,Other languages
+CHL,Y8,MATH,16.2139,2023,Mathematics
+SVN,Y14,PHED,9.16581,2023,Physical education and health
+ROU,Y6,MATH,15.78947,2023,Mathematics
+CRI,Y16,READ,11.36364,2023,"Reading, writing and literature"
+LTU,Y13,READ,17.43247,2023,"Reading, writing and literature"
+OECD,Y10,PHED,9.09057,2023,Physical education and health
+LUX,Y7,MATH,21.42857,2023,Mathematics
+BFR,Y15,SLAN,14.28571,2023,Second language
+LVA,Y9,SSCI,4.28571,2023,Social sciences
+OECD,Y14,READ,13.77977,2023,"Reading, writing and literature"
+GRC,Y14,READ,23.52941,2023,"Reading, writing and literature"
+SVK,Y6,MATH,18.18182,2023,Mathematics
+EU25,Y13,SSCI,10.23287,2023,Social sciences
+CHL,Y12,SLAN,8.01896,2023,Second language
+CHL,Y8,READ,21.61854,2023,"Reading, writing and literature"
+KOR,Y8,PHED,10.34483,2023,Physical education and health
+ROU,Y9,ARTS,10.0,2023,Arts
+EST,Y9,SLAN,4.41176,2023,Second language
+ROU,Y13,NSCI,20.0,2023,Natural sciences
+ESP,Y12,PHED,7.78573,2023,Physical education and health
+DEU,Y11,SSCI,10.35783,2022,Social sciences
+BGR,Y13,READ,15.87302,2023,"Reading, writing and literature"
+JPN,Y9,NSCI,9.59781,2023,Natural sciences
+TUR,Y15,OLAN,5.0,2023,Other languages
+TUR,Y7,ARTS,6.66667,2023,Arts
+FIN,Y12,SLAN,8.76623,2023,Second language
+ESP,Y13,MATH,12.34511,2023,Mathematics
+ROU,Y6,READ,26.31579,2023,"Reading, writing and literature"
+LUX,Y7,READ,33.92857,2023,"Reading, writing and literature"
+SVK,Y11,PHED,6.89655,2023,Physical education and health
+JPN,Y14,PHED,9.83607,2023,Physical education and health
+FIN,Y9,NSCI,11.36364,2023,Natural sciences
+LUX,Y10,MATH,17.85714,2023,Mathematics
+OECD,Y12,OLAN,3.69344,2023,Other languages
+OECD,Y8,NSCI,7.01483,2023,Natural sciences
+ROU,Y9,MATH,20.0,2023,Mathematics
+CRI,Y14,NSCI,11.90476,2023,Natural sciences
+KOR,Y11,READ,18.75,2023,"Reading, writing and literature"
+FIN,Y15,NSCI,16.47059,2023,Natural sciences
+FIN,Y8,MATH,13.63636,2023,Mathematics
+GRC,Y10,PHED,6.4564,2023,Physical education and health
+FIN,Y11,SSCI,7.04225,2023,Social sciences
+FIN,Y16,OLAN,6.66667,2023,Other languages
+HRV,Y11,MATH,16.66667,2023,Mathematics
+ROU,Y12,READ,14.81481,2023,"Reading, writing and literature"
+BFR,Y11,SLAN,7.14286,2023,Second language
+DEU,Y8,ARTS,13.54014,2022,Arts
+PRT,Y14,PHED,10.0,2023,Physical education and health
+TUR,Y10,ARTS,5.69314,2023,Arts
+SVK,Y6,ARTS,13.63636,2023,Arts
+KOR,Y9,MATH,13.7931,2023,Mathematics
+SVN,Y8,MATH,19.12596,2023,Mathematics
+IRL,Y11,NSCI,4.0,2023,Natural sciences
+LVA,Y15,SSCI,14.85149,2023,Social sciences
+PRT,Y8,READ,28.0,2023,"Reading, writing and literature"
+EU25,Y7,NSCI,6.75682,2023,Natural sciences
+CZE,Y13,READ,12.29508,2023,"Reading, writing and literature"
+FRA,Y7,PHED,12.5,2023,Physical education and health
+DNK,Y14,NSCI,12.5,2023,Natural sciences
+LTU,Y14,NSCI,12.89732,2023,Natural sciences
+ROU,Y16,SLAN,8.32463,2023,Second language
+JPN,Y8,READ,23.38232,2023,"Reading, writing and literature"
+GRC,Y14,MATH,11.76471,2023,Mathematics
+ESP,Y10,SSCI,6.24001,2023,Social sciences
+GRC,Y12,OLAN,6.06061,2023,Other languages
+CZE,Y10,READ,26.6129,2023,"Reading, writing and literature"
+CRI,Y13,MATH,11.90476,2023,Mathematics
+SVK,Y10,NSCI,7.40741,2023,Natural sciences
+NOR,Y14,ARTS,8.73379,2023,Arts
+SVK,Y15,ARTS,1.63934,2023,Arts
+SVK,Y9,READ,26.92308,2023,"Reading, writing and literature"
+HUN,Y10,SSCI,7.14286,2023,Social sciences
+EU25,Y11,PHED,9.46506,2023,Physical education and health
+BGR,Y14,NSCI,7.94045,2023,Natural sciences
+SVN,Y11,SSCI,7.1065,2023,Social sciences
+LVA,Y8,ARTS,15.71429,2023,Arts
+DNK,Y10,READ,18.75,2023,"Reading, writing and literature"
+FIN,Y12,NSCI,9.74026,2023,Natural sciences
+DNK,Y13,MATH,12.5,2023,Mathematics
+SVN,Y12,SLAN,13.49389,2023,Second language
+EU25,Y9,PHED,9.72715,2023,Physical education and health
+KOR,Y12,SSCI,15.15152,2023,Social sciences
+ROU,Y15,MATH,10.93696,2023,Mathematics
+ROU,Y13,SLAN,6.66667,2023,Second language
+JPN,Y9,SLAN,3.19927,2023,Second language
+LVA,Y12,NSCI,7.05882,2023,Natural sciences
+AUT,Y8,ARTS,8.33333,2023,Arts
+SVK,Y12,ARTS,6.66667,2023,Arts
+CHL,Y8,ARTS,10.80927,2023,Arts
+AUT,Y12,NSCI,12.33324,2023,Natural sciences
+ISL,Y8,ARTS,18.75078,2023,Arts
+EU25,Y10,SSCI,7.53513,2023,Social sciences
+CHL,Y12,NSCI,10.69194,2023,Natural sciences
+PRT,Y9,SLAN,8.0,2023,Second language
+EST,Y12,SLAN,10.84337,2023,Second language
+HRV,Y11,ARTS,8.33333,2023,Arts
+ROU,Y12,ARTS,7.40741,2023,Arts
+FRA,Y9,SLAN,6.25,2023,Second language
+DEU,Y15,SLAN,10.16323,2022,Second language
+CZE,Y12,PHED,8.19672,2023,Physical education and health
+DNK,Y14,SLAN,7.5,2023,Second language
+CZE,Y14,NSCI,17.21311,2023,Natural sciences
+SVK,Y13,SLAN,10.0,2023,Second language
+SVN,Y11,NSCI,8.62932,2023,Natural sciences
+BGR,Y10,SSCI,3.70413,2023,Social sciences
+LVA,Y8,MATH,17.14286,2023,Mathematics
+TUR,Y10,READ,17.07942,2023,"Reading, writing and literature"
+CHL,Y14,PHED,4.85283,2023,Physical education and health
+LUX,Y7,ARTS,10.71429,2023,Arts
+SVK,Y7,NSCI,8.69565,2023,Natural sciences
+CRI,Y10,MATH,18.60465,2023,Mathematics
+ISR,Y8,READ,32.36056,2023,"Reading, writing and literature"
+BGR,Y10,MATH,14.81488,2023,Mathematics
+HRV,Y13,SLAN,11.53846,2023,Second language
+ROU,Y11,PHED,8.0,2023,Physical education and health
+TUR,Y13,PHED,5.44315,2023,Physical education and health
+JPN,Y12,NSCI,9.83607,2023,Natural sciences
+CZE,Y10,ARTS,9.67742,2023,Arts
+AUT,Y8,MATH,16.66667,2023,Mathematics
+DNK,Y12,PHED,5.35714,2023,Physical education and health
+ISL,Y6,NSCI,8.75036,2023,Natural sciences
+ITA,Y13,READ,33.33333,2023,"Reading, writing and literature"
+DEU,Y9,NSCI,4.18074,2022,Natural sciences
+ISL,Y12,SSCI,14.28503,2023,Social sciences
+EU25,Y10,NSCI,7.63289,2023,Natural sciences
+HUN,Y13,MATH,9.67742,2023,Mathematics
+EST,Y11,SSCI,7.22892,2023,Social sciences
+ISR,Y12,SLAN,11.11111,2023,Second language
+POL,Y12,NSCI,4.0,2023,Natural sciences
+BFR,Y6,SLAN,3.57143,2023,Second language
+EST,Y8,READ,27.94118,2023,"Reading, writing and literature"
+FIN,Y8,ARTS,18.18182,2023,Arts
+DNK,Y10,ARTS,10.71429,2023,Arts
+OECD,Y13,PHED,7.71196,2023,Physical education and health
+GRC,Y13,PHED,6.06081,2023,Physical education and health
+FIN,Y9,SLAN,10.22727,2023,Second language
+ITA,Y15,OLAN,3.95286,2023,Other languages
+DNK,Y14,SSCI,10.0,2023,Social sciences
+SVN,Y12,NSCI,11.56619,2023,Natural sciences
+SVN,Y8,READ,26.77635,2023,"Reading, writing and literature"
+EU25,Y8,OLAN,0.0,2023,Other languages
+KOR,Y13,SLAN,10.10101,2023,Second language
+ESP,Y15,PHED,6.59914,2023,Physical education and health
+DEU,Y14,PHED,7.27352,2022,Physical education and health
+HUN,Y15,PHED,14.70588,2023,Physical education and health
+FRA,Y14,ARTS,7.25806,2023,Arts
+DEU,Y9,SSCI,7.00904,2022,Social sciences
+ISL,Y8,READ,23.33431,2023,"Reading, writing and literature"
+ITA,Y13,MATH,20.0,2023,Mathematics
+EU25,Y12,ARTS,8.28763,2023,Arts
+GRC,Y8,NSCI,6.67178,2023,Natural sciences
+EST,Y11,NSCI,8.43373,2023,Natural sciences
+LTU,Y7,SSCI,4.28691,2023,Social sciences
+CHL,Y15,SLAN,9.49207,2023,Second language
+CHL,Y9,SSCI,8.10178,2023,Social sciences
+ESP,Y13,ARTS,10.55488,2023,Arts
+CZE,Y14,SSCI,9.01639,2023,Social sciences
+TUR,Y8,NSCI,10.0,2023,Natural sciences
+EU25,Y14,SLAN,9.39064,2023,Second language
+BFR,Y15,NSCI,10.71429,2023,Natural sciences
+ISL,Y9,NSCI,8.75036,2023,Natural sciences
+SVK,Y15,MATH,9.83607,2023,Mathematics
+LTU,Y10,MATH,18.46708,2023,Mathematics
+OECD,Y9,OLAN,0.0,2023,Other languages
+DEU,Y12,SLAN,11.40956,2022,Second language
+BGR,Y7,SSCI,4.54612,2023,Social sciences
+FRA,Y11,SLAN,15.06276,2023,Second language
+ISL,Y11,SSCI,14.28503,2023,Social sciences
+ISR,Y11,NSCI,7.9199,2023,Natural sciences
+ROU,Y13,SSCI,10.0,2023,Social sciences
+HRV,Y9,ARTS,11.11111,2023,Arts
+ISL,Y8,PHED,10.00042,2023,Physical education and health
+CZE,Y7,READ,30.27523,2023,"Reading, writing and literature"
+EU25,Y12,PHED,8.88525,2023,Physical education and health
+PRT,Y12,NSCI,16.68,2023,Natural sciences
+HUN,Y13,SSCI,12.90323,2023,Social sciences
+HRV,Y12,SSCI,16.0,2023,Social sciences
+POL,Y13,OLAN,6.19531,2023,Other languages
+BFR,Y7,PHED,7.14286,2023,Physical education and health
+CRI,Y7,SSCI,9.30233,2023,Social sciences
+EST,Y15,SLAN,9.57447,2023,Second language
+CHL,Y9,NSCI,8.10178,2023,Natural sciences
+CRI,Y6,PHED,4.65116,2023,Physical education and health
+TUR,Y17,OLAN,5.0,2023,Other languages
+DNK,Y7,READ,36.26374,2023,"Reading, writing and literature"
+ISL,Y11,MATH,14.28503,2023,Mathematics
+CRI,Y16,ARTS,4.54545,2023,Arts
+LUX,Y8,SLAN,21.42857,2023,Second language
+TUR,Y10,PHED,5.69314,2023,Physical education and health
+CRI,Y13,READ,11.90476,2023,"Reading, writing and literature"
+TUR,Y13,ARTS,5.69963,2023,Arts
+JPN,Y8,MATH,16.70166,2023,Mathematics
+SVK,Y11,ARTS,6.89655,2023,Arts
+LTU,Y16,ARTS,6.26314,2023,Arts
+LUX,Y15,OLAN,13.33333,2023,Other languages
+PRT,Y8,MATH,28.0,2023,Mathematics
+LUX,Y13,MATH,13.33333,2023,Mathematics
+ROU,Y9,READ,25.0,2023,"Reading, writing and literature"
+CHL,Y11,SSCI,10.79728,2023,Social sciences
+GRC,Y14,ARTS,5.88235,2023,Arts
+ROU,Y10,NSCI,4.7619,2023,Natural sciences
+KOR,Y9,READ,20.68966,2023,"Reading, writing and literature"
+ISL,Y12,SLAN,10.95662,2023,Second language
+ROU,Y11,READ,16.0,2023,"Reading, writing and literature"
+TUR,Y14,SSCI,10.0,2023,Social sciences
+EST,Y9,NSCI,4.41176,2023,Natural sciences
+LVA,Y15,NSCI,13.86139,2023,Natural sciences
+BFR,Y17,SSCI,10.71429,2023,Social sciences
+OECD,Y14,ARTS,5.97926,2023,Arts
+ESP,Y10,READ,21.7606,2023,"Reading, writing and literature"
+SVK,Y10,SSCI,11.11111,2023,Social sciences
+NOR,Y11,SLAN,10.58917,2023,Second language
+LUX,Y8,NSCI,7.14286,2023,Natural sciences
+IRL,Y6,SLAN,14.0,2023,Second language
+HRV,Y8,ARTS,11.11111,2023,Arts
+ROU,Y12,SSCI,11.11111,2023,Social sciences
+TUR,Y13,MATH,14.24907,2023,Mathematics
+FIN,Y17,MATH,8.0,2023,Mathematics
+KOR,Y12,READ,13.13131,2023,"Reading, writing and literature"
+HUN,Y10,MATH,14.28571,2023,Mathematics
+ROU,Y11,MATH,16.0,2023,Mathematics
+ESP,Y13,SSCI,10.08808,2023,Social sciences
+FRA,Y12,OLAN,9.41423,2023,Other languages
+CRI,Y13,SSCI,14.28571,2023,Social sciences
+ISL,Y9,SLAN,1.66257,2023,Second language
+KOR,Y9,SSCI,13.7931,2023,Social sciences
+CRI,Y9,PHED,4.65116,2023,Physical education and health
+HUN,Y11,PHED,17.85714,2023,Physical education and health
+ROU,Y17,ARTS,1.47908,2023,Arts
+SVK,Y8,PHED,8.0,2023,Physical education and health
+CZE,Y8,SLAN,12.09677,2023,Second language
+HUN,Y14,SSCI,11.76471,2023,Social sciences
+ISR,Y15,SSCI,13.06271,2023,Social sciences
+BGR,Y7,MATH,18.18204,2023,Mathematics
+NOR,Y11,NSCI,8.31343,2023,Natural sciences
+AUT,Y11,READ,12.90323,2023,"Reading, writing and literature"
+FRA,Y12,SLAN,11.29707,2023,Second language
+LVA,Y11,READ,21.17647,2023,"Reading, writing and literature"
+FRA,Y15,NSCI,16.07143,2023,Natural sciences
+IRL,Y8,NSCI,4.0,2023,Natural sciences
+SVK,Y11,MATH,13.7931,2023,Mathematics
+SVN,Y8,SSCI,4.77967,2023,Social sciences
+FIN,Y11,SLAN,9.50704,2023,Second language
+HRV,Y12,READ,20.0,2023,"Reading, writing and literature"
+LUX,Y10,PHED,7.14286,2023,Physical education and health
+CHL,Y6,SSCI,8.79835,2023,Social sciences
+TUR,Y14,MATH,15.0,2023,Mathematics
+HUN,Y13,ARTS,6.45161,2023,Arts
+PRT,Y15,SSCI,9.80392,2023,Social sciences
+BGR,Y10,ARTS,11.11075,2023,Arts
+SVN,Y9,SSCI,7.65016,2023,Social sciences
+CRI,Y7,READ,23.25581,2023,"Reading, writing and literature"
+EST,Y14,ARTS,6.38298,2023,Arts
+ESP,Y6,ARTS,8.97127,2023,Arts
+DNK,Y10,SSCI,5.35714,2023,Social sciences
+NOR,Y7,READ,29.85068,2023,"Reading, writing and literature"
+LUX,Y14,NSCI,8.74344,2023,Natural sciences
+LTU,Y10,SSCI,4.1038,2023,Social sciences
+AUT,Y9,MATH,16.66667,2023,Mathematics
+AUT,Y13,SLAN,9.33329,2023,Second language
+CHL,Y17,ARTS,1.21678,2023,Arts
+GRC,Y9,SLAN,10.00383,2023,Second language
+LUX,Y14,MATH,13.33333,2023,Mathematics
+BFR,Y15,SSCI,10.71429,2023,Social sciences
+FRA,Y8,READ,41.66667,2023,"Reading, writing and literature"
+ROU,Y7,NSCI,5.0,2023,Natural sciences
+KOR,Y13,NSCI,20.20202,2023,Natural sciences
+LTU,Y10,ARTS,16.24752,2023,Arts
+DEU,Y6,SSCI,5.51365,2022,Social sciences
+DEU,Y9,SLAN,7.5404,2022,Second language
+ISR,Y17,NSCI,5.93511,2023,Natural sciences
+IRL,Y10,PHED,4.0,2023,Physical education and health
+GRC,Y11,OLAN,6.46,2023,Other languages
+CRI,Y7,SLAN,11.62791,2023,Second language
+SVN,Y14,ARTS,8.13594,2023,Arts
+LVA,Y13,SLAN,14.85149,2023,Second language
+LVA,Y15,MATH,14.85149,2023,Mathematics
+LTU,Y8,SLAN,5.86315,2023,Second language
+DNK,Y8,SLAN,3.2967,2023,Second language
+EST,Y9,SSCI,2.94118,2023,Social sciences
+ROU,Y9,PHED,15.0,2023,Physical education and health
+CHL,Y15,SSCI,9.71427,2023,Social sciences
+EST,Y10,OLAN,3.61446,2023,Other languages
+EST,Y12,NSCI,8.43373,2023,Natural sciences
+BGR,Y11,PHED,7.81278,2023,Physical education and health
+CRI,Y12,ARTS,9.52381,2023,Arts
+ROU,Y17,READ,10.71429,2023,"Reading, writing and literature"
+LUX,Y13,READ,14.58989,2023,"Reading, writing and literature"
+ESP,Y12,ARTS,9.3823,2023,Arts
+ISL,Y13,SLAN,18.91892,2023,Second language
+ISL,Y15,MATH,13.51351,2023,Mathematics
+OECD,Y9,SLAN,7.88098,2023,Second language
+EU25,Y13,MATH,12.0721,2023,Mathematics
+FRA,Y9,NSCI,8.33333,2023,Natural sciences
+IRL,Y14,PHED,4.84079,2023,Physical education and health
+EST,Y8,ARTS,22.05882,2023,Arts
+FRA,Y13,OLAN,9.29752,2023,Other languages
+HRV,Y12,SLAN,12.0,2023,Second language
+EU25,Y14,OLAN,6.35777,2023,Other languages
+LUX,Y6,PHED,10.71429,2023,Physical education and health
+HUN,Y12,READ,10.0,2023,"Reading, writing and literature"
+POL,Y14,READ,15.98338,2023,"Reading, writing and literature"
+ITA,Y14,NSCI,11.15127,2023,Natural sciences
+CHL,Y17,NSCI,4.86712,2023,Natural sciences
+CRI,Y7,ARTS,4.65116,2023,Arts
+LVA,Y9,MATH,17.14286,2023,Mathematics
+JPN,Y12,SSCI,9.83607,2023,Social sciences
+HRV,Y12,ARTS,8.0,2023,Arts
+LTU,Y7,MATH,19.29109,2023,Mathematics
+BGR,Y10,READ,25.92562,2023,"Reading, writing and literature"
+ISR,Y6,NSCI,6.37666,2023,Natural sciences
+NOR,Y7,ARTS,13.96116,2023,Arts
+CZE,Y14,SLAN,9.83607,2023,Second language
+IRL,Y14,MATH,8.60585,2023,Mathematics
+HRV,Y12,NSCI,8.0,2023,Natural sciences
+CRI,Y16,SSCI,15.90909,2023,Social sciences
+JPN,Y11,NSCI,9.59781,2023,Natural sciences
+CRI,Y7,NSCI,13.95349,2023,Natural sciences
+ESP,Y6,READ,23.51839,2023,"Reading, writing and literature"
+BFR,Y14,READ,17.85714,2023,"Reading, writing and literature"
+EU25,Y15,READ,12.81211,2023,"Reading, writing and literature"
+ESP,Y7,NSCI,6.96462,2023,Natural sciences
+POL,Y11,SLAN,12.0,2023,Second language
+EST,Y8,MATH,14.70588,2023,Mathematics
+LTU,Y10,READ,30.77847,2023,"Reading, writing and literature"
+ROU,Y6,ARTS,10.52632,2023,Arts
+ISL,Y6,MATH,16.66736,2023,Mathematics
+DNK,Y11,OLAN,5.35714,2023,Other languages
+SVN,Y14,MATH,13.18229,2023,Mathematics
+NOR,Y14,SSCI,9.49657,2023,Social sciences
+LVA,Y12,SLAN,12.94118,2023,Second language
+SVK,Y14,SLAN,10.0,2023,Second language
+ISR,Y17,MATH,13.06271,2023,Mathematics
+BGR,Y13,PHED,6.34921,2023,Physical education and health
+GRC,Y7,PHED,10.00575,2023,Physical education and health
+CZE,Y11,OLAN,4.91803,2023,Other languages
+NOR,Y8,SSCI,7.05387,2023,Social sciences
+POL,Y12,SLAN,12.0,2023,Second language
+DEU,Y15,SSCI,13.05277,2022,Social sciences
+BGR,Y14,SLAN,35.98015,2023,Second language
+OECD,Y13,OLAN,4.87373,2023,Other languages
+OECD,Y15,NSCI,13.23539,2023,Natural sciences
+ESP,Y9,PHED,8.88599,2023,Physical education and health
+LUX,Y13,ARTS,6.66667,2023,Arts
+SVN,Y10,PHED,13.19779,2023,Physical education and health
+CRI,Y12,READ,11.90476,2023,"Reading, writing and literature"
+AUT,Y11,SLAN,12.90323,2023,Second language
+LVA,Y11,SLAN,12.94118,2023,Second language
+EU25,Y11,ARTS,9.15391,2023,Arts
+EST,Y14,MATH,13.82979,2023,Mathematics
+ITA,Y15,PHED,7.61934,2023,Physical education and health
+LTU,Y12,PHED,9.99527,2023,Physical education and health
+SVK,Y12,PHED,6.66667,2023,Physical education and health
+ITA,Y14,MATH,15.22893,2023,Mathematics
+LTU,Y13,PHED,9.67299,2023,Physical education and health
+DNK,Y12,OLAN,5.35714,2023,Other languages
+BFR,Y12,SLAN,13.33333,2023,Second language
+CRI,Y13,ARTS,9.52381,2023,Arts
+GRC,Y13,OLAN,6.06081,2023,Other languages
+JPN,Y11,MATH,15.99634,2023,Mathematics
+LUX,Y14,ARTS,3.33333,2023,Arts
+LVA,Y8,READ,25.71429,2023,"Reading, writing and literature"
+BGR,Y10,NSCI,7.40662,2023,Natural sciences
+HRV,Y8,MATH,22.22222,2023,Mathematics
+IRL,Y7,ARTS,12.0,2023,Arts
+EST,Y10,PHED,9.63855,2023,Physical education and health
+KOR,Y12,SLAN,10.10101,2023,Second language
+LTU,Y14,SLAN,9.67299,2023,Second language
+SVK,Y15,READ,9.83607,2023,"Reading, writing and literature"
+TUR,Y17,SLAN,9.94845,2023,Second language
+ISL,Y6,SSCI,12.08384,2023,Social sciences
+KOR,Y9,ARTS,13.7931,2023,Arts
+CZE,Y12,OLAN,4.91803,2023,Other languages
+NOR,Y8,NSCI,5.99579,2023,Natural sciences
+AUT,Y8,READ,29.16667,2023,"Reading, writing and literature"
+DEU,Y13,OLAN,6.26156,2022,Other languages
+HRV,Y9,MATH,22.22222,2023,Mathematics
+TUR,Y16,PHED,5.0,2023,Physical education and health
+AUT,Y12,SLAN,9.83771,2023,Second language
+GRC,Y8,SLAN,10.00767,2023,Second language
+PRT,Y10,PHED,9.67867,2023,Physical education and health
+ESP,Y12,MATH,12.31745,2023,Mathematics
+OECD,Y8,SLAN,6.87252,2023,Second language
+EST,Y11,SLAN,10.84337,2023,Second language
+ROU,Y14,OLAN,6.66667,2023,Other languages
+ROU,Y11,ARTS,8.0,2023,Arts
+OECD,Y7,PHED,10.10665,2023,Physical education and health
+FRA,Y15,SSCI,16.07143,2023,Social sciences
+CRI,Y14,SSCI,14.28571,2023,Social sciences
+HRV,Y13,NSCI,23.07692,2023,Natural sciences
+HRV,Y11,READ,20.83333,2023,"Reading, writing and literature"
+ITA,Y14,SSCI,14.62008,2023,Social sciences
+CHL,Y17,MATH,7.30068,2023,Mathematics
+IRL,Y8,MATH,16.68,2023,Mathematics
+ISR,Y17,SSCI,13.06271,2023,Social sciences
+KOR,Y8,ARTS,13.7931,2023,Arts
+OECD,Y10,ARTS,10.34643,2023,Arts
+DEU,Y7,PHED,11.80184,2022,Physical education and health
+ISL,Y15,NSCI,8.10811,2023,Natural sciences
+CZE,Y6,PHED,9.17431,2023,Physical education and health
+ESP,Y7,MATH,19.24911,2023,Mathematics
+JPN,Y11,SSCI,9.59781,2023,Social sciences
+DEU,Y9,READ,24.55097,2022,"Reading, writing and literature"
+ROU,Y15,READ,13.7931,2023,"Reading, writing and literature"
+ITA,Y13,ARTS,13.33333,2023,Arts
+NOR,Y10,PHED,11.02707,2023,Physical education and health
+FIN,Y15,MATH,12.94118,2023,Mathematics
+LVA,Y9,ARTS,15.71429,2023,Arts
+SVN,Y11,SLAN,14.21301,2023,Second language
+CRI,Y14,MATH,11.90476,2023,Mathematics
+EU25,Y12,MATH,13.09533,2023,Mathematics
+FIN,Y14,READ,11.76471,2023,"Reading, writing and literature"
+AUT,Y9,NSCI,12.5,2023,Natural sciences
+EU25,Y10,SLAN,11.17946,2023,Second language
+LVA,Y9,NSCI,8.57143,2023,Natural sciences
+ISL,Y9,READ,23.33431,2023,"Reading, writing and literature"
+ISR,Y13,OLAN,7.87121,2023,Other languages
+BGR,Y12,PHED,7.81278,2023,Physical education and health
+CHL,Y17,SSCI,10.95101,2023,Social sciences
+CZE,Y14,READ,12.29508,2023,"Reading, writing and literature"
+EST,Y11,READ,18.07229,2023,"Reading, writing and literature"
+FIN,Y15,SSCI,8.23529,2023,Social sciences
+ISL,Y10,NSCI,8.09485,2023,Natural sciences
+NOR,Y14,MATH,11.93745,2023,Mathematics
+AUT,Y9,ARTS,8.33333,2023,Arts
+FIN,Y8,READ,31.81818,2023,"Reading, writing and literature"
+ISL,Y15,ARTS,7.65766,2023,Arts
+DNK,Y10,MATH,13.39286,2023,Mathematics
+EU25,Y8,PHED,9.92535,2023,Physical education and health
+EST,Y8,SSCI,2.94118,2023,Social sciences
+HUN,Y9,ARTS,14.81481,2023,Arts
+ROU,Y8,PHED,10.0,2023,Physical education and health
+SVN,Y8,NSCI,6.42049,2023,Natural sciences
+CHL,Y7,PHED,10.30031,2023,Physical education and health
+ITA,Y10,PHED,6.89655,2023,Physical education and health
+CHL,Y15,NSCI,14.5714,2023,Natural sciences
+EU25,Y7,SSCI,3.15219,2023,Social sciences
+CZE,Y10,MATH,16.12903,2023,Mathematics
+ISR,Y9,SLAN,12.20506,2023,Second language
+SVN,Y8,ARTS,17.48659,2023,Arts
+JPN,Y8,PHED,10.021,2023,Physical education and health
+DEU,Y15,NSCI,13.71297,2022,Natural sciences
+HUN,Y13,READ,12.90323,2023,"Reading, writing and literature"
+CRI,Y15,PHED,4.54545,2023,Physical education and health
+FRA,Y14,READ,14.51613,2023,"Reading, writing and literature"
+NOR,Y13,ARTS,8.73379,2023,Arts
+TUR,Y7,SSCI,13.33333,2023,Social sciences
+GRC,Y10,ARTS,6.4564,2023,Arts
+ESP,Y10,SLAN,11.32737,2023,Second language
+FRA,Y8,SLAN,6.25,2023,Second language
+NOR,Y11,SSCI,7.66322,2023,Social sciences
+CHL,Y16,NSCI,4.86211,2023,Natural sciences
+BGR,Y14,READ,12.40695,2023,"Reading, writing and literature"
+IRL,Y10,READ,20.0,2023,"Reading, writing and literature"
+ITA,Y12,ARTS,13.33333,2023,Arts
+SVN,Y8,SLAN,7.65038,2023,Second language
+FRA,Y14,SSCI,12.70161,2023,Social sciences
+LVA,Y7,PHED,11.42857,2023,Physical education and health
+TUR,Y9,PHED,6.66667,2023,Physical education and health
+OECD,Y13,MATH,11.86243,2023,Mathematics
+JPN,Y8,NSCI,8.58943,2023,Natural sciences
+POL,Y11,ARTS,8.0,2023,Arts
+BFR,Y8,PHED,7.14286,2023,Physical education and health
+DEU,Y10,PHED,10.03448,2022,Physical education and health
+CHL,Y13,NSCI,10.69395,2023,Natural sciences
+BGR,Y14,MATH,9.30521,2023,Mathematics
+LTU,Y14,READ,17.43247,2023,"Reading, writing and literature"
+DEU,Y9,ARTS,13.80737,2022,Arts
+DEU,Y10,SLAN,14.84905,2022,Second language
+DEU,Y12,MATH,12.22842,2022,Mathematics
+TUR,Y11,SLAN,8.53971,2023,Second language
+ISR,Y14,OLAN,7.87121,2023,Other languages
+FIN,Y9,READ,20.45455,2023,"Reading, writing and literature"
+FIN,Y13,SLAN,8.23529,2023,Second language
+LTU,Y10,SLAN,9.88416,2023,Second language
+NOR,Y13,MATH,11.93745,2023,Mathematics
+LTU,Y9,ARTS,16.24752,2023,Arts
+FIN,Y8,NSCI,9.09091,2023,Natural sciences
+HRV,Y11,NSCI,6.25,2023,Natural sciences
+PRT,Y16,PHED,9.80392,2023,Physical education and health
+DEU,Y14,READ,11.4397,2022,"Reading, writing and literature"
+LTU,Y12,MATH,13.32703,2023,Mathematics
+LVA,Y14,ARTS,6.93069,2023,Arts
+ISL,Y7,PHED,10.00042,2023,Physical education and health
+CRI,Y15,ARTS,4.54545,2023,Arts
+ESP,Y9,MATH,17.90087,2023,Mathematics
+DNK,Y10,SLAN,5.35714,2023,Second language
+DNK,Y12,MATH,13.39286,2023,Mathematics
+BGR,Y10,PHED,9.2595,2023,Physical education and health
+SVN,Y13,PHED,9.00457,2023,Physical education and health
+AUT,Y10,NSCI,6.89655,2023,Natural sciences
+GRC,Y6,NSCI,10.0,2023,Natural sciences
+ISL,Y6,ARTS,18.75078,2023,Arts
+CHL,Y15,READ,14.5714,2023,"Reading, writing and literature"
+OECD,Y8,READ,25.54337,2023,"Reading, writing and literature"
+SVN,Y11,ARTS,8.62932,2023,Arts
+DNK,Y7,PHED,6.59341,2023,Physical education and health
+CZE,Y14,ARTS,8.19672,2023,Arts
+CHL,Y16,SLAN,4.86211,2023,Second language
+CRI,Y10,PHED,4.65116,2023,Physical education and health
+CZE,Y6,MATH,18.34862,2023,Mathematics
+BGR,Y9,ARTS,12.96377,2023,Arts
+CZE,Y12,READ,12.29508,2023,"Reading, writing and literature"
+LUX,Y13,SSCI,10.0,2023,Social sciences
+PRT,Y8,SLAN,8.0,2023,Second language
+BGR,Y15,ARTS,3.125,2023,Arts
+HUN,Y9,MATH,14.81481,2023,Mathematics
+ROU,Y12,NSCI,14.81481,2023,Natural sciences
+ISL,Y12,ARTS,19.99905,2023,Arts
+CZE,Y6,READ,30.27523,2023,"Reading, writing and literature"
+CZE,Y10,SLAN,12.09677,2023,Second language
+CZE,Y12,MATH,12.29508,2023,Mathematics
+GRC,Y12,NSCI,9.09091,2023,Natural sciences
+GRC,Y10,OLAN,6.4564,2023,Other languages
+FIN,Y16,SLAN,8.0,2023,Second language
+FIN,Y16,NSCI,6.66667,2023,Natural sciences
+CZE,Y7,PHED,9.17431,2023,Physical education and health
+LUX,Y11,SLAN,21.42857,2023,Second language
+EU25,Y7,MATH,17.2345,2023,Mathematics
+DEU,Y6,MATH,22.1367,2022,Mathematics
+CRI,Y13,SLAN,7.14286,2023,Second language
+CRI,Y9,ARTS,4.65116,2023,Arts
+DNK,Y12,READ,18.75,2023,"Reading, writing and literature"
+KOR,Y9,NSCI,10.34483,2023,Natural sciences
+IRL,Y14,SSCI,9.68158,2023,Social sciences
+LTU,Y15,ARTS,6.26314,2023,Arts
+ESP,Y9,READ,23.00479,2023,"Reading, writing and literature"
+ESP,Y13,SLAN,11.59342,2023,Second language
+LVA,Y12,ARTS,11.76471,2023,Arts
+CRI,Y14,READ,11.90476,2023,"Reading, writing and literature"
+FIN,Y15,READ,11.76471,2023,"Reading, writing and literature"
+ITA,Y11,PHED,6.66667,2023,Physical education and health
+POL,Y13,PHED,12.39062,2023,Physical education and health
+DEU,Y14,MATH,11.74003,2022,Mathematics
+ESP,Y15,MATH,13.19829,2023,Mathematics
+LTU,Y12,READ,18.01328,2023,"Reading, writing and literature"
+PRT,Y13,PHED,10.0,2023,Physical education and health
+CRI,Y13,PHED,4.7619,2023,Physical education and health
+CHL,Y11,ARTS,7.77619,2023,Arts
+ISR,Y9,READ,27.32169,2023,"Reading, writing and literature"
+NOR,Y9,SSCI,7.05387,2023,Social sciences
+JPN,Y11,ARTS,9.14077,2023,Arts
+PRT,Y13,NSCI,20.0,2023,Natural sciences
+NOR,Y14,NSCI,9.49657,2023,Natural sciences
+EST,Y8,NSCI,4.41176,2023,Natural sciences
+LUX,Y15,PHED,6.66667,2023,Physical education and health
+ISR,Y8,SLAN,6.10253,2023,Second language
+EST,Y15,OLAN,9.57447,2023,Other languages
+CZE,Y9,ARTS,9.67742,2023,Arts
+BGR,Y14,ARTS,3.10174,2023,Arts
+ROU,Y17,OLAN,7.14286,2023,Other languages
+SVN,Y9,READ,19.1254,2023,"Reading, writing and literature"
+JPN,Y13,NSCI,13.11475,2023,Natural sciences
+BFR,Y13,PHED,10.0,2023,Physical education and health
+FRA,Y12,SSCI,11.29707,2023,Social sciences
+BFR,Y16,PHED,7.14286,2023,Physical education and health
+EST,Y14,OLAN,9.57447,2023,Other languages
+CHL,Y8,NSCI,8.10695,2023,Natural sciences
+TUR,Y11,PHED,5.32309,2023,Physical education and health
+DEU,Y13,SLAN,10.53472,2022,Second language
+DEU,Y15,MATH,11.86743,2022,Mathematics
+NOR,Y6,SLAN,4.4247,2023,Second language
+NOR,Y8,MATH,17.95529,2023,Mathematics
+SVK,Y14,NSCI,10.0,2023,Natural sciences
+HRV,Y7,NSCI,11.11111,2023,Natural sciences
+CHL,Y13,PHED,5.34697,2023,Physical education and health
+LTU,Y9,READ,30.77847,2023,"Reading, writing and literature"
+TUR,Y7,SLAN,6.66667,2023,Second language
+ESP,Y15,READ,15.17872,2023,"Reading, writing and literature"
+GRC,Y10,MATH,12.83859,2023,Mathematics
+LTU,Y10,NSCI,4.1038,2023,Natural sciences
+FIN,Y8,SLAN,4.54545,2023,Second language
+FRA,Y10,MATH,20.83333,2023,Mathematics
+HRV,Y11,SLAN,12.5,2023,Second language
+SVK,Y6,NSCI,4.54545,2023,Natural sciences
+FRA,Y7,MATH,20.83333,2023,Mathematics
+DEU,Y6,READ,28.80957,2022,"Reading, writing and literature"
+CRI,Y15,READ,11.36364,2023,"Reading, writing and literature"
+LTU,Y14,ARTS,6.44866,2023,Arts
+SVN,Y8,PHED,14.20786,2023,Physical education and health
+ISL,Y6,READ,23.33431,2023,"Reading, writing and literature"
+EU25,Y15,OLAN,6.86728,2023,Other languages
+POL,Y13,SLAN,9.29296,2023,Second language
+ESP,Y13,PHED,6.64512,2023,Physical education and health
+SVN,Y11,READ,17.76626,2023,"Reading, writing and literature"
+TUR,Y16,SSCI,10.37879,2023,Social sciences
+FIN,Y13,PHED,11.76471,2023,Physical education and health
+IRL,Y10,MATH,16.68,2023,Mathematics
+IRL,Y7,READ,20.0,2023,"Reading, writing and literature"
+DNK,Y11,PHED,5.35714,2023,Physical education and health
+BGR,Y9,READ,25.9258,2023,"Reading, writing and literature"
+TUR,Y13,SSCI,5.69963,2023,Social sciences
+CZE,Y12,ARTS,8.19672,2023,Arts
+CZE,Y6,ARTS,11.00917,2023,Arts
+OECD,Y8,ARTS,11.91788,2023,Arts
+POL,Y11,MATH,16.0,2023,Mathematics
+ISL,Y12,READ,16.18971,2023,"Reading, writing and literature"
+DEU,Y9,MATH,19.30815,2022,Mathematics
+ESP,Y8,SLAN,11.38394,2023,Second language
+LVA,Y12,READ,21.17647,2023,"Reading, writing and literature"
+FIN,Y15,ARTS,7.05882,2023,Arts
+CRI,Y14,ARTS,9.52381,2023,Arts
+CHL,Y16,PHED,1.21553,2023,Physical education and health
+KOR,Y11,NSCI,15.625,2023,Natural sciences
+SVK,Y12,NSCI,16.66667,2023,Natural sciences
+CZE,Y11,PHED,8.19672,2023,Physical education and health
+EU25,Y11,MATH,14.8855,2023,Mathematics
+LTU,Y12,ARTS,6.66351,2023,Arts
+DNK,Y12,ARTS,5.35714,2023,Arts
+SVK,Y9,SSCI,7.69231,2023,Social sciences
+DEU,Y12,READ,12.37277,2022,"Reading, writing and literature"
+ESP,Y14,READ,14.99397,2023,"Reading, writing and literature"
+HUN,Y14,OLAN,8.82353,2023,Other languages
+CRI,Y9,READ,23.25581,2023,"Reading, writing and literature"
+NOR,Y9,NSCI,5.99579,2023,Natural sciences
+BGR,Y8,SLAN,8.69494,2023,Second language
+TUR,Y7,PHED,16.66667,2023,Physical education and health
+CRI,Y16,PHED,4.54545,2023,Physical education and health
+JPN,Y11,READ,15.99634,2023,"Reading, writing and literature"
+EU25,Y13,ARTS,7.01414,2023,Arts
+ISR,Y13,SLAN,11.11111,2023,Second language
+LVA,Y11,PHED,10.58824,2023,Physical education and health
+SVN,Y9,ARTS,15.02783,2023,Arts
+CRI,Y8,PHED,4.65116,2023,Physical education and health
+BFR,Y14,SSCI,10.71429,2023,Social sciences
+JPN,Y7,ARTS,14.31786,2023,Arts
+ISR,Y14,READ,33.93047,2023,"Reading, writing and literature"
+OECD,Y10,READ,19.62292,2023,"Reading, writing and literature"
+SVN,Y14,READ,14.83007,2023,"Reading, writing and literature"
+HUN,Y6,MATH,16.66667,2023,Mathematics
+POL,Y13,NSCI,18.58593,2023,Natural sciences
+ESP,Y10,PHED,10.36383,2023,Physical education and health
+EST,Y12,OLAN,3.61446,2023,Other languages
+FRA,Y8,PHED,12.5,2023,Physical education and health
+NOR,Y15,SSCI,9.49657,2023,Social sciences
+SVN,Y12,SSCI,16.86736,2023,Social sciences
+HRV,Y7,SLAN,11.11111,2023,Second language
+FIN,Y11,READ,19.01408,2023,"Reading, writing and literature"
+HUN,Y15,OLAN,8.82353,2023,Other languages
+JPN,Y6,MATH,14.81804,2023,Mathematics
+HUN,Y10,PHED,17.85714,2023,Physical education and health
+DEU,Y6,ARTS,12.65954,2022,Arts
+SVK,Y9,NSCI,7.69231,2023,Natural sciences
+TUR,Y6,ARTS,6.66667,2023,Arts
+LTU,Y13,SLAN,9.67299,2023,Second language
+OECD,Y7,SSCI,5.07423,2023,Social sciences
+HRV,Y9,NSCI,11.11111,2023,Natural sciences
+ESP,Y12,READ,15.91996,2023,"Reading, writing and literature"
+LTU,Y7,NSCI,4.28691,2023,Natural sciences
+FRA,Y11,MATH,16.94561,2023,Mathematics
+BFR,Y16,SLAN,14.28571,2023,Second language
+EU25,Y8,SLAN,7.84245,2023,Second language
+LVA,Y7,NSCI,8.57143,2023,Natural sciences
+AUT,Y9,READ,29.16667,2023,"Reading, writing and literature"
+CHL,Y11,MATH,16.19593,2023,Mathematics
+GRC,Y9,NSCI,6.63089,2023,Natural sciences
+DEU,Y14,OLAN,5.98586,2022,Other languages
+TUR,Y8,SSCI,10.0,2023,Social sciences
+CZE,Y14,MATH,12.29508,2023,Mathematics
+AUT,Y13,NSCI,18.66658,2023,Natural sciences
+ISL,Y9,ARTS,18.75078,2023,Arts
+OECD,Y7,OLAN,0.0,2023,Other languages
+ESP,Y6,SSCI,6.32248,2023,Social sciences
+ITA,Y12,MATH,20.0,2023,Mathematics
+LVA,Y10,PHED,10.58824,2023,Physical education and health
+LUX,Y10,NSCI,3.57143,2023,Natural sciences
+ROU,Y13,OLAN,6.66667,2023,Other languages
+KOR,Y8,MATH,13.7931,2023,Mathematics
+LUX,Y10,SSCI,7.14286,2023,Social sciences
+PRT,Y14,READ,13.32,2023,"Reading, writing and literature"
+AUT,Y13,SSCI,12.44439,2023,Social sciences
+GRC,Y9,SSCI,6.66922,2023,Social sciences
+ROU,Y15,SSCI,14.62905,2023,Social sciences
+FIN,Y11,MATH,15.84507,2023,Mathematics
+PRT,Y12,SSCI,18.32,2023,Social sciences
+ISR,Y17,READ,10.45017,2023,"Reading, writing and literature"
+DNK,Y9,MATH,16.48352,2023,Mathematics
+CRI,Y11,ARTS,4.65116,2023,Arts
+LVA,Y14,MATH,14.85149,2023,Mathematics
+BFR,Y13,NSCI,10.0,2023,Natural sciences
+FRA,Y7,READ,41.66667,2023,"Reading, writing and literature"
+TUR,Y15,NSCI,15.0,2023,Natural sciences
+FRA,Y6,NSCI,6.25,2023,Natural sciences
+OECD,Y12,SLAN,9.85166,2023,Second language
+POL,Y11,READ,20.0,2023,"Reading, writing and literature"
+FRA,Y9,SSCI,6.25,2023,Social sciences
+ISL,Y10,SLAN,10.95662,2023,Second language
+ISL,Y12,MATH,14.28503,2023,Mathematics
+SVN,Y13,SLAN,9.95242,2023,Second language
+DNK,Y10,PHED,5.35714,2023,Physical education and health
+HUN,Y14,MATH,8.82353,2023,Mathematics
+ISR,Y15,MATH,13.06271,2023,Mathematics
+BGR,Y13,SLAN,9.52381,2023,Second language
+BGR,Y15,MATH,9.375,2023,Mathematics
+TUR,Y15,PHED,5.0,2023,Physical education and health
+CHL,Y7,MATH,17.59749,2023,Mathematics
+BGR,Y10,SLAN,11.11075,2023,Second language
+BGR,Y12,MATH,15.62418,2023,Mathematics
+FRA,Y13,PHED,11.15702,2023,Physical education and health
+LUX,Y9,PHED,10.71429,2023,Physical education and health
+CHL,Y8,PHED,10.47326,2023,Physical education and health
+OECD,Y11,SSCI,8.66963,2023,Social sciences
+HRV,Y10,SLAN,11.11111,2023,Second language
+KOR,Y12,ARTS,8.08081,2023,Arts
+LTU,Y15,MATH,12.52627,2023,Mathematics
+FIN,Y7,READ,31.81818,2023,"Reading, writing and literature"
+NOR,Y10,MATH,15.23355,2023,Mathematics
+SVK,Y15,SSCI,10.65574,2023,Social sciences
+HUN,Y7,PHED,20.83333,2023,Physical education and health
+SVK,Y12,SSCI,10.0,2023,Social sciences
+LTU,Y11,NSCI,7.64035,2023,Natural sciences
+DEU,Y14,ARTS,6.69016,2022,Arts
+ESP,Y14,MATH,12.29314,2023,Mathematics
+FIN,Y13,NSCI,16.47059,2023,Natural sciences
+LUX,Y14,READ,11.88484,2023,"Reading, writing and literature"
+KOR,Y11,PHED,9.375,2023,Physical education and health
+ISL,Y14,ARTS,7.65766,2023,Arts
+SVN,Y7,ARTS,18.18209,2023,Arts
+CZE,Y9,MATH,16.12903,2023,Mathematics
+GRC,Y14,NSCI,11.76471,2023,Natural sciences
+JPN,Y10,ARTS,9.14077,2023,Arts
+NOR,Y7,SSCI,7.05387,2023,Social sciences
+OECD,Y13,READ,14.74216,2023,"Reading, writing and literature"
+ROU,Y15,NSCI,19.85371,2023,Natural sciences
+SVK,Y14,PHED,6.66667,2023,Physical education and health
+JPN,Y7,PHED,10.73839,2023,Physical education and health
+ISR,Y10,SLAN,11.94824,2023,Second language
+ISR,Y12,MATH,13.88889,2023,Mathematics
+KOR,Y13,MATH,11.11111,2023,Mathematics
+OECD,Y11,OLAN,1.36689,2023,Other languages
+PRT,Y9,READ,28.0,2023,"Reading, writing and literature"
+SVK,Y10,MATH,14.81481,2023,Mathematics
+HUN,Y10,ARTS,10.71429,2023,Arts
+IRL,Y11,SSCI,8.0,2023,Social sciences
+IRL,Y9,SSCI,8.0,2023,Social sciences
+ITA,Y12,OLAN,6.66667,2023,Other languages
+CZE,Y10,PHED,8.06452,2023,Physical education and health
+DNK,Y14,MATH,12.5,2023,Mathematics
+CRI,Y15,MATH,11.36364,2023,Mathematics
+ESP,Y10,NSCI,6.45608,2023,Natural sciences
+EST,Y10,SLAN,10.84337,2023,Second language
+EST,Y12,MATH,15.66265,2023,Mathematics
+ROU,Y10,ARTS,4.7619,2023,Arts
+ROU,Y17,MATH,9.23521,2023,Mathematics
+AUT,Y7,ARTS,8.69565,2023,Arts
+EST,Y10,MATH,15.66265,2023,Mathematics
+OECD,Y15,OLAN,5.26963,2023,Other languages
+JPN,Y8,SSCI,6.68066,2023,Social sciences
+JPN,Y11,PHED,8.22669,2023,Physical education and health
+EU25,Y10,PHED,9.92719,2023,Physical education and health
+EU25,Y12,SLAN,9.97227,2023,Second language
+EST,Y7,PHED,11.76471,2023,Physical education and health
+ISR,Y12,READ,33.93047,2023,"Reading, writing and literature"
+EU25,Y8,READ,26.3804,2023,"Reading, writing and literature"
+CRI,Y6,SSCI,9.30233,2023,Social sciences
+CRI,Y7,MATH,18.60465,2023,Mathematics
+IRL,Y9,NSCI,4.0,2023,Natural sciences
+HRV,Y12,MATH,16.0,2023,Mathematics
+CHL,Y12,SSCI,10.69194,2023,Social sciences
+CZE,Y14,OLAN,4.91803,2023,Other languages
+GRC,Y9,PHED,10.00383,2023,Physical education and health
+JPN,Y14,SSCI,13.11475,2023,Social sciences
+CHL,Y11,SLAN,8.09796,2023,Second language
+AUT,Y9,SLAN,4.16667,2023,Second language
+EU25,Y9,READ,24.32947,2023,"Reading, writing and literature"
+GRC,Y7,MATH,16.67625,2023,Mathematics
+ISR,Y17,PHED,5.22508,2023,Physical education and health
+FRA,Y15,READ,14.28571,2023,"Reading, writing and literature"
+AUT,Y8,PHED,8.33333,2023,Physical education and health
+ITA,Y14,OLAN,3.95286,2023,Other languages
+GRC,Y11,SLAN,9.68999,2023,Second language
+SVK,Y9,PHED,7.69231,2023,Physical education and health
+LUX,Y15,ARTS,3.33333,2023,Arts
+LUX,Y9,READ,25.0,2023,"Reading, writing and literature"
+SVK,Y11,READ,17.24138,2023,"Reading, writing and literature"
+CHL,Y16,SSCI,10.93974,2023,Social sciences
+ISR,Y17,SLAN,13.06271,2023,Second language
+ITA,Y13,OLAN,6.66667,2023,Other languages
+SVK,Y7,ARTS,13.04348,2023,Arts
+HUN,Y12,ARTS,6.66667,2023,Arts
+HUN,Y6,ARTS,16.66667,2023,Arts
+AUT,Y11,MATH,12.90323,2023,Mathematics
+CHL,Y13,SSCI,10.69395,2023,Social sciences
+HUN,Y10,READ,14.28571,2023,"Reading, writing and literature"
+EST,Y15,SSCI,10.6383,2023,Social sciences
+OECD,Y11,NSCI,9.02827,2023,Natural sciences
+KOR,Y6,READ,25.68807,2023,"Reading, writing and literature"
+TUR,Y6,MATH,16.66667,2023,Mathematics
+JPN,Y11,SLAN,6.39854,2023,Second language
+GRC,Y7,READ,30.01725,2023,"Reading, writing and literature"
+ROU,Y7,READ,35.0,2023,"Reading, writing and literature"
+FIN,Y17,NSCI,6.66667,2023,Natural sciences
+FRA,Y8,NSCI,6.25,2023,Natural sciences
+HRV,Y11,SSCI,14.58333,2023,Social sciences
+EU25,Y15,ARTS,4.8129,2023,Arts
+EU25,Y14,MATH,12.25265,2023,Mathematics
+FRA,Y11,ARTS,7.53138,2023,Arts
+LTU,Y15,OLAN,5.75389,2023,Other languages
+CHL,Y7,READ,23.46332,2023,"Reading, writing and literature"
+EU25,Y8,ARTS,12.28605,2023,Arts
+EST,Y10,READ,18.07229,2023,"Reading, writing and literature"
+JPN,Y7,READ,32.21518,2023,"Reading, writing and literature"
+CHL,Y15,PHED,4.85713,2023,Physical education and health
+CHL,Y9,PHED,10.47455,2023,Physical education and health
+EST,Y11,PHED,9.63855,2023,Physical education and health
+GRC,Y12,SSCI,6.06061,2023,Social sciences
+SVN,Y10,NSCI,8.62932,2023,Natural sciences
+ISR,Y6,READ,29.66042,2023,"Reading, writing and literature"
+BFR,Y12,NSCI,10.0,2023,Natural sciences
+BGR,Y12,ARTS,12.50017,2023,Arts
+FRA,Y15,SLAN,19.64286,2023,Second language
+LUX,Y11,ARTS,10.71429,2023,Arts
+ROU,Y14,SSCI,16.66667,2023,Social sciences
+JPN,Y10,MATH,15.99634,2023,Mathematics
+BGR,Y15,OLAN,6.25,2023,Other languages
+GRC,Y14,PHED,5.88235,2023,Physical education and health
+KOR,Y6,MATH,14.6789,2023,Mathematics
+AUT,Y13,PHED,11.38662,2023,Physical education and health
+CRI,Y11,MATH,18.60465,2023,Mathematics
+CRI,Y10,SSCI,9.30233,2023,Social sciences
+EU25,Y14,READ,13.68597,2023,"Reading, writing and literature"
+BFR,Y17,NSCI,10.71429,2023,Natural sciences
+DEU,Y11,NSCI,9.73455,2022,Natural sciences
+TUR,Y14,NSCI,15.0,2023,Natural sciences
+FRA,Y14,PHED,10.8871,2023,Physical education and health
+NOR,Y11,PHED,11.02707,2023,Physical education and health
+DEU,Y7,NSCI,2.9911,2022,Natural sciences
+LVA,Y11,NSCI,7.05882,2023,Natural sciences
+EU25,Y13,SLAN,9.20255,2023,Second language
+AUT,Y11,ARTS,12.90323,2023,Arts
+DNK,Y15,OLAN,7.5,2023,Other languages
+ISL,Y9,MATH,16.66736,2023,Mathematics
+DNK,Y14,OLAN,7.5,2023,Other languages
+SVN,Y7,MATH,15.90933,2023,Mathematics
+ITA,Y15,NSCI,11.7273,2023,Natural sciences
+LUX,Y12,PHED,10.0,2023,Physical education and health
+HUN,Y6,READ,29.16667,2023,"Reading, writing and literature"
+ISL,Y11,NSCI,8.09485,2023,Natural sciences
+LUX,Y14,PHED,6.66667,2023,Physical education and health
+GRC,Y14,SSCI,14.70588,2023,Social sciences
+SVK,Y13,SSCI,10.0,2023,Social sciences
+ROU,Y11,SLAN,8.0,2023,Second language
+AUT,Y9,PHED,8.33333,2023,Physical education and health
+ROU,Y15,PHED,3.44828,2023,Physical education and health
+FIN,Y7,MATH,13.63636,2023,Mathematics
+EU25,Y12,READ,16.06972,2023,"Reading, writing and literature"
+GRC,Y11,READ,22.48004,2023,"Reading, writing and literature"
+FRA,Y13,NSCI,11.15702,2023,Natural sciences
+CZE,Y8,MATH,16.12903,2023,Mathematics
+FIN,Y13,SSCI,8.23529,2023,Social sciences
+LUX,Y14,SLAN,14.15355,2023,Second language
+EU25,Y9,MATH,16.73862,2023,Mathematics
+FRA,Y11,READ,16.94561,2023,"Reading, writing and literature"
+NOR,Y10,ARTS,15.1672,2023,Arts
+OECD,Y7,NSCI,6.56641,2023,Natural sciences
+ISR,Y13,MATH,13.88889,2023,Mathematics
+KOR,Y10,SLAN,9.375,2023,Second language
+KOR,Y12,MATH,11.11111,2023,Mathematics
+CHL,Y14,SSCI,9.70565,2023,Social sciences
+NOR,Y15,NSCI,9.49657,2023,Natural sciences
+PRT,Y7,MATH,28.0,2023,Mathematics
+EST,Y10,ARTS,8.43373,2023,Arts
+CHL,Y7,ARTS,11.73166,2023,Arts
+EU25,Y7,OLAN,0.0,2023,Other languages
+HUN,Y11,NSCI,7.14286,2023,Natural sciences
+DEU,Y13,ARTS,7.3031,2022,Arts
+BGR,Y12,READ,17.18756,2023,"Reading, writing and literature"
+IRL,Y7,PHED,4.0,2023,Physical education and health
+SVN,Y11,MATH,14.21301,2023,Mathematics
+CHL,Y11,READ,16.19593,2023,"Reading, writing and literature"
+HUN,Y10,SLAN,10.71429,2023,Second language
+ISR,Y14,MATH,13.88889,2023,Mathematics
+ESP,Y13,READ,16.44219,2023,"Reading, writing and literature"
+TUR,Y10,MATH,14.23285,2023,Mathematics
+ISL,Y10,PHED,8.57102,2023,Physical education and health
+EU25,Y14,ARTS,5.65596,2023,Arts
+ISL,Y13,MATH,13.51351,2023,Mathematics
+AUT,Y6,NSCI,13.04348,2023,Natural sciences
+FRA,Y9,PHED,12.5,2023,Physical education and health
+GRC,Y8,SSCI,6.67178,2023,Social sciences
+NOR,Y7,PHED,10.15024,2023,Physical education and health
+OECD,Y12,ARTS,8.76494,2023,Arts
+SVN,Y6,NSCI,7.58035,2023,Natural sciences
+ROU,Y10,MATH,19.04762,2023,Mathematics
+TUR,Y9,NSCI,10.0,2023,Natural sciences
+BFR,Y15,READ,17.85714,2023,"Reading, writing and literature"
+DNK,Y7,NSCI,3.2967,2023,Natural sciences
+LUX,Y15,SLAN,8.33333,2023,Second language
+ISR,Y16,MATH,13.06271,2023,Mathematics
+SVK,Y11,SLAN,10.34483,2023,Second language
+AUT,Y12,SSCI,12.75387,2023,Social sciences
+KOR,Y11,SSCI,12.5,2023,Social sciences
+FIN,Y7,ARTS,18.18182,2023,Arts
+TUR,Y15,SSCI,15.15152,2023,Social sciences
+FIN,Y8,PHED,9.09091,2023,Physical education and health
+HRV,Y11,PHED,8.33333,2023,Physical education and health
+ISL,Y14,MATH,13.51351,2023,Mathematics
+ISL,Y7,NSCI,8.75036,2023,Natural sciences
+OECD,Y13,ARTS,7.05255,2023,Arts
+ROU,Y9,SSCI,5.0,2023,Social sciences
+SVK,Y8,SSCI,4.0,2023,Social sciences
+CRI,Y14,SLAN,7.14286,2023,Second language
+FIN,Y15,SLAN,8.23529,2023,Second language
+BFR,Y12,SSCI,13.33333,2023,Social sciences
+ROU,Y7,SLAN,5.0,2023,Second language
+ROU,Y9,NSCI,5.0,2023,Natural sciences
+SVK,Y8,NSCI,4.0,2023,Natural sciences
+CZE,Y7,NSCI,11.00917,2023,Natural sciences
+SVN,Y6,SSCI,5.64311,2023,Social sciences
+POL,Y12,SSCI,12.0,2023,Social sciences
+CRI,Y8,SLAN,11.62791,2023,Second language
+LVA,Y7,SSCI,4.28571,2023,Social sciences
+IRL,Y6,MATH,16.68,2023,Mathematics
+GRC,Y11,ARTS,6.46,2023,Arts
+DEU,Y12,ARTS,7.86074,2022,Arts
+NOR,Y10,READ,20.48169,2023,"Reading, writing and literature"
+CRI,Y10,NSCI,13.95349,2023,Natural sciences
+ISR,Y8,MATH,15.25632,2023,Mathematics
+LUX,Y8,PHED,10.71429,2023,Physical education and health
+LUX,Y9,SLAN,21.42857,2023,Second language
+CZE,Y13,MATH,12.29508,2023,Mathematics
+ESP,Y14,ARTS,7.20508,2023,Arts
+FIN,Y14,PHED,11.76471,2023,Physical education and health
+LTU,Y9,MATH,18.46708,2023,Mathematics
+SVK,Y14,SSCI,13.33333,2023,Social sciences
+FRA,Y12,NSCI,11.29707,2023,Natural sciences
+EU25,Y13,READ,14.77692,2023,"Reading, writing and literature"
+DEU,Y15,OLAN,5.6408,2022,Other languages
+ISR,Y9,MATH,15.25632,2023,Mathematics
+HUN,Y11,SSCI,7.14286,2023,Social sciences
+EU25,Y11,OLAN,1.87927,2023,Other languages
+OECD,Y8,MATH,16.35724,2023,Mathematics
+BGR,Y9,MATH,12.96377,2023,Mathematics
+DEU,Y8,MATH,19.72961,2022,Mathematics
+HUN,Y12,MATH,10.0,2023,Mathematics
+IRL,Y10,ARTS,12.0,2023,Arts
+CHL,Y8,SSCI,8.10695,2023,Social sciences
+DEU,Y6,SLAN,2.31639,2022,Second language
+ISL,Y6,SLAN,1.66257,2023,Second language
+ISL,Y8,MATH,16.66736,2023,Mathematics
+EST,Y13,OLAN,9.57447,2023,Other languages
+LVA,Y10,SLAN,12.94118,2023,Second language
+CRI,Y16,SLAN,11.36364,2023,Second language
+DNK,Y11,NSCI,5.35714,2023,Natural sciences
+EU25,Y15,MATH,11.91587,2023,Mathematics
+FIN,Y11,ARTS,14.78873,2023,Arts
+JPN,Y9,SSCI,8.22669,2023,Social sciences
+EU25,Y9,ARTS,11.86893,2023,Arts
+GRC,Y13,SSCI,6.06081,2023,Social sciences
+LVA,Y12,MATH,18.82353,2023,Mathematics
+FIN,Y12,SSCI,6.49351,2023,Social sciences
+HRV,Y7,PHED,16.66667,2023,Physical education and health
+LTU,Y13,ARTS,6.44866,2023,Arts
+LUX,Y11,MATH,17.85714,2023,Mathematics
+PRT,Y15,READ,11.76471,2023,"Reading, writing and literature"
+ESP,Y8,READ,23.28678,2023,"Reading, writing and literature"
+FIN,Y16,PHED,4.0,2023,Physical education and health
+HRV,Y10,ARTS,11.11111,2023,Arts
+ROU,Y14,NSCI,16.66667,2023,Natural sciences
+SVK,Y7,READ,34.78261,2023,"Reading, writing and literature"
+SVK,Y13,NSCI,16.66667,2023,Natural sciences
+CZE,Y11,NSCI,17.21311,2023,Natural sciences
+LTU,Y10,PHED,12.31139,2023,Physical education and health
+CRI,Y9,SLAN,11.62791,2023,Second language
+LUX,Y15,READ,15.0,2023,"Reading, writing and literature"
+SVK,Y15,PHED,6.55738,2023,Physical education and health
+AUT,Y7,MATH,17.3913,2023,Mathematics
+KOR,Y10,READ,18.75,2023,"Reading, writing and literature"
+FIN,Y9,PHED,10.22727,2023,Physical education and health
+GRC,Y7,ARTS,13.341,2023,Arts
+LTU,Y14,MATH,12.89732,2023,Mathematics
+ROU,Y16,SSCI,16.05712,2023,Social sciences
+CRI,Y12,PHED,4.7619,2023,Physical education and health
+BGR,Y13,ARTS,9.52381,2023,Arts
+ESP,Y9,ARTS,8.4866,2023,Arts
+FRA,Y7,ARTS,8.33333,2023,Arts
+JPN,Y14,NSCI,13.11475,2023,Natural sciences
+LUX,Y6,NSCI,10.71429,2023,Natural sciences
+LUX,Y13,PHED,6.66667,2023,Physical education and health
+LVA,Y11,SSCI,8.23529,2023,Social sciences

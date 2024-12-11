@@ -356,7 +356,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Visualizations</h1>
-        <p>Last updated on 2024-12-10 |
+        <p>Last updated on 2024-12-11 |
 
         <a href="https://github.com/UNECE/ModernStats_Python/edit/main/episodes/05-data_visualisation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -447,12 +447,12 @@ adding titles, modifying labels, and other customizations.</li>
 charts, histograms, etc. Each plot you create will be associated with
 one axes.</li>
 </ul></li>
-</ul><div id="callout1" class="callout">
+</ul><div id="ways-to-create-a-matplotlib-plot" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout</h3>
+<div id="ways-to-create-a-matplotlib-plot" class="callout-inner">
+<h3 class="callout-title">2 ways to create a matplotlib plot</h3>
 <div class="callout-content">
 <p>In <code>matplotlib</code>, there are two main ways to create
 plots:</p>
@@ -685,25 +685,25 @@ multiple subplots within a single figure.</p>
 </div>
 <p>Matplotlib supports multiple formats, including PNG, PDF, SVG, and
 more. Use <code>fig.savefig('filename.format')</code>.</p>
-<div id="line-plot-1" class="callout challenge">
+<div id="multiple-subplots-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="line-plot-1" class="callout-inner">
-<h3 class="callout-title">Line plot</h3>
+<div id="multiple-subplots-1" class="callout-inner">
+<h3 class="callout-title">Multiple subplots</h3>
 <div class="callout-content">
 <p>Using the education dataset we worked on in the previous episode,
 create a figure with 2 subplots (bar plots), showing the share of
 Mathematics in the total instruction time of students aged 6 and 13
-years old in all countries where data is available.</p>
+years old in all countries (one bar per country) where data is
+available.</p>
 <ul><li>Use the <code>education_subset.csv</code> file.</li>
 <li>The X axis will show the country codes (<code>iso3</code>
 column).</li>
 <li>The Y axis will show the share of Mathematics in the total
 instruction time of students (<code>value</code> column).</li>
-<li>The first subplot will show a bar chart for values at 6 year old
-students, the second subplot will show values for 13 year old
-students</li>
+<li>The first subplot will show values for 6 year old students, the
+second subplot will show values for 13 year old students</li>
 <li>Add the axis labels and a title to each subplot.</li>
 </ul></div>
 </div>
@@ -857,16 +857,16 @@ additional features like color and size based on other variables.</p>
 <span id="cb17-3"><a href="#cb17-3" tabindex="-1"></a>ax.set_title(<span class="st">"Total Bill vs Size of Party"</span>)</span>
 <span id="cb17-4"><a href="#cb17-4" tabindex="-1"></a>plt.show()</span></code></pre>
 </div>
-<div id="line-plot-2" class="callout challenge">
+<div id="line-plot-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="line-plot-2" class="callout-inner">
+<div id="line-plot-1" class="callout-inner">
 <h3 class="callout-title">Line plot</h3>
 <div class="callout-content">
 <p>Using the education dataset we worked on in the previous episode,
 create a lineplot, showing the share of each subject in the total
-instruction time of students aged 6 and 13 years old in Austria.</p>
+instruction time of students in Austria over time.</p>
 <ul><li>Use the <code>education_subset.csv</code> file.</li>
 <li>The X axis will show the students’ age (<code>age</code>
 column).</li>
@@ -1022,7 +1022,7 @@ for most common plots.</p>
 <div class="section level3">
 <h3 id="creating-simple-plots-with-plotly-express">Creating Simple Plots with Plotly Express<a class="anchor" aria-label="anchor" href="#creating-simple-plots-with-plotly-express"></a></h3>
 <div class="section level4">
-<h4 id="line-plot-3">Line Plot<a class="anchor" aria-label="anchor" href="#line-plot-3"></a></h4>
+<h4 id="line-plot-2">Line Plot<a class="anchor" aria-label="anchor" href="#line-plot-2"></a></h4>
 <div class="codewrapper sourceCode" id="cb22">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -1256,7 +1256,7 @@ image or an interactive HTML file.</li>
   "url": "https://UNECE.github.io/ModernStats_Python/05-data_visualisation.html",
   "identifier": "https://UNECE.github.io/ModernStats_Python/05-data_visualisation.html",
   "dateCreated": "2023-03-06",
-  "dateModified": "2024-12-10",
+  "dateModified": "2024-12-11",
   "datePublished": "2024-12-11"
 }
 

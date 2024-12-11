@@ -53,6 +53,8 @@ What are Figures and Axes?
 
 ::::::::::::::::::::::::::::::::::::::::: callout
 
+## 2 ways to create a matplotlib plot
+
 In `matplotlib`, there are two main ways to create plots:
 
 - The state-based interface using `plt.plot()` and similar functions. This is simpler and often fine for quick plots.
@@ -261,14 +263,14 @@ Matplotlib supports multiple formats, including PNG, PDF, SVG, and more. Use `fi
 
 ::::::::::::::::::::::::::::::::::::::: challenge
 
-## Line plot
+## Multiple subplots
 
-Using the education dataset we worked on in the previous episode, create a figure with 2 subplots (bar plots), showing the share of Mathematics in the total instruction time of students aged 6 and 13 years old in all countries where data is available. 
+Using the education dataset we worked on in the previous episode, create a figure with 2 subplots (bar plots), showing the share of Mathematics in the total instruction time of students aged 6 and 13 years old in all countries (one bar per country) where data is available. 
 
 - Use the `education_subset.csv` file.
 - The X axis will show the country codes (`iso3` column).
 - The Y axis will show the share of Mathematics in the total instruction time  of students (`value` column).
-- The first subplot will show a bar chart for values at 6 year old students, the second  subplot will show values for 13 year old students
+- The first subplot will show values for 6 year old students, the second  subplot will show values for 13 year old students
 - Add the axis labels and a title to each subplot.
 
 ::::::::::::::: solution
@@ -406,7 +408,7 @@ plt.show()
 
 ## Line plot
 
-Using the education dataset we worked on in the previous episode, create a lineplot, showing the share of each subject in the total instruction time of students aged 6 and 13 years old in Austria. 
+Using the education dataset we worked on in the previous episode, create a lineplot, showing the share of each subject in the total instruction time of students in Austria over time. 
 
 - Use the `education_subset.csv` file.
 - The X axis will show the students' age (`age` column).

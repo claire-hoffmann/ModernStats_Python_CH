@@ -22,4 +22,3 @@ This episode contains two concepts:
 
 1. Repeating Actions with Loops
 2. Making Choices with Conditional Logic
-

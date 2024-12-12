@@ -23,7 +23,7 @@ This episode contains two concepts:
 1. Repeating Actions with Loops
 2. Making Choices with Conditional Logic
 
-## Python Beginner Course: Loops, Conditions, and GDP Growth Calculation
+## Loops, Conditions, and GDP Growth Calculation
 
 ### 1. Introduction
 In this tutorial, we will learn how to use loops and conditions in Python by analyzing GDP data. The goal is to calculate the year-over-year GDP growth rate for specific countries.

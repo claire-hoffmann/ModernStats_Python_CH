@@ -1,7 +1,7 @@
 ---
 title: Loops and Conditional Logic
 teaching: 60
-exercises: 0
+exercises: 1
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives

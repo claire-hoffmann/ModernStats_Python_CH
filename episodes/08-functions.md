@@ -157,5 +157,3 @@ In this chapter, you learned:
 - How to define and use a function for GDP growth calculations.
 - How to handle missing data gracefully within a function.
 
-Practice writing and modifying functions to deepen your understanding of Python programming!
-

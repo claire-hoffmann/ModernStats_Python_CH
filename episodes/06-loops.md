@@ -99,9 +99,6 @@ data = [
 country = "Norway"
 country_data = [row for row in data if row["Country"] == country]
 
-# Sort data by year (if not already sorted)
-country_data.sort(key=lambda x: x["Year"])
-
 # Calculate GDP growth
 print(f"Year-over-Year GDP Growth for {country}:")
 for i in range(1, len(country_data)):
